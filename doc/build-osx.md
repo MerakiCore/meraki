@@ -33,15 +33,15 @@ Follow the instructions in [build-generic](build-generic.md)
 Running
 -------
 
-Dash Core is now available at `./src/dashd`
+Meraki core is now available at `./src/merakid`
 
 Before running, it's recommended you create an RPC configuration file.
 
-    echo -e "rpcuser=dashrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/DashCore/dash.conf"
+    echo -e "rpcuser=dashrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/DashCore/meraki.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/DashCore/dash.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/DashCore/meraki.conf"
 
-The first time you run dashd, it will start downloading the blockchain. This process could take several hours.
+The first time you run merakid, it will start downloading the blockchain. This process could take several hours.
 
 You can monitor the download process by looking at the debug.log file:
 
@@ -50,9 +50,9 @@ You can monitor the download process by looking at the debug.log file:
 Other commands:
 -------
 
-    ./src/dashd -daemon # Starts the dash daemon.
-    ./src/dash-cli --help # Outputs a list of command-line options.
-    ./src/dash-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/merakid -daemon # Starts the dash daemon.
+    ./src/meraki-cli --help # Outputs a list of command-line options.
+    ./src/meraki-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Using Qt Creator as IDE
 ------------------------
@@ -63,7 +63,7 @@ Uncheck everything except Qt Creator during the installation process.
 1. Make sure you installed everything through Homebrew mentioned above
 2. Do a proper ./configure --enable-debug
 3. In Qt Creator do "New Project" -> Import Project -> Import Existing Project
-4. Enter "dash-qt" as project name, enter src/qt as location
+4. Enter "meraki-qt" as project name, enter src/qt as location
 5. Leave the file selection as it is
 6. Confirm the "summary page"
 7. In the "Projects" tab select "Manage Kits..."

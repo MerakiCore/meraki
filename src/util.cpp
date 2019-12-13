@@ -5,7 +5,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/dash-config.h"
+#include "config/meraki-config.h"
 #endif
 
 #include "util.h"
@@ -110,7 +110,7 @@ namespace boost {
 
 
 
-//Dash only features
+//Meraki only features
 bool fMasternodeMode = false;
 bool fLiteMode = false;
 /**
@@ -122,8 +122,8 @@ bool fLiteMode = false;
 */
 int nWalletBackups = 10;
 
-const char * const BITCOIN_CONF_FILENAME = "dash.conf";
-const char * const BITCOIN_PID_FILENAME = "dashd.pid";
+const char * const BITCOIN_CONF_FILENAME = "meraki.conf";
+const char * const BITCOIN_PID_FILENAME = "merakid.pid";
 
 CCriticalSection cs_args;
 std::unordered_map<std::string, std::string> mapArgs;
@@ -284,8 +284,8 @@ bool LogAcceptCategory(const char* category)
                 const std::vector<std::string>& categories = mapMultiArgs.at("-debug");
                 ptrCategory.reset(new std::set<std::string>(categories.begin(), categories.end()));
                 // thread_specific_ptr automatically deletes the set when the thread ends.
-                // "dash" is a composite category enabling all Dash-related debug output
-                if(ptrCategory->count(std::string("dash"))) {
+                // "meraki" is a composite category enabling all Meraki-related debug output
+                if(ptrCategory->count(std::string("meraki"))) {
                     ptrCategory->insert(std::string("chainlocks"));
                     ptrCategory->insert(std::string("gobject"));
                     ptrCategory->insert(std::string("instantsend"));
@@ -571,7 +571,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Unix: ~/.dashcore
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "DashCore";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "merakicore";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -581,10 +581,10 @@ boost::filesystem::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/DashCore";
+    return pathRet / "Library/Application Support/merakicore";
 #else
     // Unix
-    return pathRet / ".dashcore";
+    return pathRet / ".merakicore";
 #endif
 #endif
 }
@@ -654,7 +654,7 @@ void ReadConfigFile(const std::string& confPath)
 {
     boost::filesystem::ifstream streamConfig(GetConfigFile(confPath));
     if (!streamConfig.good()){
-        // Create empty dash.conf if it does not excist
+        // Create empty meraki.conf if it does not excist
         FILE* configFile = fopen(GetConfigFile(confPath).string().c_str(), "a");
         if (configFile != NULL)
             fclose(configFile);
@@ -668,7 +668,7 @@ void ReadConfigFile(const std::string& confPath)
 
         for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it)
         {
-            // Don't overwrite existing settings so command line settings override dash.conf
+            // Don't overwrite existing settings so command line settings override meraki.conf
             std::string strKey = std::string("-") + it->string_key;
             std::string strValue = it->value[0];
             InterpretNegativeSetting(strKey, strValue);
@@ -999,6 +999,11 @@ int GetNumCores()
 std::string CopyrightHolders(const std::string& strPrefix, unsigned int nStartYear, unsigned int nEndYear)
 {
     std::string strCopyrightHolders = strPrefix + strprintf(" %u-%u ", nStartYear, nEndYear) + strprintf(_(COPYRIGHT_HOLDERS), _(COPYRIGHT_HOLDERS_SUBSTITUTION));
+
+    // Check for untranslated substitution to make sure Bitcoin Core copyright is not removed by accident
+    if (strprintf(COPYRIGHT_HOLDERS, COPYRIGHT_HOLDERS_SUBSTITUTION).find("Dash Core") == std::string::npos) {
+        strCopyrightHolders += "\n" + strPrefix + strprintf(" %u-%u ", 2014, nEndYear) + "The Dash Core developers";
+    }
 
     // Check for untranslated substitution to make sure Bitcoin Core copyright is not removed by accident
     if (strprintf(COPYRIGHT_HOLDERS, COPYRIGHT_HOLDERS_SUBSTITUTION).find("Bitcoin Core") == std::string::npos) {

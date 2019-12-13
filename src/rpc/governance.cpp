@@ -15,7 +15,7 @@
 #include "rpc/server.h"
 #include "util.h"
 #include "utilmoneystr.h"
-#include "wallet/rpcwallet.h" 
+#include "wallet/rpcwallet.h"
 #ifdef ENABLE_WALLET
 #include "wallet/wallet.h"
 #endif // ENABLE_WALLET
@@ -136,7 +136,7 @@ void gobject_prepare_help(CWallet* const pwallet)
 UniValue gobject_prepare(const JSONRPCRequest& request)
 {
     CWallet* const pwallet = GetWalletForJSONRPCRequest(request);
-    if (request.fHelp || (request.params.size() != 5 && request.params.size() != 6 && request.params.size() != 8)) 
+    if (request.fHelp || (request.params.size() != 5 && request.params.size() != 6 && request.params.size() != 8))
         gobject_prepare_help(pwallet);
 
     if (!EnsureWalletIsAvailable(pwallet, request.fHelp))
@@ -167,7 +167,7 @@ UniValue gobject_prepare(const JSONRPCRequest& request)
 
     CGovernanceObject govobj(hashParent, nRevision, nTime, uint256(), strDataHex);
 
-    // This command is dangerous because it consumes 5 DASH irreversibly.
+    // This command is dangerous because it consumes 5 MERAKI irreversibly.
     // If params are lost, it's very hard to bruteforce them and yet
     // users ignore all instructions on dashcentral etc. and do not save them...
     // Let's log them here and hope users do not mess with debug.log
@@ -341,7 +341,7 @@ void gobject_vote_conf_help()
 {
     throw std::runtime_error(
                 "gobject vote-conf <governance-hash> <vote> <vote-outcome>\n"
-                "Vote on a governance object by masternode configured in dash.conf\n"
+                "Vote on a governance object by masternode configured in meraki.conf\n"
                 "\nArguments:\n"
                 "1. governance-hash   (string, required) hash of the governance object\n"
                 "2. vote              (string, required) vote, possible values: [funding|valid|delete|endorsed]\n"
@@ -396,7 +396,7 @@ UniValue gobject_vote_conf(const JSONRPCRequest& request)
         nFailed++;
         statusObj.push_back(Pair("result", "failed"));
         statusObj.push_back(Pair("errorMessage", "Can't find masternode by collateral output"));
-        resultsObj.push_back(Pair("dash.conf", statusObj));
+        resultsObj.push_back(Pair("meraki.conf", statusObj));
         returnObj.push_back(Pair("overall", strprintf("Voted successfully %d time(s) and failed %d time(s).", nSuccessful, nFailed)));
         returnObj.push_back(Pair("detail", resultsObj));
         return returnObj;
@@ -416,7 +416,7 @@ UniValue gobject_vote_conf(const JSONRPCRequest& request)
         nFailed++;
         statusObj.push_back(Pair("result", "failed"));
         statusObj.push_back(Pair("errorMessage", "Failure to sign."));
-        resultsObj.push_back(Pair("dash.conf", statusObj));
+        resultsObj.push_back(Pair("meraki.conf", statusObj));
         returnObj.push_back(Pair("overall", strprintf("Voted successfully %d time(s) and failed %d time(s).", nSuccessful, nFailed)));
         returnObj.push_back(Pair("detail", resultsObj));
         return returnObj;
@@ -432,7 +432,7 @@ UniValue gobject_vote_conf(const JSONRPCRequest& request)
         statusObj.push_back(Pair("errorMessage", exception.GetMessage()));
     }
 
-    resultsObj.push_back(Pair("dash.conf", statusObj));
+    resultsObj.push_back(Pair("meraki.conf", statusObj));
 
     returnObj.push_back(Pair("overall", strprintf("Voted successfully %d time(s) and failed %d time(s).", nSuccessful, nFailed)));
     returnObj.push_back(Pair("detail", resultsObj));
@@ -889,7 +889,7 @@ UniValue gobject_getcurrentvotes(const JSONRPCRequest& request)
 #ifdef ENABLE_WALLET
             "  vote-alias         - Vote on a governance object by masternode proTxHash\n"
 #endif // ENABLE_WALLET
-            "  vote-conf          - Vote on a governance object by masternode configured in dash.conf\n"
+            "  vote-conf          - Vote on a governance object by masternode configured in meraki.conf\n"
 #ifdef ENABLE_WALLET
             "  vote-many          - Vote on a governance object by all masternodes for which the voting key is in the wallet\n"
 #endif // ENABLE_WALLET
@@ -1061,17 +1061,18 @@ UniValue getgovernanceinfo(const JSONRPCRequest& request)
 
 UniValue getsuperblockbudget(const JSONRPCRequest& request)
 {
-    if (request.fHelp || request.params.size() != 1) {
+    if (request.fHelp || request.params.size() != 2) {
         throw std::runtime_error(
             "getsuperblockbudget index\n"
             "\nReturns the absolute maximum sum of superblock payments allowed.\n"
             "\nArguments:\n"
             "1. index         (numeric, required) The block index\n"
+            "2. pool          (numeric, required) Budget pool. (0=regular, 1=charity)\n"
             "\nResult:\n"
             "n                (numeric) The absolute maximum sum of superblock payments allowed, in " + CURRENCY_UNIT + "\n"
             "\nExamples:\n"
-            + HelpExampleCli("getsuperblockbudget", "1000")
-            + HelpExampleRpc("getsuperblockbudget", "1000")
+            + HelpExampleCli("getsuperblockbudget", "1000 1")
+            + HelpExampleRpc("getsuperblockbudget", "1000 1")
         );
     }
 
@@ -1080,7 +1081,12 @@ UniValue getsuperblockbudget(const JSONRPCRequest& request)
         throw JSONRPCError(RPC_INVALID_PARAMETER, "Block height out of range");
     }
 
-    CAmount nBudget = CSuperblock::GetPaymentsLimit(nBlockHeight);
+    int pool = request.params[1].get_int();
+    if (!(pool == 0 || pool == 1)) {
+        throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid pool number");
+    }
+
+    CAmount nBudget = CSuperblock::GetPaymentsLimit(nBlockHeight, static_cast<CSuperblockPool>(pool));
     std::string strBudget = FormatMoney(nBudget);
 
     return strBudget;
@@ -1089,11 +1095,11 @@ UniValue getsuperblockbudget(const JSONRPCRequest& request)
 static const CRPCCommand commands[] =
 { //  category              name                      actor (function)         okSafe argNames
   //  --------------------- ------------------------  -----------------------  ------ ----------
-    /* Dash features */
-    { "dash",               "getgovernanceinfo",      &getgovernanceinfo,      true,  {} },
-    { "dash",               "getsuperblockbudget",    &getsuperblockbudget,    true,  {"index"} },
-    { "dash",               "gobject",                &gobject,                true,  {} },
-    { "dash",               "voteraw",                &voteraw,                true,  {} },
+    /* Meraki features */
+    { "meraki",               "getgovernanceinfo",      &getgovernanceinfo,      true,  {} },
+    { "meraki",               "getsuperblockbudget",    &getsuperblockbudget,    true,  {"index","pool"} },
+    { "meraki",               "gobject",                &gobject,                true,  {} },
+    { "meraki",               "voteraw",                &voteraw,                true,  {} },
 
 };
 

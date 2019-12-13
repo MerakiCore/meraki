@@ -23,12 +23,12 @@ class TxnMallTest(BitcoinTestFramework):
         return super(TxnMallTest, self).setup_network(True)
 
     def run_test(self):
-        # All nodes should start with 12,500 DASH:
+        # All nodes should start with 12,500 miraki:
         starting_balance = 12500
         for i in range(4):
             assert_equal(self.nodes[i].getbalance(), starting_balance)
             self.nodes[i].getnewaddress("")  # bug workaround, coins generated assigned to first getnewaddress!
-        
+
         # Assign coins to foo and bar accounts:
         node0_address_foo = self.nodes[0].getnewaddress("foo")
         fund_foo_txid = self.nodes[0].sendfrom("", node0_address_foo, 12190)
@@ -65,7 +65,7 @@ class TxnMallTest(BitcoinTestFramework):
         # Create two spends using 1 500 DASH coin each
         txid1 = self.nodes[0].sendfrom("foo", node1_address, 400, 0)
         txid2 = self.nodes[0].sendfrom("bar", node1_address, 200, 0)
-        
+
         # Have node0 mine a block:
         if (self.options.mine_block):
             self.nodes[0].generate(1)
@@ -94,7 +94,7 @@ class TxnMallTest(BitcoinTestFramework):
         else:
             assert_equal(tx1["confirmations"], 0)
             assert_equal(tx2["confirmations"], 0)
-        
+
         # Now give doublespend and its parents to miner:
         self.nodes[2].sendrawtransaction(fund_foo_tx["hex"])
         self.nodes[2].sendrawtransaction(fund_bar_tx["hex"])

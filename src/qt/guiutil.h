@@ -45,7 +45,7 @@ namespace GUIUtil
     void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent);
     void setupAmountWidget(QLineEdit *widget, QWidget *parent);
 
-    // Parse "dash:" URI into recipient object, return true on successful parsing
+    // Parse "miraki:" URI into recipient object, return true on successful parsing
     bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out);
     bool parseBitcoinURI(QString uri, SendCoinsRecipient *out);
     QString formatBitcoinURI(const SendCoinsRecipient &info);
@@ -113,9 +113,9 @@ namespace GUIUtil
 
     // Open debug.log
     void openDebugLogfile();
-	
-    // Open dash.conf
-    void openConfigfile();	
+
+    // Open meraki.conf
+    void openConfigfile();
 
     // Browse backup folder
     void showBackups();
@@ -196,7 +196,7 @@ namespace GUIUtil
 
     /** Return name of current CSS theme */
     QString getThemeName();
-    
+
     /* Convert QString to OS specific boost path through UTF-8 */
     boost::filesystem::path qstringToBoostPath(const QString &path);
 
@@ -229,11 +229,11 @@ namespace GUIUtil
     protected:
         void mouseReleaseEvent(QMouseEvent *event);
     };
-    
+
     class ClickableProgressBar : public QProgressBar
     {
         Q_OBJECT
-        
+
     Q_SIGNALS:
         /** Emitted when the progressbar is clicked. The relative mouse coordinates of the click are
          * passed to the signal.

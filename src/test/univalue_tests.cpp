@@ -203,7 +203,7 @@ BOOST_AUTO_TEST_CASE(univalue_array)
     BOOST_CHECK_EQUAL(arr[3].getValStr(), "boing");
     BOOST_CHECK_EQUAL(arr[4].getValStr(), "going");
 
-    BOOST_CHECK_EQUAL(arr[999].getValStr(), "");
+    BOOST_CHECK_EQUAL(arr[1999].getValStr(), "");
 
     arr.clear();
     BOOST_CHECK(arr.empty());

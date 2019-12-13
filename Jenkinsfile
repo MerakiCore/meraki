@@ -34,7 +34,7 @@ for(int i = 0; i < targets.size(); i++) {
         "JOB_NUMBER=${BUILD_NUMBER}",
       ]
       withEnv(env) {
-        def builderImageName="dash-builder-${target}"
+        def builderImageName="meraki-builder-${target}"
 
         def builderImage
         stage("${target}/builder-image") {
@@ -44,7 +44,7 @@ for(int i = 0; i < targets.size(); i++) {
         builderImage.inside("-t") {
           // copy source into fixed path
           // we must build under the same path everytime as otherwise caches won't work properly
-          sh "cp -ra ${pwd}/. /dash-src/"
+          sh "cp -ra ${pwd}/. /meraki-src/"
 
           // restore cache
           def hasCache = false
@@ -67,26 +67,26 @@ for(int i = 0; i < targets.size(); i++) {
           }
 
           if (hasCache) {
-            sh "cd /dash-src && tar xzf ${pwd}/ci-cache-${target}.tar.gz"
+            sh "cd /meraki-src && tar xzf ${pwd}/ci-cache-${target}.tar.gz"
           } else {
-            sh "mkdir -p /dash-src/ci-cache-${target}"
+            sh "mkdir -p /meraki-src/ci-cache-${target}"
           }
 
           stage("${target}/depends") {
-            sh 'cd /dash-src && ./ci/build_depends.sh'
+            sh 'cd /meraki-src && ./ci/build_depends.sh'
           }
           stage("${target}/build") {
-            sh 'cd /dash-src && ./ci/build_src.sh'
+            sh 'cd /meraki-src && ./ci/build_src.sh'
           }
           stage("${target}/test") {
-            sh 'cd /dash-src && ./ci/test_unittests.sh'
+            sh 'cd /meraki-src && ./ci/test_unittests.sh'
           }
           stage("${target}/test") {
-            sh 'cd /dash-src && ./ci/test_integrationtests.sh'
+            sh 'cd /meraki-src && ./ci/test_integrationtests.sh'
           }
 
           // archive cache and copy it into the jenkins workspace
-          sh "cd /dash-src && tar czfv ci-cache-${target}.tar.gz ci-cache-${target} && cp ci-cache-${target}.tar.gz ${pwd}/"
+          sh "cd /meraki-src && tar czfv ci-cache-${target}.tar.gz ci-cache-${target} && cp ci-cache-${target}.tar.gz ${pwd}/"
         }
 
         // upload cache

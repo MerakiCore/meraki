@@ -258,12 +258,12 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. Dash Core can no longer continue safely and will quit.</source>
-        <translation>Произошла критическая ошибка. Дальнейшая безопасная работа Dash Core невозможна, программа будет закрыта.</translation>
+        <source>A fatal error occurred. Meraki core can no longer continue safely and will quit.</source>
+        <translation>Произошла критическая ошибка. Дальнейшая безопасная работа Meraki core невозможна, программа будет закрыта.</translation>
     </message>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Meraki core</source>
+        <translation>Meraki core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -286,7 +286,7 @@
         <translation>&amp;Отправить</translation>
     </message>
     <message>
-        <source>Send coins to a Dash address</source>
+        <source>Send coins to a Meraki address</source>
         <translation>Отправить монеты на указанный адрес Dash</translation>
     </message>
     <message>
@@ -294,8 +294,8 @@
         <translation>&amp;Получить</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dash: URIs)</source>
-        <translation>Запросить платежи (создать QR-коды и dash: URI)</translation>
+        <source>Request payments (generates QR codes and miraki: URIs)</source>
+        <translation>Запросить платежи (создать QR-коды и miraki: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -322,8 +322,8 @@
         <translation>Закрыть приложение</translation>
     </message>
     <message>
-        <source>Show information about Dash Core</source>
-        <translation>Показать информацию о Dash Core</translation>
+        <source>Show information about Meraki core</source>
+        <translation>Показать информацию о Meraki core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -482,8 +482,8 @@
         <translation>Открыть &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a dash: URI or payment request</source>
-        <translation>Открыть dash: URI или запрос платежа</translation>
+        <source>Open a miraki: URI or payment request</source>
+        <translation>Открыть miraki: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -526,7 +526,7 @@
         <translation>Панель вкладок</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dash network</source>
+        <source>%n active connection(s) to Meraki network</source>
         <translation><numerusform>%n активное соединение с сетью Dash</numerusform><numerusform>%n активных соединения с сетью Dash</numerusform><numerusform>%n активных соединений с сетью Dash</numerusform><numerusform>%n активных соединений с сетью Dash</numerusform></translation>
     </message>
     <message>
@@ -818,8 +818,8 @@
         <translation>Эта метка становится красной, если какой-либо из адресатов получает сумму меньше, чем "пыль".</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Может отличаться на +/- %1 duff(ов) на каждый вход.</translation>
+        <source>Can vary +/- %1 samadhi(s) per input.</source>
+        <translation>Может отличаться на +/- %1 samadhi(ов) на каждый вход.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -877,7 +877,7 @@
         <translation>Изменение адреса для отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dash address.</source>
+        <source>The entered address "%1" is not a valid Meraki address.</source>
         <translation>Введённый адрес "%1" не является правильным адресом Dash.</translation>
     </message>
     <message>
@@ -1160,11 +1160,11 @@
         <translation>Форма</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Dash network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Meraki network, as detailed below.</source>
         <translation>Последние транзакции пока что могут быть не видны и поэтому ваш баланс может отображаться некорректно. Информация будет корректироваться по мере синхронизации с сетью Dash, подробности о ходе синхронизации представлены ниже.</translation>
     </message>
     <message>
-        <source>Attempting to spend Dash that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend Meraki that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Попытка потратить средства из ещё не отображённых транзакций будет отвергнута сетью.</translation>
     </message>
     <message>
@@ -1306,8 +1306,8 @@
         <translation>Это пороговое значение, при достижении которого PrivateSend отключается.</translation>
     </message>
     <message>
-        <source>Automatically open the Dash Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для Dash Core на роутере. Работает только в том случае, если Ваш роутер поддерживает UPnP и данная функция включена.</translation>
+        <source>Automatically open the Meraki core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для Meraki core на роутере. Работает только в том случае, если Ваш роутер поддерживает UPnP и данная функция включена.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1318,7 +1318,7 @@
         <translation>Принимать входящие подключения</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a SOCKS5 proxy.</source>
+        <source>Connect to the Meraki network through a SOCKS5 proxy.</source>
         <translation>Подключаться к сети Dash через прокси SOCKS5.</translation>
     </message>
     <message>
@@ -1414,7 +1414,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Meraki network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Подключаться к сети Dash через отдельный прокси SOCKS5 для скрытых сервисов Tor.</translation>
     </message>
     <message>
@@ -1539,7 +1539,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Форма</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Meraki network after a connection is established, but this process has not completed yet.</source>
         <translation>Отображаемая информация может быть устаревшей. Ваш кошелёк автоматически синхронизируется с сетью Dash после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
@@ -1804,8 +1804,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Ошибка запроса платежа</translation>
     </message>
     <message>
-        <source>Cannot start dash: click-to-pay handler</source>
-        <translation>Не удаётся запустить обработчик dash: click-to-pay</translation>
+        <source>Cannot start miraki: click-to-pay handler</source>
+        <translation>Не удаётся запустить обработчик miraki: click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1820,7 +1820,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Неверный адрес платежа %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Dash address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Meraki address or malformed URI parameters.</source>
         <translation>Не удалось разобрать URI! Возможно указан некорректный адрес Dash либо параметры URI сформированы неверно.</translation>
     </message>
     <message>
@@ -1918,7 +1918,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>Enter a Dash address (e.g. %1)</source>
+        <source>Enter a Meraki address (e.g. %1)</source>
         <translation>Введите адрес Dash (например, %1)</translation>
     </message>
     <message>
@@ -2440,7 +2440,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>&amp;Повторно использовать существующий адрес получения (не рекомендуется)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Meraki network.</source>
         <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса. Обратите внимание: сообщение не будет отправлено вместе с платежом через сеть Dash.</translation>
     </message>
     <message>
@@ -2452,7 +2452,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Необязательная метка для нового адреса получения.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Meraki network.</source>
         <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса.&lt;br&gt;Обратите внимание: сообщение не будет отправлено вместе с платежом через сеть Dash.</translation>
     </message>
     <message>
@@ -2714,11 +2714,11 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Если ручная комиссия  установлена в 1000 duff, а транзакция по размеру только 250 байт, то плата "за килобайт" составит лишь 250 duff,&lt;br&gt;в то время как "минимум" будет равна 1000 duff. Для транзакций больше килобайта в любом случае идет расчет "за килобайт".</translation>
+        <translation>Если ручная комиссия  установлена в 1000 samadhi, а транзакция по размеру только 250 байт, то плата "за килобайт" составит лишь 250 samadhi,&lt;br&gt;в то время как "минимум" будет равна 1000 samadhi. Для транзакций больше килобайта в любом случае идет расчет "за килобайт".</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "total at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Если ручная комиссия  установлена в 1000 duff, а транзакция по размеру только 250 байт, то плата "за килобайт" составит лишь 250 duff,&lt;br&gt;в то время как "итого минимум" будет равна 1000 duff. Для тразакций больше килобайта в любом случае идет расчет "за килобайт".</translation>
+        <translation>Если ручная комиссия  установлена в 1000 samadhi, а транзакция по размеру только 250 байт, то плата "за килобайт" составит лишь 250 samadhi,&lt;br&gt;в то время как "итого минимум" будет равна 1000 samadhi. Для тразакций больше килобайта в любом случае идет расчет "за килобайт".</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for dash transactions than the network can process.</source>
@@ -2909,7 +2909,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation><numerusform>Будет подтверждено приблизительно в течение %n блока.</numerusform><numerusform>Будет подтверждено приблизительно в течение %n блоков.</numerusform><numerusform>Будет подтверждено приблизительно в течение %n блоков.</numerusform><numerusform>Будет подтверждено приблизительно в течение %n блоков.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Dash address</source>
+        <source>Warning: Invalid Meraki address</source>
         <translation>Внимание: неверный адрес Dash</translation>
     </message>
     <message>
@@ -2940,7 +2940,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Полу&amp;чатель:</translation>
     </message>
     <message>
-        <source>The Dash address to send the payment to</source>
+        <source>The Meraki address to send the payment to</source>
         <translation>Адрес Dash для отправки на него монет</translation>
     </message>
     <message>
@@ -2988,8 +2988,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Сообщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
-        <translation>К dash: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Обратите внимание: сообщение не будет отправлено через сеть Dash.</translation>
+        <source>A message that was attached to the miraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
+        <translation>К miraki: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Обратите внимание: сообщение не будет отправлено через сеть Dash.</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
@@ -3045,7 +3045,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Вы можете подписывать сообщения своими адресами, чтобы доказать, что Вы можете получать Dash на них. Будьте осторожны, не подписывайте что-то неопределённое, так как фишинговые атаки могут обманным путём заставить вас подписать нежелательные сообщения. Подписывайте только те сообщения, с которыми вы согласны вплоть до мелочей.</translation>
     </message>
     <message>
-        <source>The Dash address to sign the message with</source>
+        <source>The Meraki address to sign the message with</source>
         <translation>Адрес Dash, которым Вы хотите подписать сообщение</translation>
     </message>
     <message>
@@ -3077,7 +3077,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Скопировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dash address</source>
+        <source>Sign the message to prove you own this Meraki address</source>
         <translation>Подписать сообщение, чтобы доказать владение этим адресом Dash</translation>
     </message>
     <message>
@@ -3101,11 +3101,11 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Введите ниже адрес для подписи, сообщение (убедитесь, что переводы строк, пробелы, табы и т.п. в точности скопированы) и подпись, чтобы проверить сообщение. Убедитесь, что не скопировали лишнего в подпись, кроме самого подписываемого сообщения, чтобы не стать жертвой атаки "man-in-the-middle". Обратите внимание, что это лишь подтверждает, что подписывающий может получить средства на этот адрес, это не подтверждает, что он является отправителем какой-либо транзакции!</translation>
     </message>
     <message>
-        <source>The Dash address the message was signed with</source>
+        <source>The Meraki address the message was signed with</source>
         <translation>Адрес Dash, которым было подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dash address</source>
+        <source>Verify the message to ensure it was signed with the specified Meraki address</source>
         <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Dash</translation>
     </message>
     <message>
@@ -4894,8 +4894,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Параметры сервера RPC:</translation>
     </message>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Meraki core</source>
+        <translation>Meraki core</translation>
     </message>
     <message>
         <source>The %s developers</source>

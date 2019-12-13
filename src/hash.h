@@ -25,6 +25,12 @@
 #include "crypto/sph_shavite.h"
 #include "crypto/sph_simd.h"
 #include "crypto/sph_echo.h"
+#include "crypto/sph_hamsi.h"
+#include "crypto/sph_fugue.h"
+#include "crypto/sph_shabal.h"
+#include "crypto/sph_whirlpool.h"
+#include "crypto/sph_sha2.h"
+#include "crypto/sph_haval.h"
 
 #include <vector>
 
@@ -327,9 +333,15 @@ inline uint256 HashX11(const T1 pbegin, const T1 pend)
     sph_shavite512_context   ctx_shavite;
     sph_simd512_context      ctx_simd;
     sph_echo512_context      ctx_echo;
+    sph_hamsi512_context     ctx_hamsi;
+    sph_fugue512_context     ctx_fugue;
+    sph_shabal512_context    ctx_shabal;
+    sph_whirlpool_context    ctx_whirlpool;
+    sph_sha512_context       ctx_sha2;
+    sph_haval256_5_context   ctx_haval;
     static unsigned char pblank[1];
 
-    uint512 hash[11];
+    uint512 hash[17];
 
     sph_blake512_init(&ctx_blake);
     sph_blake512 (&ctx_blake, (pbegin == pend ? pblank : static_cast<const void*>(&pbegin[0])), (pend - pbegin) * sizeof(pbegin[0]));
@@ -375,7 +387,31 @@ inline uint256 HashX11(const T1 pbegin, const T1 pend)
     sph_echo512 (&ctx_echo, static_cast<const void*>(&hash[9]), 64);
     sph_echo512_close(&ctx_echo, static_cast<void*>(&hash[10]));
 
-    return hash[10].trim256();
+    sph_hamsi512_init(&ctx_hamsi);
+    sph_hamsi512 (&ctx_hamsi, static_cast<const void*>(&hash[10]), 64);
+    sph_hamsi512_close(&ctx_hamsi, static_cast<void*>(&hash[11]));
+
+    sph_fugue512_init(&ctx_fugue);
+    sph_fugue512 (&ctx_fugue, static_cast<const void*>(&hash[11]), 64);
+    sph_fugue512_close(&ctx_fugue, static_cast<void*>(&hash[12]));
+
+    sph_shabal512_init(&ctx_shabal);
+    sph_shabal512 (&ctx_shabal, static_cast<const void*>(&hash[12]), 64);
+    sph_shabal512_close(&ctx_shabal, static_cast<void*>(&hash[13]));
+
+    sph_whirlpool_init(&ctx_whirlpool);
+    sph_whirlpool (&ctx_whirlpool, static_cast<const void*>(&hash[13]), 64);
+    sph_whirlpool_close(&ctx_whirlpool, static_cast<void*>(&hash[14]));
+
+    sph_sha512_init(&ctx_sha2);
+    sph_sha512 (&ctx_sha2, static_cast<const void*>(&hash[14]), 64);
+    sph_sha512_close(&ctx_sha2, static_cast<void*>(&hash[15]));
+
+    sph_haval256_5_init(&ctx_haval);
+    sph_haval256_5 (&ctx_haval, static_cast<const void*>(&hash[15]), 64);
+    sph_haval256_5_close(&ctx_haval, static_cast<void*>(&hash[16]));
+
+    return hash[16].trim256();
 }
 
 #endif // BITCOIN_HASH_H

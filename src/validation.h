@@ -8,7 +8,7 @@
 #define BITCOIN_VALIDATION_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/dash-config.h"
+#include "config/meraki-config.h"
 #endif
 
 #include "amount.h"
@@ -117,7 +117,7 @@ static const unsigned int AVG_ADDRESS_BROADCAST_INTERVAL = 30;
 static const unsigned int INVENTORY_BROADCAST_INTERVAL = 5;
 /** Maximum number of inventory items to send per transmission.
  *  Limits the impact of low-fee transaction floods.
- *  We have 4 times smaller block times in Dash, so we need to push 4 times more invs per 1MB. */
+ *  We have 4 times smaller block times in Meraki, so we need to push 4 times more invs per 1MB. */
 static const unsigned int INVENTORY_BROADCAST_MAX_PER_1MB_BLOCK = 4 * 7 * INVENTORY_BROADCAST_INTERVAL;
 /** Block download timeout base, expressed in millionths of the block interval (i.e. 2.5 min) */
 static const int64_t BLOCK_DOWNLOAD_TIMEOUT_BASE = 1000000;
@@ -220,7 +220,7 @@ static const unsigned int DEFAULT_CHECKLEVEL = 3;
 // Setting the target to > than 945MB will make it likely we can respect the target.
 static const uint64_t MIN_DISK_SPACE_FOR_BLOCK_FILES = 945 * 1024 * 1024;
 
-/** 
+/**
  * Process an incoming block. This only returns after the best known valid
  * block is made active. Note that it does not, however, guarantee that the
  * specific block passed to it has been checked for validity!
@@ -231,7 +231,7 @@ static const uint64_t MIN_DISK_SPACE_FOR_BLOCK_FILES = 945 * 1024 * 1024;
  *
  * Note that we guarantee that either the proof-of-work is valid on pblock, or
  * (and possibly also) BlockChecked will have been called.
- * 
+ *
  * Call without cs_main held.
  *
  * @param[in]   pblock  The block we want to process.
@@ -361,7 +361,7 @@ unsigned int GetLegacySigOpCount(const CTransaction& tx);
 
 /**
  * Count ECDSA signature operations in pay-to-script-hash inputs.
- * 
+ *
  * @param[in] mapInputs Map of previous transactions that have outputs we're spending
  * @return maximum number of sigops required to validate this transaction's inputs
  * @see CTransaction::FetchInputs
@@ -437,7 +437,7 @@ bool CheckSequenceLocks(const CTransaction &tx, int flags, LockPoints* lp = NULL
 
 /**
  * Closure representing one script verification
- * Note that this stores references to the spending transaction 
+ * Note that this stores references to the spending transaction
  */
 class CScriptCheck
 {

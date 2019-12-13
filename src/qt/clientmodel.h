@@ -41,7 +41,7 @@ enum NumConnections {
     CONNECTIONS_ALL  = (CONNECTIONS_IN | CONNECTIONS_OUT),
 };
 
-/** Model for Dash network client. */
+/** Model for Meraki network client. */
 class ClientModel : public QObject
 {
     Q_OBJECT
@@ -69,7 +69,7 @@ public:
     void setMasternodeList(const CDeterministicMNList& mnList);
     CDeterministicMNList getMasternodeList() const;
     void refreshMasternodeList();
-    
+
     quint64 getTotalBytesRecv() const;
     quint64 getTotalBytesSent() const;
 

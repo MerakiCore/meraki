@@ -58,7 +58,7 @@
 #include <boost/thread.hpp>
 
 #if defined(NDEBUG)
-# error "Dash Core cannot be compiled without assertions."
+# error "Meraki Core cannot be compiled without assertions."
 #endif
 
 std::atomic<int64_t> nTimeBestReceived(0); // Used only to inform the wallet of when we last received a block
@@ -3717,6 +3717,7 @@ bool SendMessages(CNode* pto, CConnman& connman, const std::atomic<bool>& interr
             std::vector<const CBlockIndex*> vToDownload;
             NodeId staller = -1;
             FindNextBlocksToDownload(pto->GetId(), MAX_BLOCKS_IN_TRANSIT_PER_PEER - state.nBlocksInFlight, vToDownload, staller, consensusParams);
+            // LogPrint("net", "Find next blocks to download, %d\n", vToDownload.size());
             BOOST_FOREACH(const CBlockIndex *pindex, vToDownload) {
                 vGetData.push_back(CInv(MSG_BLOCK, pindex->GetBlockHash()));
                 MarkBlockAsInFlight(pto->GetId(), pindex->GetBlockHash(), consensusParams, pindex);

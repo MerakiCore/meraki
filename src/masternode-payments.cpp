@@ -343,9 +343,11 @@ bool CMasternodePayments::GetBlockTxOuts(int nBlockHeight, CAmount blockReward, 
     }
 
     if (masternodeReward > 0) {
+        LogPrintf("masternodeReward %d blockReward %d\n", masternodeReward, blockReward);
         voutMasternodePaymentsRet.emplace_back(masternodeReward, dmnPayee->pdmnState->scriptPayout);
     }
     if (operatorReward > 0) {
+        LogPrintf("operatorReward %d\n", operatorReward);
         voutMasternodePaymentsRet.emplace_back(operatorReward, dmnPayee->pdmnState->scriptOperatorPayout);
     }
 

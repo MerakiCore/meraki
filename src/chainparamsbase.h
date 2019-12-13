@@ -9,7 +9,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between dash-cli and dashd)
+ * CBaseChainParams defines the base parameters (shared between meraki-cli and merakid)
  * of a given instance of the Dash system.
  */
 class CBaseChainParams

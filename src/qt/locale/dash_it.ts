@@ -258,12 +258,12 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. Dash Core can no longer continue safely and will quit.</source>
-        <translation>Si è verificato un errore irreversibile. Dash Core non può più continuare in sicurezza e terminerà le operazioni.</translation>
+        <source>A fatal error occurred. Meraki core can no longer continue safely and will quit.</source>
+        <translation>Si è verificato un errore irreversibile. Meraki core non può più continuare in sicurezza e terminerà le operazioni.</translation>
     </message>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Meraki core</source>
+        <translation>Meraki core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -286,7 +286,7 @@
         <translation>&amp;Invia</translation>
     </message>
     <message>
-        <source>Send coins to a Dash address</source>
+        <source>Send coins to a Meraki address</source>
         <translation>Spedire dash ad un indirizzo Dash</translation>
     </message>
     <message>
@@ -294,8 +294,8 @@
         <translation>&amp;Ricevi</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dash: URIs)</source>
-        <translation>Richieste di pagamenti (genera codici QR e dash: URLs)</translation>
+        <source>Request payments (generates QR codes and miraki: URIs)</source>
+        <translation>Richieste di pagamenti (genera codici QR e miraki: URLs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -322,8 +322,8 @@
         <translation>Chiudi applicazione</translation>
     </message>
     <message>
-        <source>Show information about Dash Core</source>
-        <translation>Mostra le informazioni su Dash Core</translation>
+        <source>Show information about Meraki core</source>
+        <translation>Mostra le informazioni su Meraki core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -482,8 +482,8 @@
         <translation>Apri &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a dash: URI or payment request</source>
-        <translation>Apri un dash: URI o una richiesta di pagamento</translation>
+        <source>Open a miraki: URI or payment request</source>
+        <translation>Apri un miraki: URI o una richiesta di pagamento</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -526,7 +526,7 @@
         <translation>Barra degli strumenti "Tabs"</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dash network</source>
+        <source>%n active connection(s) to Meraki network</source>
         <translation><numerusform>%n connessione attiva alla rete Dash</numerusform><numerusform>%n connessioni attive alla rete Dash</numerusform></translation>
     </message>
     <message>
@@ -818,8 +818,8 @@
         <translation>Questa etichetta diventerà rossa se uno qualsiasi dei destinatari riceverà un importo inferiore alla corrente soglia minima per la movimentazione della valuta.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Può variare di +/- %1 duff per input.</translation>
+        <source>Can vary +/- %1 samadhi(s) per input.</source>
+        <translation>Può variare di +/- %1 samadhi per input.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -877,7 +877,7 @@
         <translation>Modifica indirizzo d'invio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dash address.</source>
+        <source>The entered address "%1" is not a valid Meraki address.</source>
         <translation>L'indirizzo inserito "%1" non é un indirizzo Dash valido</translation>
     </message>
     <message>
@@ -976,7 +976,7 @@
     </message>
     <message>
         <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Dash in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times.&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.001 DASH, 0.01 DASH, 0.1 DASH, 1 DASH and 10 DASH -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more information, see the &lt;a href="https://docs.dash.org/en/latest/wallets/dashcore/privatesend-instantsend.html"&gt;PrivateSend documentation&lt;/a&gt;.</source>
-        <translation>&lt;h3&gt;Nozioni di base di PrivateSend&lt;/h3&gt; PrivateSend ti offre una vera privacy finanziaria oscurando le origini dei tuoi fondi. Tutti i Dash nel tuo portafoglio sono costituiti da diversi "input" che puoi pensare come monete separate e discrete. &lt;br&gt;PrivateSend utilizza un processo innovativo per mescolare i tuoi input con gli input di due altre persone, senza che le tue monete lascino mai il tuo portafoglio. Si mantiene il controllo del proprio denaro in ogni momento. &lt;hr&gt;&lt;b&gt;Il processo di PrivateSend funziona in questo modo: &lt;/b&gt;&lt;ol type="1"&gt;&lt;li&gt;PrivateSend inizia dividendo gli input della transazioni in denominazioni standard. Queste denominazioni sono 0,001 DASH, 0,01 DASH, 0,1 DASH, 1 DASH e 10 DASH: una specie di carta moneta che utilizzi ogni giorno.&lt;/li&gt;&lt;li&gt; Il tuo portafoglio quindi invia richieste ai nodi software appositamente configurati sulla rete, chiamati "masternode". Questi masternode vengono informati che sei interessato a mescolare una certa denominazione. Nessuna informazione identificabile viene inviata ai masternodes, quindi non sanno mai "chi" tu sia. &lt;/li&gt;&lt;li&gt;Quando altre due persone inviano messaggi simili, indicando che desiderano mescolare la stessa denominazione, inizia una sessione di mixaggio. Il masternode mescola gli input e incarica i portafogli di tutti e tre gli utenti di pagare a loro stessi l'input trasformato. Il tuo portafoglio paga quella denominazione direttamente a se stessa, ma in un indirizzo diverso (chiamato indirizzo di modifica). &lt;/li&gt;&lt;li&gt;Per oscurare completamente i tuoi fondi, il tuo portafoglio deve ripetere questo processo un certo numero di volte con ogni denominazione. Ogni  processo completato, è chiamato "round". Ogni ciclo di PrivateSend rende esponenzialmente più difficile determinare la provenienza dei fondi. &lt;/li&gt;&lt;li&gt;Questo processo di miscelazione avviene in background senza alcun intervento da parte dell'utente. Quando desideri effettuare una transazione, i tuoi fondi saranno già resi anonimi. Non è richiesta alcuna attesa aggiuntiva.&lt;/li&gt;&lt;/ol&gt;&lt;hr&gt;&lt;b&gt; IMPORTANTE: &lt;/b&gt;il tuo portafoglio contiene solo 1000 di questi "indirizzi di modifica". Ogni volta che si verifica un evento di mixaggio, vengono usati fino a 9 dei tuoi indirizzi. Ciò significa che i 1000 indirizzi durano per circa 100 eventi di mixaggio. Quando vengono utilizzati 900 di questi, il tuo portafoglio deve creare altri indirizzi. Può farlo solo se si dispone dei backup automatici abilitati. &lt;br&gt;Di conseguenza, gli utenti che hanno disabilitato i backup avranno anche PrivateSend disabilitato. &lt;hr&gt;Per maggiori informazioni consulta la &lt;a href="https://docs.dash.org/en/latest/wallets/dashcore/privatesend-instantsend.html"&gt;documentazione di PrivateSend&lt;/a&gt;.</translation>
+        <translation>&lt;h3&gt;Nozioni di base di PrivateSend&lt;/h3&gt; PrivateSend ti offre una vera privacy finanziaria oscurando le origini dei tuoi fondi. Tutti i Dash nel tuo portafoglio sono costituiti da diversi "input" che puoi pensare come monete separate e discrete. &lt;br&gt;PrivateSend utilizza un processo innovativo per mescolare i tuoi input con gli input di due altre persone, senza che le tue monete lascino mai il tuo portafoglio. Si mantiene il controllo del proprio denaro in ogni momento. &lt;hr&gt;&lt;b&gt;Il processo di PrivateSend funziona in questo modo: &lt;/b&gt;&lt;ol type="1"&gt;&lt;li&gt;PrivateSend inizia dividendo gli input della transazioni in denominazioni standard. Queste denominazioni sono 0,001 DASH, 0,01 DASH, 0,1 DASH, 1 DASH e 10 miraki: una specie di carta moneta che utilizzi ogni giorno.&lt;/li&gt;&lt;li&gt; Il tuo portafoglio quindi invia richieste ai nodi software appositamente configurati sulla rete, chiamati "masternode". Questi masternode vengono informati che sei interessato a mescolare una certa denominazione. Nessuna informazione identificabile viene inviata ai masternodes, quindi non sanno mai "chi" tu sia. &lt;/li&gt;&lt;li&gt;Quando altre due persone inviano messaggi simili, indicando che desiderano mescolare la stessa denominazione, inizia una sessione di mixaggio. Il masternode mescola gli input e incarica i portafogli di tutti e tre gli utenti di pagare a loro stessi l'input trasformato. Il tuo portafoglio paga quella denominazione direttamente a se stessa, ma in un indirizzo diverso (chiamato indirizzo di modifica). &lt;/li&gt;&lt;li&gt;Per oscurare completamente i tuoi fondi, il tuo portafoglio deve ripetere questo processo un certo numero di volte con ogni denominazione. Ogni  processo completato, è chiamato "round". Ogni ciclo di PrivateSend rende esponenzialmente più difficile determinare la provenienza dei fondi. &lt;/li&gt;&lt;li&gt;Questo processo di miscelazione avviene in background senza alcun intervento da parte dell'utente. Quando desideri effettuare una transazione, i tuoi fondi saranno già resi anonimi. Non è richiesta alcuna attesa aggiuntiva.&lt;/li&gt;&lt;/ol&gt;&lt;hr&gt;&lt;b&gt; IMPORTANTE: &lt;/b&gt;il tuo portafoglio contiene solo 1000 di questi "indirizzi di modifica". Ogni volta che si verifica un evento di mixaggio, vengono usati fino a 9 dei tuoi indirizzi. Ciò significa che i 1000 indirizzi durano per circa 100 eventi di mixaggio. Quando vengono utilizzati 900 di questi, il tuo portafoglio deve creare altri indirizzi. Può farlo solo se si dispone dei backup automatici abilitati. &lt;br&gt;Di conseguenza, gli utenti che hanno disabilitato i backup avranno anche PrivateSend disabilitato. &lt;hr&gt;Per maggiori informazioni consulta la &lt;a href="https://docs.dash.org/en/latest/wallets/dashcore/privatesend-instantsend.html"&gt;documentazione di PrivateSend&lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
@@ -1160,11 +1160,11 @@
         <translation>Modulo</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Dash network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Meraki network, as detailed below.</source>
         <translation>Le transazioni recenti potrebbero non essere ancora visibili, perciò il saldo del tuo portafoglio potrebbe non essere corretto. Questa informazione risulterà corretta quando il tuo portafoglio avrà terminato la sincronizzazione con la rete Dash, come indicato in dettaglio più sotto.</translation>
     </message>
     <message>
-        <source>Attempting to spend Dash that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend Meraki that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Il tentativo di spendere i Dash interessati da transazioni non ancora visualizzate non sarà accettato dalla rete.</translation>
     </message>
     <message>
@@ -1306,8 +1306,8 @@
         <translation>Tale importo si comporta come una soglia, per spegnere PrivateSend, una volta raggiunta.</translation>
     </message>
     <message>
-        <source>Automatically open the Dash Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Apri automaticamente la porta utilizzata dal client Dash Core nel router. Funziona solo se il router supporta UPnP ed è attivato.</translation>
+        <source>Automatically open the Meraki core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Apri automaticamente la porta utilizzata dal client Meraki core nel router. Funziona solo se il router supporta UPnP ed è attivato.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1318,7 +1318,7 @@
         <translation>Permetti connessioni in entrata</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a SOCKS5 proxy.</source>
+        <source>Connect to the Meraki network through a SOCKS5 proxy.</source>
         <translation>Connetti alla rete Dash attraverso un SOCKS5 proxy</translation>
     </message>
     <message>
@@ -1414,7 +1414,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Meraki network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Connetti alla rete Dash attraverso un proxy SOCKS5 separato per Tor.</translation>
     </message>
     <message>
@@ -1460,7 +1460,7 @@
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
 https://www.transifex.com/projects/p/dash/</source>
-        <translation>La tua lingua manca o la traduzione è incompleta? Contribuisci alla traduzione qui: 
+        <translation>La tua lingua manca o la traduzione è incompleta? Contribuisci alla traduzione qui:
 https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
@@ -1539,7 +1539,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Modulo</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Meraki network after a connection is established, but this process has not completed yet.</source>
         <translation>Le informazioni visualizzate potrebbero essere vecchie. Il portafoglio si sincronizza automaticamente con la rete Dash dopo che una connessione viene stabilita, ma questo processo non è stato ancora completato.</translation>
     </message>
     <message>
@@ -1804,8 +1804,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Errore di richiesta di pagamento</translation>
     </message>
     <message>
-        <source>Cannot start dash: click-to-pay handler</source>
-        <translation>Impossibile avviare dash: gestore click-to-pay</translation>
+        <source>Cannot start miraki: click-to-pay handler</source>
+        <translation>Impossibile avviare miraki: gestore click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1820,7 +1820,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Indirizzo di pagamento non valido: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Dash address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Meraki address or malformed URI parameters.</source>
         <translation>Impossibile interpretare l'URI! La causa puó essere un indirizzo Dash non valido o parametri URI non corretti.</translation>
     </message>
     <message>
@@ -1918,7 +1918,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Importo</translation>
     </message>
     <message>
-        <source>Enter a Dash address (e.g. %1)</source>
+        <source>Enter a Meraki address (e.g. %1)</source>
         <translation>Inserire un indirizzo Dash (e.g. %1)</translation>
     </message>
     <message>
@@ -2440,7 +2440,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>R&amp;iusa un indirizzo di ricezione (non raccomandato)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Meraki network.</source>
         <translation>Messaggio opzionale da allegare alla richiesta di pagamento, che verrà visualizzato quando la richiesta verrà aperta. Nota: il messaggio non sarà inviato insieme al pagamento nel network Dash.</translation>
     </message>
     <message>
@@ -2452,7 +2452,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Un'etichetta facoltativa da associare al nuovo indirizzo di ricezione</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Meraki network.</source>
         <translation>Messaggio facoltativo da allegare alla richiesta di pagamento, che verrà visualizzato all'apertura della richiesta.&lt;br&gt; Nota: il messaggio non verrà inviato con il pagamento sulla rete di Dash.</translation>
     </message>
     <message>
@@ -2714,11 +2714,11 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se la tariffa personalizzata è impostata su 1000 duff e la transazione è di soli 250 byte, paga solo 250 duff "per kilobyte" di Fee, &lt;br /&gt;mentre paga "almeno"  1000 duff. Per le transazioni più grandi di un kilobyte pagate entrambi per kilobyte.</translation>
+        <translation>Se la tariffa personalizzata è impostata su 1000 samadhi e la transazione è di soli 250 byte, paga solo 250 samadhi "per kilobyte" di Fee, &lt;br /&gt;mentre paga "almeno"  1000 samadhi. Per le transazioni più grandi di un kilobyte pagate entrambi per kilobyte.</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "total at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se la tariffa personalizzata è impostata su 1000 duff e la transazione è di soli 250 byte, paga solo 250 duff "per kilobyte" di Fee, &lt;br /&gt;mentre paga "in totale almeno" 1000 duff. Per le transazioni più grandi di un kilobyte pagate entrambi per kilobyte.</translation>
+        <translation>Se la tariffa personalizzata è impostata su 1000 samadhi e la transazione è di soli 250 byte, paga solo 250 samadhi "per kilobyte" di Fee, &lt;br /&gt;mentre paga "in totale almeno" 1000 samadhi. Per le transazioni più grandi di un kilobyte pagate entrambi per kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for dash transactions than the network can process.</source>
@@ -2909,7 +2909,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation><numerusform>Inizio della confirmazione stimato in %n blocco</numerusform><numerusform>Inizio del processo di conferma stimato in %n blocchi</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Dash address</source>
+        <source>Warning: Invalid Meraki address</source>
         <translation>ATTENZIONE: Indirizzo Dash non valido</translation>
     </message>
     <message>
@@ -2940,7 +2940,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Paga &amp;a:</translation>
     </message>
     <message>
-        <source>The Dash address to send the payment to</source>
+        <source>The Meraki address to send the payment to</source>
         <translation>L'indirizzo Dash per inviare il pagamento a </translation>
     </message>
     <message>
@@ -2988,7 +2988,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Messaggio:</translation>
     </message>
     <message>
-        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
+        <source>A message that was attached to the miraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
         <translation>Un messaggio allegato con l'URI dash che verrà memorizzato nella transazione per il tuo referente. Nota: questo messaggio non verrà inviato attraverso il network Dash.</translation>
     </message>
     <message>
@@ -3045,7 +3045,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Puoi firmare messaggi /accordi con i tuoi indirizzi per dimostrare che puoi ricevere Dash inviati loro. Fai attenzione a non firmare nulla di vago o casuale, in quanto gli attacchi di phishing potrebbero cercare di ingannarti a firmare la tua identità. Firma solo le dichiarazioni dettagliate che ritieni di poter accettare.</translation>
     </message>
     <message>
-        <source>The Dash address to sign the message with</source>
+        <source>The Meraki address to sign the message with</source>
         <translation>L'indirizzo Dash con cui firmare il messaggio</translation>
     </message>
     <message>
@@ -3077,7 +3077,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Copia la firma corrente nella clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dash address</source>
+        <source>Sign the message to prove you own this Meraki address</source>
         <translation>Firma il messaggio per dimostrare il possesso di questo indirizzo Dash</translation>
     </message>
     <message>
@@ -3101,11 +3101,11 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Per verificare il messaggio inserire l'indirizzo del firmatario, il messaggio e la firma nei campi sottostanti, assicurandosi di copiare esattamente anche ritorni a capo, spazi, tabulazioni, etc.. Si raccomanda di non lasciarsi fuorviare dalla firma a leggere più di quanto non sia riportato nel testo del messaggio stesso, in modo da evitare di cadere vittima di attacchi di tipo man-in-the-middle. Si ricorda che la verifica della firma dimostra soltanto che il firmatario può ricevere pagamenti con l'indirizzo corrispondente, non prova l'invio di alcuna transazione.</translation>
     </message>
     <message>
-        <source>The Dash address the message was signed with</source>
+        <source>The Meraki address the message was signed with</source>
         <translation>L'indirizzo Dash con cui era firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dash address</source>
+        <source>Verify the message to ensure it was signed with the specified Meraki address</source>
         <translation>Verifica il messaggio per assicurarti sia stato firmato con l'indirizzo Dash specificato</translation>
     </message>
     <message>
@@ -4896,8 +4896,8 @@ Non è possibile avviare un masternode in modalità lite</translation>
         <translation>Opzioni server RPC:</translation>
     </message>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Meraki core</source>
+        <translation>Meraki core</translation>
     </message>
     <message>
         <source>The %s developers</source>

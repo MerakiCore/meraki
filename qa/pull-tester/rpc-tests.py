@@ -234,7 +234,7 @@ def run_tests(test_list, src_dir, build_dir, exeext, jobs=1, enable_coverage=Fal
 
     #Set env vars
     if "BITCOIND" not in os.environ:
-        os.environ["BITCOIND"] = build_dir + '/src/dashd' + exeext
+        os.environ["BITCOIND"] = build_dir + '/src/merakid' + exeext
 
     tests_dir = src_dir + '/qa/rpc-tests/'
 

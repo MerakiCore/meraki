@@ -5,7 +5,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/dash-config.h"
+#include "config/meraki-config.h"
 #endif
 
 #include "chainparams.h"
@@ -33,8 +33,8 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called Dash (https://www.dash.org/),
- * which enables instant payments to anyone, anywhere in the world. Dash uses peer-to-peer technology to operate
+ * This is the developer documentation of the reference client for an experimental new digital currency called Meraki (https://www.dash.org/),
+ * which enables instant payments to anyone, anywhere in the world. Meraki uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *
  * The software is a community-driven open source project, released under the MIT license.
@@ -73,7 +73,7 @@ bool AppInit(int argc, char* argv[])
     //
     // Parameters
     //
-    // If Qt is used, parameters/dash.conf are parsed in qt/dash.cpp's main()
+    // If Qt is used, parameters/meraki.conf are parsed in qt/dash.cpp's main()
     ParseParameters(argc, argv);
 
     // Process help and version before taking care about datadir
@@ -88,7 +88,7 @@ bool AppInit(int argc, char* argv[])
         else
         {
             strUsage += "\n" + _("Usage:") + "\n" +
-                  "  dashd [options]                     " + strprintf(_("Start %s Daemon"), _(PACKAGE_NAME)) + "\n";
+                  "  merakid [options]                     " + strprintf(_("Start %s Daemon"), _(PACKAGE_NAME)) + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -128,12 +128,12 @@ bool AppInit(int argc, char* argv[])
         // Command-line RPC
         bool fCommandLine = false;
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "dash:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "miraki:"))
                 fCommandLine = true;
 
         if (fCommandLine)
         {
-            fprintf(stderr, "Error: There is no RPC client functionality in dashd anymore. Use the dash-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in merakid anymore. Use the meraki-cli utility instead.\n");
             exit(EXIT_FAILURE);
         }
         // -server defaults to true for bitcoind but not for the GUI so do this here
@@ -159,7 +159,7 @@ bool AppInit(int argc, char* argv[])
         if (GetBoolArg("-daemon", false))
         {
 #if HAVE_DECL_DAEMON
-            fprintf(stdout, "Dash Core server starting\n");
+            fprintf(stdout, "Meraki Core server starting\n");
 
             // Daemonize
             if (daemon(1, 0)) { // don't chdir (1), do close FDs (0)
@@ -198,7 +198,7 @@ int main(int argc, char* argv[])
 
     SetupEnvironment();
 
-    // Connect dashd signal handlers
+    // Connect merakid signal handlers
     noui_connect();
 
     return (AppInit(argc, argv) ? EXIT_SUCCESS : EXIT_FAILURE);

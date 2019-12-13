@@ -4,7 +4,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/dash-config.h"
+#include "config/meraki-config.h"
 #endif
 
 #include "bitcoingui.h"
@@ -168,7 +168,7 @@ void DebugMessageHandler(QtMsgType type, const QMessageLogContext& context, cons
 }
 #endif
 
-/** Class encapsulating Dash Core startup and shutdown.
+/** Class encapsulating Meraki Core startup and shutdown.
  * Allows running startup and shutdown in a different thread from the UI thread.
  */
 class BitcoinCore: public QObject
@@ -527,7 +527,7 @@ void BitcoinApplication::initializeResult(bool success)
 
 #ifdef ENABLE_WALLET
         // Now that initialization/startup is done, process any command-line
-        // dash: URIs or payment requests:
+        // meraki: URIs or payment requests:
         connect(paymentServer, SIGNAL(receivedPaymentRequest(SendCoinsRecipient)),
                          window, SLOT(handlePaymentRequest(SendCoinsRecipient)));
         connect(window, SIGNAL(receivedURI(QString)),
@@ -548,7 +548,7 @@ void BitcoinApplication::shutdownResult()
 
 void BitcoinApplication::handleRunawayException(const QString &message)
 {
-    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Dash Core can no longer continue safely and will quit.") + QString("\n\n") + message);
+    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Meraki Core can no longer continue safely and will quit.") + QString("\n\n") + message);
     ::exit(EXIT_FAILURE);
 }
 
@@ -638,7 +638,7 @@ int main(int argc, char *argv[])
     if (!Intro::pickDataDirectory())
         return EXIT_SUCCESS;
 
-    /// 6. Determine availability of data directory and parse dash.conf
+    /// 6. Determine availability of data directory and parse meraki.conf
     /// - Do not call GetDataDir(true) before this step finishes
     if (!boost::filesystem::is_directory(GetDataDir(false)))
     {
@@ -690,7 +690,7 @@ int main(int argc, char *argv[])
         exit(EXIT_SUCCESS);
 
     // Start up the payment server early, too, so impatient users that click on
-    // dash: links repeatedly have their payment requests routed to this process:
+    // miraki: links repeatedly have their payment requests routed to this process:
     app.createPaymentServer();
 #endif
 

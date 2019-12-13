@@ -5,7 +5,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/dash-config.h"
+#include "config/meraki-config.h"
 #endif
 
 #include "init.h"
@@ -834,7 +834,7 @@ void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
 }
 
 /** Sanity checks
- *  Ensure that Dash Core is running in a usable environment with all
+ *  Ensure that Meraki Core is running in a usable environment with all
  *  necessary library support.
  */
 bool InitSanityCheck(void)
@@ -1003,7 +1003,7 @@ void InitLogging()
     fLogIPs = GetBoolArg("-logips", DEFAULT_LOGIPS);
 
     LogPrintf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    LogPrintf("Dash Core version %s\n", FormatFullVersion());
+    LogPrintf("Meraki Core version %s\n", FormatFullVersion());
 }
 
 namespace { // Variables internal to initialization process only
@@ -1351,31 +1351,6 @@ bool AppInitParameterInteraction()
         UpdateRegtestDIP3Parameters(nDIP3ActivationHeight, nDIP3EnforcementHeight);
     }
 
-    if (IsArgSet("-budgetparams")) {
-        // Allow overriding budget parameters for testing
-        if (!chainparams.MineBlocksOnDemand()) {
-            return InitError("Budget parameters may only be overridden on regtest.");
-        }
-
-        std::string strBudgetParams = GetArg("-budgetparams", "");
-        std::vector<std::string> vBudgetParams;
-        boost::split(vBudgetParams, strBudgetParams, boost::is_any_of(":"));
-        if (vBudgetParams.size() != 3) {
-            return InitError("Budget parameters malformed, expecting masternodePaymentsStartBlock:budgetPaymentsStartBlock:superblockStartBlock");
-        }
-        int nMasternodePaymentsStartBlock, nBudgetPaymentsStartBlock, nSuperblockStartBlock;
-        if (!ParseInt32(vBudgetParams[0], &nMasternodePaymentsStartBlock)) {
-            return InitError(strprintf("Invalid nMasternodePaymentsStartBlock (%s)", vBudgetParams[0]));
-        }
-        if (!ParseInt32(vBudgetParams[1], &nBudgetPaymentsStartBlock)) {
-            return InitError(strprintf("Invalid nBudgetPaymentsStartBlock (%s)", vBudgetParams[1]));
-        }
-        if (!ParseInt32(vBudgetParams[2], &nSuperblockStartBlock)) {
-            return InitError(strprintf("Invalid nSuperblockStartBlock (%s)", vBudgetParams[2]));
-        }
-        UpdateRegtestBudgetParameters(nMasternodePaymentsStartBlock, nBudgetPaymentsStartBlock, nSuperblockStartBlock);
-    }
-
     if (chainparams.NetworkIDString() == CBaseChainParams::DEVNET) {
         int nMinimumDifficultyBlocks = GetArg("-minimumdifficultyblocks", chainparams.GetConsensus().nMinimumDifficultyBlocks);
         int nHighSubsidyBlocks = GetArg("-highsubsidyblocks", chainparams.GetConsensus().nHighSubsidyBlocks);
@@ -1413,7 +1388,7 @@ static bool LockDataDirectory(bool probeOnly)
 {
     std::string strDataDir = GetDataDir().string();
 
-    // Make sure only a single Dash Core process is using the data directory.
+    // Make sure only a single Meraki Core process is using the data directory.
     boost::filesystem::path pathLockFile = GetDataDir() / ".lock";
     FILE* file = fopen(pathLockFile.string().c_str(), "a"); // empty lock file; created if it doesn't exist.
     if (file) fclose(file);
@@ -1495,19 +1470,19 @@ bool AppInitMain(boost::thread_group& threadGroup, CScheduler& scheduler)
     }
     for (const auto& address: vSporkAddresses) {
         if (!sporkManager.SetSporkAddress(address)) {
-            return InitError(_("Invalid spork address specified with -sporkaddr"));
+            // return InitError(_("Invalid spork address specified with -sporkaddr"));
         }
     }
 
     int minsporkkeys = GetArg("-minsporkkeys", Params().MinSporkKeys());
     if (!sporkManager.SetMinSporkKeys(minsporkkeys)) {
-        return InitError(_("Invalid minimum number of spork signers specified with -minsporkkeys"));
+        // return InitError(_("Invalid minimum number of spork signers specified with -minsporkkeys"));
     }
 
 
     if (IsArgSet("-sporkkey")) { // spork priv key
         if (!sporkManager.SetPrivKey(GetArg("-sporkkey", ""))) {
-            return InitError(_("Unable to sign spork message, wrong key?"));
+           //  return InitError(_("Unable to sign spork message, wrong key?"));
         }
     }
 

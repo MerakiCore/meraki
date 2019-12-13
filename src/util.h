@@ -12,7 +12,7 @@
 #define BITCOIN_UTIL_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/dash-config.h"
+#include "config/meraki-config.h"
 #endif
 
 #include "compat.h"
@@ -40,10 +40,10 @@
 #ifdef ENABLE_DASH_DEBUG
 #define DBG( x ) x
 #else
-#define DBG( x ) 
+#define DBG( x )
 #endif
 
-//Dash only features
+//Meraki only features
 
 extern bool fMasternodeMode;
 extern bool fLiteMode;
@@ -256,7 +256,7 @@ void RenameThreadPool(ctpl::thread_pool& tp, const char* baseName);
  */
 template <typename Callable> void TraceThread(const char* name,  Callable func)
 {
-    std::string s = strprintf("dash-%s", name);
+    std::string s = strprintf("meraki-%s", name);
     RenameThread(s.c_str());
     try
     {

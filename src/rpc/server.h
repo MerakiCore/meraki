@@ -143,7 +143,7 @@ public:
 };
 
 /**
- * Dash RPC command dispatcher.
+ * Meraki RPC command dispatcher.
  */
 class CRPCTable
 {

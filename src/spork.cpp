@@ -20,15 +20,15 @@ const std::string CSporkManager::SERIALIZATION_VERSION_STRING = "CSporkManager-V
 std::map<int, int64_t> mapSporkDefaults = {
     {SPORK_2_INSTANTSEND_ENABLED,            0},             // ON
     {SPORK_3_INSTANTSEND_BLOCK_FILTERING,    0},             // ON
-    {SPORK_5_INSTANTSEND_MAX_VALUE,          1000},          // 1000 Dash
-    {SPORK_6_NEW_SIGS,                       4070908800ULL}, // OFF
-    {SPORK_9_SUPERBLOCKS_ENABLED,            4070908800ULL}, // OFF
+    {SPORK_5_INSTANTSEND_MAX_VALUE,          1000},          // 1000 Meraki
+    {SPORK_6_NEW_SIGS,                       0}, // OFF
+    {SPORK_9_SUPERBLOCKS_ENABLED,            0}, // OFF
     {SPORK_12_RECONSIDER_BLOCKS,             0},             // 0 BLOCKS
-    {SPORK_15_DETERMINISTIC_MNS_ENABLED,     4070908800ULL}, // OFF
-    {SPORK_16_INSTANTSEND_AUTOLOCKS,         4070908800ULL}, // OFF
-    {SPORK_17_QUORUM_DKG_ENABLED,            4070908800ULL}, // OFF
-    {SPORK_19_CHAINLOCKS_ENABLED,            4070908800ULL}, // OFF
-    {SPORK_20_INSTANTSEND_LLMQ_BASED,        4070908800ULL}, // OFF
+    {SPORK_15_DETERMINISTIC_MNS_ENABLED,     0}, // OFF
+    {SPORK_16_INSTANTSEND_AUTOLOCKS,         0}, // OFF
+    {SPORK_17_QUORUM_DKG_ENABLED,            0}, // OFF
+    {SPORK_19_CHAINLOCKS_ENABLED,            0}, // OFF
+    {SPORK_20_INSTANTSEND_LLMQ_BASED,        0}, // OFF
 };
 
 bool CSporkManager::SporkValueIsActive(int nSporkID, int64_t &nActiveValueRet) const
@@ -65,7 +65,7 @@ void CSporkManager::CheckAndRemove()
 {
     LOCK(cs);
     bool fSporkAddressIsSet = !setSporkPubKeyIDs.empty();
-    assert(fSporkAddressIsSet);
+    // assert(fSporkAddressIsSet);
 
     auto itActive = mapSporksActive.begin();
     while (itActive != mapSporksActive.end()) {
@@ -111,7 +111,7 @@ void CSporkManager::CheckAndRemove()
 
 void CSporkManager::ProcessSpork(CNode* pfrom, const std::string& strCommand, CDataStream& vRecv, CConnman& connman)
 {
-    if(fLiteMode) return; // disable all Dash specific functionality
+    if(fLiteMode) return; // disable all Meraki specific functionality
 
     if (strCommand == NetMsgType::SPORK) {
 

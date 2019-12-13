@@ -24,7 +24,7 @@ static bool CheckService(const uint256& proTxHash, const ProTx& proTx, CValidati
         return state.DoS(10, false, REJECT_INVALID, "bad-protx-addr");
     }
     if (Params().NetworkIDString() != CBaseChainParams::REGTEST && !proTx.addr.IsRoutable()) {
-        return state.DoS(10, false, REJECT_INVALID, "bad-protx-addr");
+        return state.DoS(10, false, REJECT_INVALID, "bad-protx-addr-routable");
     }
 
     int mainnetDefaultPort = Params(CBaseChainParams::MAIN).GetDefaultPort();
@@ -37,7 +37,7 @@ static bool CheckService(const uint256& proTxHash, const ProTx& proTx, CValidati
     }
 
     if (!proTx.addr.IsIPv4()) {
-        return state.DoS(10, false, REJECT_INVALID, "bad-protx-addr");
+        return state.DoS(10, false, REJECT_INVALID, "bad-protx-addr-ipv4");
     }
 
     return true;

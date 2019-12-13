@@ -128,7 +128,7 @@ TransactionView::TransactionView(const PlatformStyle *platformStyle, QWidget *pa
         amountWidget->setFixedWidth(118);
     } else {
         amountWidget->setFixedWidth(125);
-    }  
+    }
     amountWidget->setValidator(new QDoubleValidator(0, 1e20, 8, this));
     amountWidget->setObjectName("amountWidget");
     hlayout->addWidget(amountWidget);
@@ -270,7 +270,7 @@ void TransactionView::setModel(WalletModel *_model)
 
         // Watch-only signal
         connect(_model, SIGNAL(notifyWatchonlyChanged(bool)), this, SLOT(updateWatchOnlyColumn(bool)));
-        
+
         // Update transaction list with persisted settings
         chooseType(settings.value("transactionType").toInt());
         chooseDate(settings.value("transactionDate").toInt());
@@ -281,7 +281,7 @@ void TransactionView::chooseDate(int idx)
 {
     if(!transactionProxyModel)
         return;
-    
+
     QSettings settings;
     QDate current = QDate::currentDate();
     dateRangeWidget->setVisible(false);
@@ -561,7 +561,7 @@ void TransactionView::showAddressQRCode()
 
     dialog->setModel(model);
     dialog->setAttribute(Qt::WA_DeleteOnClose);
-    dialog->setInfo(tr("QR code"), "dash:"+strAddress, "", strAddress);
+    dialog->setInfo(tr("QR code"), "meraki:"+strAddress, "", strAddress);
     dialog->show();
 }
 
@@ -597,7 +597,7 @@ QWidget *TransactionView::createDateRangeWidget()
     QString defaultDateFrom = QDate::currentDate().toString(PERSISTENCE_DATE_FORMAT);
     QString defaultDateTo = QDate::currentDate().addDays(1).toString(PERSISTENCE_DATE_FORMAT);
     QSettings settings;
- 
+
     dateRangeWidget = new QFrame();
     dateRangeWidget->setFrameStyle(QFrame::Panel | QFrame::Raised);
     dateRangeWidget->setContentsMargins(1,1,1,1);
@@ -638,12 +638,12 @@ void TransactionView::dateRangeChanged()
 {
     if(!transactionProxyModel)
         return;
-    
+
     // Persist new date range
     QSettings settings;
     settings.setValue("transactionDateFrom", dateFrom->date().toString(PERSISTENCE_DATE_FORMAT));
     settings.setValue("transactionDateTo", dateTo->date().toString(PERSISTENCE_DATE_FORMAT));
-    
+
     transactionProxyModel->setDateRange(
             QDateTime(dateFrom->date()),
             QDateTime(dateTo->date()));

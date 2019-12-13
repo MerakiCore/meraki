@@ -242,11 +242,11 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. Dash Core can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Meraki core can no longer continue safely and will quit.</source>
         <translation>خطأ فادح حدث . لا يمكن اتمام داش بامان سيتم الخروج</translation>
     </message>
     <message>
-        <source>Dash Core</source>
+        <source>Meraki core</source>
         <translation>جوهر الداش</translation>
     </message>
     <message>
@@ -270,7 +270,7 @@
         <translation>إرسال</translation>
     </message>
     <message>
-        <source>Send coins to a Dash address</source>
+        <source>Send coins to a Meraki address</source>
         <translation>إرسال عملات الى عنوان داش</translation>
     </message>
     <message>
@@ -278,7 +278,7 @@
         <translation>استقبل</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dash: URIs)</source>
+        <source>Request payments (generates QR codes and miraki: URIs)</source>
         <translation>أطلب دفعات (يولد كودات الرمز المربع وبيت كوين: العناوين المعطاة)</translation>
     </message>
     <message>
@@ -306,7 +306,7 @@
         <translation>الخروج من التطبيق</translation>
     </message>
     <message>
-        <source>Show information about Dash Core</source>
+        <source>Show information about Meraki core</source>
         <translation>أظهر المعلومات حولة داش الأساسية</translation>
     </message>
     <message>
@@ -466,7 +466,7 @@
         <translation>فتح URI</translation>
     </message>
     <message>
-        <source>Open a dash: URI or payment request</source>
+        <source>Open a miraki: URI or payment request</source>
         <translation>افتح شرطة: عنوان أوري أو طلب الدفع</translation>
     </message>
     <message>
@@ -510,7 +510,7 @@
         <translation>شريط أدوات علامات التبويب</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dash network</source>
+        <source>%n active connection(s) to Meraki network</source>
         <translation><numerusform>%n اتصالات نشطة بشبكة داش</numerusform><numerusform>%n اتصالات نشطة بشبكة داش</numerusform><numerusform>%n اتصالات نشطة بشبكة داش</numerusform><numerusform>%n اتصالات نشطة بشبكة داش</numerusform><numerusform>%n اتصالات نشطة بشبكة داش</numerusform><numerusform>%n اتصالات نشطة بشبكة داش</numerusform></translation>
     </message>
     <message>
@@ -802,7 +802,7 @@
         <translation>يتحول هذا التصنيف إلى اللون الأحمر إذا تلقى أي مستلم مبلغا أصغر من عتبة الغبار الحالية.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
+        <source>Can vary +/- %1 samadhi(s) per input.</source>
         <translation>يمكن أن تختلف +/-%1 داف (ق) لكل مدخلات.</translation>
     </message>
     <message>
@@ -861,7 +861,7 @@
         <translation>تعديل عنوان الارسال</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dash address.</source>
+        <source>The entered address "%1" is not a valid Meraki address.</source>
         <translation>العنوان الذي تم إدخاله "%1" ليس عنوانًا صالحًا لداش.</translation>
     </message>
     <message>
@@ -1136,11 +1136,11 @@
         <translation>نمودج</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Dash network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Meraki network, as detailed below.</source>
         <translation>قد لا تكون المعاملات الأخيرة مرئية بعد ، وبالتالي قد يكون رصيد محفظتك غير صحيح. ستكون هذه المعلومات صحيحة بمجرد انتهاء محفظتك من المزامنة مع شبكة داش ، كما هو مفصل أدناه.</translation>
     </message>
     <message>
-        <source>Attempting to spend Dash that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend Meraki that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>لن تقبل الشبكة محاولة إنفاق داش المتأثرة بالمعاملات التي لم يتم عرضها بعد.</translation>
     </message>
     <message>
@@ -1282,7 +1282,7 @@
         <translation>يعمل هذا المقدار كعتبة لإيقاف تشغيل الإرسال المخفي بمجرد الوصول إليه.</translation>
     </message>
     <message>
-        <source>Automatically open the Dash Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Meraki core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>فتح منفذ عميل داش كور تلقائيًا على جهاز التوجيه. هذا يعمل فقط عندما يدعم جهاز التوجيه الخاص بك UPnP وتمكينه.</translation>
     </message>
     <message>
@@ -1294,7 +1294,7 @@
         <translation>السماح بالاتصالات الواردة</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a SOCKS5 proxy.</source>
+        <source>Connect to the Meraki network through a SOCKS5 proxy.</source>
         <translation>الاتصال بشبكة داش من خلال وكيل SOCKS5.</translation>
     </message>
     <message>
@@ -1390,7 +1390,7 @@
         <translation>تور</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Meraki network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>اتصل بشبكة داش من خلال وكيل SOCKS5 منفصل لخدمات المخفية.</translation>
     </message>
     <message>
@@ -1515,7 +1515,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>نمودج</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Meraki network after a connection is established, but this process has not completed yet.</source>
         <translation>قد تكون المعلومات المعروضة قديمة. تتزامن محفظتك تلقائيًا مع شبكة داش بعد إنشاء الاتصال ، ولكن هذه العملية لم تكتمل بعد.</translation>
     </message>
     <message>
@@ -1780,7 +1780,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>خطأ في طلب الدفع</translation>
     </message>
     <message>
-        <source>Cannot start dash: click-to-pay handler</source>
+        <source>Cannot start miraki: click-to-pay handler</source>
         <translation>لا يمكن بدء داش: معالج الدفع مقابل الدفع</translation>
     </message>
     <message>
@@ -1796,7 +1796,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>عنوان الدفع غير صالح %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Dash address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Meraki address or malformed URI parameters.</source>
         <translation>لا يمكن تحليل العنوان! يمكن أن يكون ذلك بسبب عنوان داش غير صالح أو معلمات العنوان غير صحيحة.</translation>
     </message>
     <message>
@@ -1894,7 +1894,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>مبلغ</translation>
     </message>
     <message>
-        <source>Enter a Dash address (e.g. %1)</source>
+        <source>Enter a Meraki address (e.g. %1)</source>
         <translation>أدخل عنوان داش (على سبيل المثال%1)</translation>
     </message>
     <message>
@@ -2412,7 +2412,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>إعادة استخدام عنوان استلام موجود (غير مستحسن)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Meraki network.</source>
         <translation>رسالة اختيارية لإرفاقها بطلب الدفع ، والتي سيتم عرضها عند فتح الطلب. ملاحظة: لن يتم إرسال الرسالة مع الدفع عبر شبكة داش.</translation>
     </message>
     <message>
@@ -2424,7 +2424,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>تسمية اختيارية لربطها بعنوان المستلم الجديد.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Meraki network.</source>
         <translation>رسالة اختيارية لإرفاقها بطلب الدفع ، والتي سيتم عرضها عند فتح الطلب.&lt;br&gt; ملاحظة: لن يتم إرسال الرسالة مع الدفع عبر شبكة داش.</translation>
     </message>
     <message>
@@ -2881,7 +2881,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation><numerusform>يقدر أن يبدأ التأكيد ضمن %n من الكتل.</numerusform><numerusform>يقدر أن يبدأ التأكيد ضمن %n من الكتل.</numerusform><numerusform>يقدر أن يبدأ التأكيد ضمن %n من الكتل.</numerusform><numerusform>يقدر أن يبدأ التأكيد ضمن %n من الكتل.</numerusform><numerusform>يقدر أن يبدأ التأكيد ضمن %n من الكتل.</numerusform><numerusform>يقدر أن يبدأ التأكيد ضمن %n من الكتل.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Dash address</source>
+        <source>Warning: Invalid Meraki address</source>
         <translation>تحذير: عنوان داش غير صالح</translation>
     </message>
     <message>
@@ -2912,7 +2912,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>ادفع &amp;الى :</translation>
     </message>
     <message>
-        <source>The Dash address to send the payment to</source>
+        <source>The Meraki address to send the payment to</source>
         <translation>عنوان داش لإرسال الدفعة إلى</translation>
     </message>
     <message>
@@ -2960,7 +2960,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>الرسائل</translation>
     </message>
     <message>
-        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
+        <source>A message that was attached to the miraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
         <translation>رسالة تم إرفاقها بخط العطف: عنوان الذي سيتم تخزينه مع المعاملة كمرجع لك. ملاحظة: لن يتم إرسال هذه الرسالة عبر شبكة داش.</translation>
     </message>
     <message>
@@ -3017,7 +3017,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>يمكنك توقيع الرسائل / الاتفاقيات مع العناوين الخاصة بك لإثبات أنك يمكن أن تتلقى داش المرسلة إليهم. احرص على عدم التوقيع على أي شيء غامض أو عشوائي ، حيث إن هجمات التصيد الاحتيالي قد تحاول خداعك لتوقيع هويتك عليها. توقيع فقط عبارات تفصيلية كاملة توافق على.</translation>
     </message>
     <message>
-        <source>The Dash address to sign the message with</source>
+        <source>The Meraki address to sign the message with</source>
         <translation>عنوان داش للتوقيع على الرسالة</translation>
     </message>
     <message>
@@ -3049,7 +3049,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>نسخ التوقيع الحالي إلى حافظة النظام</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dash address</source>
+        <source>Sign the message to prove you own this Meraki address</source>
         <translation>وقع على الرسالة لإثبات أنك تملك عنوان داش هذا</translation>
     </message>
     <message>
@@ -3073,11 +3073,11 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>أدخل عنوان المتلقي ، رسالة (تأكد من نسخ فواصل الأسطر والمسافات وعلامات التبويب وما إلى ذلك تمامًا) والتوقيع أدناه للتحقق من الرسالة. يجب الحرص على عدم قراءة المزيد في التوقيع أكثر مما هو موجود في الرسالة الموقّعة نفسها ، لتجنب التعرض للخداع من خلال هجوم رجل في الوسط. لاحظ أن هذا يثبت فقط أن الطرف المتلقي يتلقى العنوان ، فلا يمكنه إثبات إرسال أي معاملة!</translation>
     </message>
     <message>
-        <source>The Dash address the message was signed with</source>
+        <source>The Meraki address the message was signed with</source>
         <translation>عنوان داش الذي تم توقيع الرسالة به</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dash address</source>
+        <source>Verify the message to ensure it was signed with the specified Meraki address</source>
         <translation>تحقق من الرسالة للتأكد من توقيعها باستخدام عنوان داش المحدد</translation>
     </message>
     <message>
@@ -4826,7 +4826,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>خيارات خادم RPC:</translation>
     </message>
     <message>
-        <source>Dash Core</source>
+        <source>Meraki core</source>
         <translation>جوهر الداش</translation>
     </message>
     <message>

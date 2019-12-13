@@ -258,12 +258,12 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. Dash Core can no longer continue safely and will quit.</source>
-        <translation>Vakava virhe tapahtunut. Dash Core ei voi enää toimia turvallisesti ja sulkeutuu.</translation>
+        <source>A fatal error occurred. Meraki core can no longer continue safely and will quit.</source>
+        <translation>Vakava virhe tapahtunut. Meraki core ei voi enää toimia turvallisesti ja sulkeutuu.</translation>
     </message>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Meraki core</source>
+        <translation>Meraki core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -286,7 +286,7 @@
         <translation>L&amp;ähetä</translation>
     </message>
     <message>
-        <source>Send coins to a Dash address</source>
+        <source>Send coins to a Meraki address</source>
         <translation>Lähetä varoja Dash osoitteeseen</translation>
     </message>
     <message>
@@ -294,8 +294,8 @@
         <translation>&amp;Vastaanota</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dash: URIs)</source>
-        <translation>Pyydä maksuja (Luo QR koodit ja Dash: URIt)</translation>
+        <source>Request payments (generates QR codes and miraki: URIs)</source>
+        <translation>Pyydä maksuja (Luo QR koodit ja miraki: URIt)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -322,8 +322,8 @@
         <translation>Sulje ohjelma</translation>
     </message>
     <message>
-        <source>Show information about Dash Core</source>
-        <translation>Näytä tietoja Dash Core:sta</translation>
+        <source>Show information about Meraki core</source>
+        <translation>Näytä tietoja Meraki core:sta</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -482,8 +482,8 @@
         <translation>Avaa &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a dash: URI or payment request</source>
-        <translation>Avaa Dash: URI tai maksupyyntö</translation>
+        <source>Open a miraki: URI or payment request</source>
+        <translation>Avaa miraki: URI tai maksupyyntö</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -526,7 +526,7 @@
         <translation>Välilehtipalkki</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dash network</source>
+        <source>%n active connection(s) to Meraki network</source>
         <translation><numerusform>%n aktiivinen yhteys Dash verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Dash verkkoon</numerusform></translation>
     </message>
     <message>
@@ -818,7 +818,7 @@
         <translation>Tämä nimi vaihtuu punaiseksi jos yksikään vastaanottaja saa pienemmän määrän kuin nykyinen tomun määritelty raja-arvo.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
+        <source>Can vary +/- %1 samadhi(s) per input.</source>
         <translation>Voi vaihdella +/- %1 duffs per syöte.</translation>
     </message>
     <message>
@@ -877,7 +877,7 @@
         <translation>Muokkaa lähettävää osoitetta</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dash address.</source>
+        <source>The entered address "%1" is not a valid Meraki address.</source>
         <translation>Annettu osoite "%1" ei ole pätevä Dash osoite.</translation>
     </message>
     <message>
@@ -976,7 +976,7 @@
     </message>
     <message>
         <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Dash in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times.&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.001 DASH, 0.01 DASH, 0.1 DASH, 1 DASH and 10 DASH -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more information, see the &lt;a href="https://docs.dash.org/en/latest/wallets/dashcore/privatesend-instantsend.html"&gt;PrivateSend documentation&lt;/a&gt;.</source>
-        <translation>&lt;h3&gt;PrivateSend perusteet&lt;/h3&gt; PrivateSend tarjoaa yksityisyyden hämärtämällä varojesi alkuperäisen osoitteen. Kaikki Dash:it lompakossasi muodostuvat erillisistä "syötteistä", joita voit ajatella erillisinä kolikkoina.&lt;br&gt; PrivateSend käyttää innovatiivista prosessia sekoittaakseen lompakkosi syötteet kahden muun ihmisen syötteisiin, siirtämättä varoja pois lompakostasi. Varojesi kontrolli pysyy aina sinulla.&lt;hr&gt; &lt;b&gt; PrivateSend prosessi toimii seuraavasti:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend aloittaa pilkkomalla siirtotapahtumiesi syötteet pienemmiksi standardi arvoiksi. Nämä arvot ovat 0.001 DASH, 0.01 DASH, 0.1 DASH, 1 DASH ja 10 DASH.&lt;/li&gt; &lt;li&gt;Sitten lompakkosi lähettää pyynnön verkon palvelimille, joita kutsutaan "masternode:iksi". Masternodet saavat tiedon että haluat sekoittaa pilkottuja standardi arvoja. Mitään tunnistetietoja ei lähetetä masternode:ille, ne eivät koskaan tiedä "kuka" olet.&lt;/li&gt; &lt;li&gt;Kun 2 muuta käyttäjää ilmoittaa että he haluavat myös sekoittaa varoja, alkaa sekoitus-sessio. Masternodet sekoittavat standardi arvot ja ilmoittavat kaikille 3:lle käyttäjän lompakoille että maksavat sekoitetut arvot takaisin itselleen. Lompakkosi maksaa nuo sekoitetut arvot suoraan itselleen, mutta eri osoitteeseen (vaihto-osoite).&lt;/li&gt; &lt;li&gt;Jotta varojesi alkuperäinen lähde hämärretään, lompakkosi suorittaa tämän prosessin useita kertoja kaikilla standardi arvoilla. Aina kun prosessi on valmis, sitä kutsutaan "kierrokseksi". Jokainen PrivateSend kierros tekee eksponentiaalisesti vaikeammaksi löytää varojesi alkuperäisen osoitteen.&lt;/li&gt; &lt;li&gt;Tämä sekoitusprosessi tapahtuu taustalla ilman käyttäjän toimenpiteitä. Kun haluat myöhemmin tehdä anonyymin varojen siirron, on varasi valmiiksi sekoitettu eli anonymisoitu. Erillistä sekoitusta/odotusta ei tarvita.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;TÄRKEÄÄ:&lt;/b&gt; Lompakkosi sisältää vain 1000 "vaihto-osoitetta". Aina kun sekoitustapahtuma tehdään, max 9 osoitetta käytetään. Tämä tarkoittaa sitä että nuo 1000 osoitetta kestää noin 100 sekoitustapahtumaa. Kun 900 osoitetta on käytetty, lompakkosi täytyy tehdä lisää osoitteita. Se voi tehdä niitä vain jos automaattinen varmistus on käytössä.&lt;br&gt; Tästä seuraa että jos varmistus ei ole käytössä, myös PrivateSend on pois käytöstä. &lt;hr&gt;Katso lisätietoja &lt;a href="https://docs.dash.org/en/latest/wallets/dashcore/privatesend-instantsend.html"&gt;PrivateSend dokumentaatiosta&lt;/a&gt;.</translation>
+        <translation>&lt;h3&gt;PrivateSend perusteet&lt;/h3&gt; PrivateSend tarjoaa yksityisyyden hämärtämällä varojesi alkuperäisen osoitteen. Kaikki miraki:it lompakossasi muodostuvat erillisistä "syötteistä", joita voit ajatella erillisinä kolikkoina.&lt;br&gt; PrivateSend käyttää innovatiivista prosessia sekoittaakseen lompakkosi syötteet kahden muun ihmisen syötteisiin, siirtämättä varoja pois lompakostasi. Varojesi kontrolli pysyy aina sinulla.&lt;hr&gt; &lt;b&gt; PrivateSend prosessi toimii seuraavasti:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend aloittaa pilkkomalla siirtotapahtumiesi syötteet pienemmiksi standardi arvoiksi. Nämä arvot ovat 0.001 DASH, 0.01 DASH, 0.1 DASH, 1 DASH ja 10 DASH.&lt;/li&gt; &lt;li&gt;Sitten lompakkosi lähettää pyynnön verkon palvelimille, joita kutsutaan "masternode:iksi". Masternodet saavat tiedon että haluat sekoittaa pilkottuja standardi arvoja. Mitään tunnistetietoja ei lähetetä masternode:ille, ne eivät koskaan tiedä "kuka" olet.&lt;/li&gt; &lt;li&gt;Kun 2 muuta käyttäjää ilmoittaa että he haluavat myös sekoittaa varoja, alkaa sekoitus-sessio. Masternodet sekoittavat standardi arvot ja ilmoittavat kaikille 3:lle käyttäjän lompakoille että maksavat sekoitetut arvot takaisin itselleen. Lompakkosi maksaa nuo sekoitetut arvot suoraan itselleen, mutta eri osoitteeseen (vaihto-osoite).&lt;/li&gt; &lt;li&gt;Jotta varojesi alkuperäinen lähde hämärretään, lompakkosi suorittaa tämän prosessin useita kertoja kaikilla standardi arvoilla. Aina kun prosessi on valmis, sitä kutsutaan "kierrokseksi". Jokainen PrivateSend kierros tekee eksponentiaalisesti vaikeammaksi löytää varojesi alkuperäisen osoitteen.&lt;/li&gt; &lt;li&gt;Tämä sekoitusprosessi tapahtuu taustalla ilman käyttäjän toimenpiteitä. Kun haluat myöhemmin tehdä anonyymin varojen siirron, on varasi valmiiksi sekoitettu eli anonymisoitu. Erillistä sekoitusta/odotusta ei tarvita.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;TÄRKEÄÄ:&lt;/b&gt; Lompakkosi sisältää vain 1000 "vaihto-osoitetta". Aina kun sekoitustapahtuma tehdään, max 9 osoitetta käytetään. Tämä tarkoittaa sitä että nuo 1000 osoitetta kestää noin 100 sekoitustapahtumaa. Kun 900 osoitetta on käytetty, lompakkosi täytyy tehdä lisää osoitteita. Se voi tehdä niitä vain jos automaattinen varmistus on käytössä.&lt;br&gt; Tästä seuraa että jos varmistus ei ole käytössä, myös PrivateSend on pois käytöstä. &lt;hr&gt;Katso lisätietoja &lt;a href="https://docs.dash.org/en/latest/wallets/dashcore/privatesend-instantsend.html"&gt;PrivateSend dokumentaatiosta&lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
@@ -1160,12 +1160,12 @@
         <translation>Lomake</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Dash network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Meraki network, as detailed below.</source>
         <translation>Viimeisimmät siirtotapahtumat eivät välttämättä ole vielä näkyvissä, ja siksi lompakon saldo voi olla väärin. Saldo korjaantuu oikeaksi kun lompakon synkronointi Dash verkkoon on valmis.</translation>
     </message>
     <message>
-        <source>Attempting to spend Dash that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Yritys käyttää Dash:eja joihin vaikuttaa ei näkyvissä olevat siirtotapahtumat, tulevat hylätyksi Dash verkossa.</translation>
+        <source>Attempting to spend Meraki that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Yritys käyttää miraki:eja joihin vaikuttaa ei näkyvissä olevat siirtotapahtumat, tulevat hylätyksi Dash verkossa.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1306,8 +1306,8 @@
         <translation>Tämä määrä toimii rajana sekoituksen keskeytykselle kun PrivateSend sen saavuttaa.</translation>
     </message>
     <message>
-        <source>Automatically open the Dash Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa automaattisesti Dash Core asiakasohjelmalle portti reitittimeen. Tämä toimii vain jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <source>Automatically open the Meraki core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa automaattisesti Meraki core asiakasohjelmalle portti reitittimeen. Tämä toimii vain jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1318,7 +1318,7 @@
         <translation>Salli sisään tulevat yhteydet</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a SOCKS5 proxy.</source>
+        <source>Connect to the Meraki network through a SOCKS5 proxy.</source>
         <translation>Kytkeydy Dash verkkoon käyttäen SOCKS5 proxy:a.</translation>
     </message>
     <message>
@@ -1414,7 +1414,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Meraki network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Kytkeydy Dash verkkoon käyttäen erillistä SOCKS5 proxy:a Tor piilopalveluihin.</translation>
     </message>
     <message>
@@ -1539,7 +1539,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Lomake</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Meraki network after a connection is established, but this process has not completed yet.</source>
         <translation>Näytetyt tiedot eivät välttämättä ole ajan tasalla.&lt;br&gt;Lompakkosi synkronoituu automaattisesti Dash verkkoon kun&lt;br&gt;yhteys on muodostettu, mutta tämä prosessi ei vielä ole valmis.</translation>
     </message>
     <message>
@@ -1804,7 +1804,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Maksupyyntövirhe</translation>
     </message>
     <message>
-        <source>Cannot start dash: click-to-pay handler</source>
+        <source>Cannot start miraki: click-to-pay handler</source>
         <translation>Ei voi käynnistää Dashia: click-to-pay handler</translation>
     </message>
     <message>
@@ -1820,7 +1820,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Virheellinen maksuosoite %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Dash address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Meraki address or malformed URI parameters.</source>
         <translation>URI:a ei voida jäsentää! Tämä voi johtua virheellisestä Dash osoitteesta tai virheellisestä URI:n muuttujasta. </translation>
     </message>
     <message>
@@ -1918,7 +1918,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Määrä</translation>
     </message>
     <message>
-        <source>Enter a Dash address (e.g. %1)</source>
+        <source>Enter a Meraki address (e.g. %1)</source>
         <translation>Syötä Dash osoite (esim. %1)</translation>
     </message>
     <message>
@@ -2444,7 +2444,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>&amp;Uudelleen käytä vastaanottavaa osoitetta (ei suositella)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Meraki network.</source>
         <translation>Valinnainen viesti liitettäväksi maksupyyntöön, joka näytetään kun pyyntö on avattu.&lt;br&gt;Huomio: Viestiä ei lähetetä maksun mukana Dash verkkoon.</translation>
     </message>
     <message>
@@ -2456,7 +2456,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Valinnainen nimi liitetään uuteen vastaanottavaan osoitteeseen.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Meraki network.</source>
         <translation>Valinnainen viesti liitettäväksi maksupyyntöön, joka näytetään kun pyyntö on avattu.&lt;br&gt;Huomio: Viestiä ei lähetetä maksun mukana Dash verkkoon.</translation>
     </message>
     <message>
@@ -2718,11 +2718,11 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Jos mukautettu siirtomaksu on asetettu 1000 duff ja siirtotapahtuma on vain 250 tavua,&lt;br /&gt;tällöin "per kilotavu" maksaa vain 250 duffs siirtomaksun, kun taas "vähintään" maksaa 1000 duffs.&lt;br /&gt;Siirtotapahtumat jotka ovat isompia kuin kilotavu, molemmat maksaa "per kilotavu".</translation>
+        <translation>Jos mukautettu siirtomaksu on asetettu 1000 samadhi ja siirtotapahtuma on vain 250 tavua,&lt;br /&gt;tällöin "per kilotavu" maksaa vain 250 duffs siirtomaksun, kun taas "vähintään" maksaa 1000 duffs.&lt;br /&gt;Siirtotapahtumat jotka ovat isompia kuin kilotavu, molemmat maksaa "per kilotavu".</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "total at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Jos mukautettu siirtomaksu on asetettu 1000 duff ja siirtotapahtuma on vain 250 tavua,&lt;br /&gt;tällöin "per kilotavu" maksaa vain 250 duffs siirtomaksun, kun taas "yhteensä vähintään" maksaa 1000 duffs.&lt;br /&gt;Siirtotapahtumat jotka ovat isompia kuin kilotavu, molemmat maksaa "per kilotavu".</translation>
+        <translation>Jos mukautettu siirtomaksu on asetettu 1000 samadhi ja siirtotapahtuma on vain 250 tavua,&lt;br /&gt;tällöin "per kilotavu" maksaa vain 250 duffs siirtomaksun, kun taas "yhteensä vähintään" maksaa 1000 duffs.&lt;br /&gt;Siirtotapahtumat jotka ovat isompia kuin kilotavu, molemmat maksaa "per kilotavu".</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for dash transactions than the network can process.</source>
@@ -2913,7 +2913,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation><numerusform>Arvioitu vahvistuksen aloitus %n lohkon kuluessa.</numerusform><numerusform>Arvioitu vahvistuksen aloitus %n lohkon kuluessa.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Dash address</source>
+        <source>Warning: Invalid Meraki address</source>
         <translation>Varoitus: Virheellinen Dash osoite</translation>
     </message>
     <message>
@@ -2944,7 +2944,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Maksun &amp;saaja:</translation>
     </message>
     <message>
-        <source>The Dash address to send the payment to</source>
+        <source>The Meraki address to send the payment to</source>
         <translation>Dash osoite johon maksu lähetetään</translation>
     </message>
     <message>
@@ -2992,8 +2992,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Viesti:</translation>
     </message>
     <message>
-        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
-        <translation>Viesti joka liitettiin Dash: URI joka tallenetaan siirtotapahtuman kanssa viitteeksi sinulle. Huomio: Tätä viestiä ei lähetetä Dash verkkoon.</translation>
+        <source>A message that was attached to the miraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
+        <translation>Viesti joka liitettiin miraki: URI joka tallenetaan siirtotapahtuman kanssa viitteeksi sinulle. Huomio: Tätä viestiä ei lähetetä Dash verkkoon.</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
@@ -3049,7 +3049,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Voit allekirjoittaa viestit/sopimukset omilla osoitteillasi todistaaksesi että omistat ne. Ole huolellinen että et allekirjoita mitään epämääräistä, satunnaista, phishing hyökkääjä voi huijata sinua allekirjoittamaan henkilöllisyytesi omasta puolestaan. Allekirjoita vain yksityiskohtaisesti täytetty selvitys johon sitoudut.</translation>
     </message>
     <message>
-        <source>The Dash address to sign the message with</source>
+        <source>The Meraki address to sign the message with</source>
         <translation>Dash osoite jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
@@ -3081,7 +3081,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Kopioi tämän hetkinen allekirjoitus leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dash address</source>
+        <source>Sign the message to prove you own this Meraki address</source>
         <translation>Allekirjoita viesti todistaaksesi että omistat tämän Dash osoitteen</translation>
     </message>
     <message>
@@ -3105,11 +3105,11 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Syötä allekirjoittava osoite, viesti (varmista että kopioit rivinvaihdot, välilyönnit, tabulaattorit, jne täsmälleen oikein) ja allekirjoitus alla oleviin kenttiin varmistaaksesi allekirjoituksen aitouden. Varo lukemasta enempää allekirjoitukseen kuin kuin mitä itse viestissä on, välttääksesi man-in-the-middle hyökkäyksen. Huom. tämä todistaa vain että allekirjoittava osapuoli vastaanottaa osoitteella, se ei voi todistaa lähettäjää.</translation>
     </message>
     <message>
-        <source>The Dash address the message was signed with</source>
+        <source>The Meraki address the message was signed with</source>
         <translation>Dash osoite jolla viesti on allekirjoitettu</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dash address</source>
+        <source>Verify the message to ensure it was signed with the specified Meraki address</source>
         <translation>Tarkista että viesti on allekirjoitettu määritetyllä Dash osoitteella</translation>
     </message>
     <message>
@@ -4395,7 +4395,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>Disable all Dash specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
-        <translation>Kytke pois käytöstä kaikki Dash:in erityistoiminnot (Masternodet, PrivateSend, InstantSend, Hallinto) (0-1, oletus: %u)</translation>
+        <translation>Kytke pois käytöstä kaikki miraki:in erityistoiminnot (Masternodet, PrivateSend, InstantSend, Hallinto) (0-1, oletus: %u)</translation>
     </message>
     <message>
         <source>%s file contains all private keys from this wallet. Do not share it with anyone!</source>
@@ -4899,8 +4899,8 @@ Vähennä uakommenttien määrää tai kokoa.</translation>
         <translation>RPC palvelimen valinnat:</translation>
     </message>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Meraki core</source>
+        <translation>Meraki core</translation>
     </message>
     <message>
         <source>The %s developers</source>

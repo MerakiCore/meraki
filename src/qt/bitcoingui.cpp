@@ -4,7 +4,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/dash-config.h"
+#include "config/meraki-config.h"
 #endif
 
 #include "bitcoingui.h"
@@ -307,7 +307,7 @@ void BitcoinGUI::createActions()
     tabGroup->addAction(overviewAction);
 
     sendCoinsAction = new QAction(QIcon(":/icons/" + theme + "/send"), tr("&Send"), this);
-    sendCoinsAction->setStatusTip(tr("Send coins to a Dash address"));
+    sendCoinsAction->setStatusTip(tr("Send coins to a Meraki address"));
     sendCoinsAction->setToolTip(sendCoinsAction->statusTip());
     sendCoinsAction->setCheckable(true);
 #ifdef Q_OS_MAC
@@ -322,7 +322,7 @@ void BitcoinGUI::createActions()
     sendCoinsMenuAction->setToolTip(sendCoinsMenuAction->statusTip());
 
     receiveCoinsAction = new QAction(QIcon(":/icons/" + theme + "/receiving_addresses"), tr("&Receive"), this);
-    receiveCoinsAction->setStatusTip(tr("Request payments (generates QR codes and dash: URIs)"));
+    receiveCoinsAction->setStatusTip(tr("Request payments (generates QR codes and miraki: URIs)"));
     receiveCoinsAction->setToolTip(receiveCoinsAction->statusTip());
     receiveCoinsAction->setCheckable(true);
 #ifdef Q_OS_MAC
@@ -385,7 +385,7 @@ void BitcoinGUI::createActions()
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
     aboutAction = new QAction(QIcon(":/icons/" + theme + "/about"), tr("&About %1").arg(tr(PACKAGE_NAME)), this);
-    aboutAction->setStatusTip(tr("Show information about Dash Core"));
+    aboutAction->setStatusTip(tr("Show information about Meraki Core"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutAction->setEnabled(false);
     aboutQtAction = new QAction(QIcon(":/icons/" + theme + "/about_qt"), tr("About &Qt"), this);
@@ -440,7 +440,7 @@ void BitcoinGUI::createActions()
     usedReceivingAddressesAction->setStatusTip(tr("Show the list of used receiving addresses and labels"));
 
     openAction = new QAction(QApplication::style()->standardIcon(QStyle::SP_DirOpenIcon), tr("Open &URI..."), this);
-    openAction->setStatusTip(tr("Open a dash: URI or payment request"));
+    openAction->setStatusTip(tr("Open a miraki: URI or payment request"));
 
     showHelpMessageAction = new QAction(QApplication::style()->standardIcon(QStyle::SP_MessageBoxInformation), tr("&Command-line options"), this);
     showHelpMessageAction->setMenuRole(QAction::NoRole);
@@ -471,7 +471,7 @@ void BitcoinGUI::createActions()
 
     // Get restart command-line parameters and handle restart
     connect(rpcConsole, SIGNAL(handleRestart(QStringList)), this, SLOT(handleRestart(QStringList)));
-    
+
     // prevents an open debug window from becoming stuck/unusable on client shutdown
     connect(quitAction, SIGNAL(triggered()), rpcConsole, SLOT(hide()));
 
@@ -613,7 +613,7 @@ void BitcoinGUI::setClientModel(ClientModel *_clientModel)
             MacDockIconHandler *dockIconHandler = MacDockIconHandler::instance();
             dockIconHandler->setMainWindow((QMainWindow *)this);
             dockIconMenu = dockIconHandler->dockMenu();
- 
+
             createIconMenu(dockIconMenu);
 #endif
         }
@@ -644,13 +644,13 @@ void BitcoinGUI::setClientModel(ClientModel *_clientModel)
         }
 #endif // ENABLE_WALLET
         unitDisplayControl->setOptionsModel(_clientModel->getOptionsModel());
-        
+
         OptionsModel* optionsModel = _clientModel->getOptionsModel();
         if(optionsModel)
         {
             // be aware of the tray icon disable state change reported by the OptionsModel object.
             connect(optionsModel,SIGNAL(hideTrayIconChanged(bool)),this,SLOT(setTrayIconVisible(bool)));
-        
+
             // initialize the disable state of the tray icon with the current value in the model.
             setTrayIconVisible(optionsModel->getHideTrayIcon());
         }
@@ -926,7 +926,7 @@ void BitcoinGUI::updateNetworkState()
     }
 
     if (clientModel->getNetworkActive()) {
-        labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Dash network", "", count));
+        labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Meraki network", "", count));
     } else {
         labelConnectionsIcon->setToolTip(tr("Network activity disabled"));
         icon = ":/icons/" + theme + "/network_disabled";
@@ -1135,7 +1135,7 @@ void BitcoinGUI::setAdditionalDataSyncProgress(double nSyncProgress)
 
 void BitcoinGUI::message(const QString &title, const QString &message, unsigned int style, bool *ret)
 {
-    QString strTitle = tr("Dash Core"); // default title
+    QString strTitle = tr("Meraki Core"); // default title
     // Default to information icon
     int nMBoxIcon = QMessageBox::Information;
     int nNotifyIcon = Notificator::Information;
@@ -1161,7 +1161,7 @@ void BitcoinGUI::message(const QString &title, const QString &message, unsigned 
             break;
         }
     }
-    // Append title to "Dash Core - "
+    // Append title to "Meraki Core - "
     if (!msgType.isEmpty())
         strTitle += " - " + msgType;
 

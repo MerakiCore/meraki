@@ -333,13 +333,13 @@
     <name>BitcoinGUI</name>
     <message>
         <location filename="../dash.cpp" line="+551"/>
-        <source>A fatal error occurred. Dash Core can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. Dash Core can no longer continue safely and will quit.</translation>
+        <source>A fatal error occurred. Meraki core can no longer continue safely and will quit.</source>
+        <translation>A fatal error occurred. Meraki core can no longer continue safely and will quit.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="+1119"/>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Meraki core</source>
+        <translation>Meraki core</translation>
     </message>
     <message>
         <location line="-976"/>
@@ -368,8 +368,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Send coins to a Dash address</source>
-        <translation>Send coins to a Dash address</translation>
+        <source>Send coins to a Meraki address</source>
+        <translation>Send coins to a Meraki address</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -378,8 +378,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Request payments (generates QR codes and dash: URIs)</source>
-        <translation>Request payments (generates QR codes and dash: URIs)</translation>
+        <source>Request payments (generates QR codes and miraki: URIs)</source>
+        <translation>Request payments (generates QR codes and miraki: URIs)</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -413,8 +413,8 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Dash Core</source>
-        <translation>Show information about Dash Core</translation>
+        <source>Show information about Meraki core</source>
+        <translation>Show information about Meraki core</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -613,8 +613,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Open a dash: URI or payment request</source>
-        <translation>Open a dash: URI or payment request</translation>
+        <source>Open a miraki: URI or payment request</source>
+        <translation>Open a miraki: URI or payment request</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -668,10 +668,10 @@
     </message>
     <message numerus="yes">
         <location line="+366"/>
-        <source>%n active connection(s) to Dash network</source>
+        <source>%n active connection(s) to Meraki network</source>
         <translation>
-            <numerusform>%n active connection to Dash network</numerusform>
-            <numerusform>%n active connections to Dash network</numerusform>
+            <numerusform>%n active connection to Meraki network</numerusform>
+            <numerusform>%n active connections to Meraki network</numerusform>
         </translation>
     </message>
     <message>
@@ -1036,8 +1036,8 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Can vary +/- %1 duff(s) per input.</translation>
+        <source>Can vary +/- %1 samadhi(s) per input.</source>
+        <translation>Can vary +/- %1 samadhi(s) per input.</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -1110,8 +1110,8 @@
     </message>
     <message>
         <location line="+71"/>
-        <source>The entered address &quot;%1&quot; is not a valid Dash address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid Dash address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Meraki address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid Meraki address.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1463,13 +1463,13 @@
     </message>
     <message>
         <location line="+117"/>
-        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Dash network, as detailed below.</source>
-        <translation>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Dash network, as detailed below.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Meraki network, as detailed below.</source>
+        <translation>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Meraki network, as detailed below.</translation>
     </message>
     <message>
         <location line="+19"/>
-        <source>Attempting to spend Dash that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Attempting to spend Dash that are affected by not-yet-displayed transactions will not be accepted by the network.</translation>
+        <source>Attempting to spend Meraki that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Attempting to spend Meraki that are affected by not-yet-displayed transactions will not be accepted by the network.</translation>
     </message>
     <message>
         <location line="+63"/>
@@ -1647,8 +1647,8 @@
     </message>
     <message>
         <location line="+60"/>
-        <source>Automatically open the Dash Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Dash Core client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Meraki core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Meraki core client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1662,8 +1662,8 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Dash network through a SOCKS5 proxy.</source>
-        <translation>Connect to the Dash network through a SOCKS5 proxy.</translation>
+        <source>Connect to the Meraki network through a SOCKS5 proxy.</source>
+        <translation>Connect to the Meraki network through a SOCKS5 proxy.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1789,8 +1789,8 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>Connect to the Dash network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Connect to the Dash network through a separate SOCKS5 proxy for Tor hidden services.</translation>
+        <source>Connect to the Meraki network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Connect to the Meraki network through a separate SOCKS5 proxy for Tor hidden services.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1947,8 +1947,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <location line="+53"/>
         <location line="+355"/>
         <location line="+258"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Meraki network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Meraki network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-364"/>
@@ -2310,8 +2310,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="-402"/>
-        <source>Cannot start dash: click-to-pay handler</source>
-        <translation>Cannot start dash: click-to-pay handler</translation>
+        <source>Cannot start miraki: click-to-pay handler</source>
+        <translation>Cannot start miraki: click-to-pay handler</translation>
     </message>
     <message>
         <location line="+103"/>
@@ -2332,8 +2332,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+8"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Dash address or malformed URI parameters.</source>
-        <translation>URI cannot be parsed! This can be caused by an invalid Dash address or malformed URI parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Meraki address or malformed URI parameters.</source>
+        <translation>URI cannot be parsed! This can be caused by an invalid Meraki address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -2459,8 +2459,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+133"/>
-        <source>Enter a Dash address (e.g. %1)</source>
-        <translation>Enter a Dash address (e.g. %1)</translation>
+        <source>Enter a Meraki address (e.g. %1)</source>
+        <translation>Enter a Meraki address (e.g. %1)</translation>
     </message>
     <message>
         <location line="+837"/>
@@ -3166,8 +3166,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Meraki network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Meraki network.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3182,8 +3182,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="-14"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Dash network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Dash network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Meraki network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Meraki network.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3766,8 +3766,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+103"/>
-        <source>Warning: Invalid Dash address</source>
-        <translation>Warning: Invalid Dash address</translation>
+        <source>Warning: Invalid Meraki address</source>
+        <translation>Warning: Invalid Meraki address</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -3804,8 +3804,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The Dash address to send the payment to</source>
-        <translation>The Dash address to send the payment to</translation>
+        <source>The Meraki address to send the payment to</source>
+        <translation>The Meraki address to send the payment to</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3868,8 +3868,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
-        <translation>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</translation>
+        <source>A message that was attached to the miraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
+        <translation>A message that was attached to the miraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</translation>
     </message>
     <message>
         <location line="+433"/>
@@ -3940,8 +3940,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The Dash address to sign the message with</source>
-        <translation>The Dash address to sign the message with</translation>
+        <source>The Meraki address to sign the message with</source>
+        <translation>The Meraki address to sign the message with</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3982,8 +3982,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+17"/>
-        <source>Sign the message to prove you own this Dash address</source>
-        <translation>Sign the message to prove you own this Dash address</translation>
+        <source>Sign the message to prove you own this Meraki address</source>
+        <translation>Sign the message to prove you own this Meraki address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4013,13 +4013,13 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The Dash address the message was signed with</source>
-        <translation>The Dash address the message was signed with</translation>
+        <source>The Meraki address the message was signed with</source>
+        <translation>The Meraki address the message was signed with</translation>
     </message>
     <message>
         <location line="+33"/>
-        <source>Verify the message to ensure it was signed with the specified Dash address</source>
-        <translation>Verify the message to ensure it was signed with the specified Dash address</translation>
+        <source>Verify the message to ensure it was signed with the specified Meraki address</source>
+        <translation>Verify the message to ensure it was signed with the specified Meraki address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -6284,8 +6284,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="-486"/>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Meraki core</source>
+        <translation>Meraki core</translation>
     </message>
     <message>
         <location line="+1"/>

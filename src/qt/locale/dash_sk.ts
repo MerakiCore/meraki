@@ -258,12 +258,12 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. Dash Core can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažnej chybe. Dash Core už nemôže bezpečne pokračovať a bude ukončený.</translation>
+        <source>A fatal error occurred. Meraki core can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažnej chybe. Meraki core už nemôže bezpečne pokračovať a bude ukončený.</translation>
     </message>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Meraki core</source>
+        <translation>Meraki core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -286,7 +286,7 @@
         <translation>&amp;Odoslať</translation>
     </message>
     <message>
-        <source>Send coins to a Dash address</source>
+        <source>Send coins to a Meraki address</source>
         <translation>Poslať mince na Dash adresu</translation>
     </message>
     <message>
@@ -294,8 +294,8 @@
         <translation>&amp;Prijať</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dash: URIs)</source>
-        <translation>Vyžiadať platby (vygeneruje QR kódy a Dash: URI)</translation>
+        <source>Request payments (generates QR codes and miraki: URIs)</source>
+        <translation>Vyžiadať platby (vygeneruje QR kódy a miraki: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -322,8 +322,8 @@
         <translation>Ukončiť program</translation>
     </message>
     <message>
-        <source>Show information about Dash Core</source>
-        <translation>Zobraziť informácie o Dash Core</translation>
+        <source>Show information about Meraki core</source>
+        <translation>Zobraziť informácie o Meraki core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -482,8 +482,8 @@
         <translation>Otvoriť &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a dash: URI or payment request</source>
-        <translation>Otvoriť dash: URI alebo žiadosť o platbu </translation>
+        <source>Open a miraki: URI or payment request</source>
+        <translation>Otvoriť miraki: URI alebo žiadosť o platbu </translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -526,7 +526,7 @@
         <translation>Lišta záložiek</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dash network</source>
+        <source>%n active connection(s) to Meraki network</source>
         <translation><numerusform>%n aktívne spojenie so sieťou Dash</numerusform><numerusform>%n aktívne spojenia so sieťou Dash</numerusform><numerusform>%n aktívnych spojení so sieťou Dash</numerusform><numerusform>%n aktívnych spojení so sieťou Dash</numerusform></translation>
     </message>
     <message>
@@ -818,8 +818,8 @@
         <translation>Tento popis sčervenie ak ktorýkoľvek príjemca dostane sumu menšiu ako súčasný limit pre "prach".</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Môže sa pohybovať +/- %1 duff(y) pre vstup.</translation>
+        <source>Can vary +/- %1 samadhi(s) per input.</source>
+        <translation>Môže sa pohybovať +/- %1 samadhi(y) pre vstup.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -877,7 +877,7 @@
         <translation>Upraviť adresu pre odoslanie</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dash address.</source>
+        <source>The entered address "%1" is not a valid Meraki address.</source>
         <translation>Zadaná adresa "%1" nie je platná Dash adresa.</translation>
     </message>
     <message>
@@ -1160,11 +1160,11 @@
         <translation>Forma</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Dash network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Meraki network, as detailed below.</source>
         <translation>Nedávne transakcie ešte nemusia byť viditeľné, a preto stav vašej peňaženky môže byť nesprávny. Informácia bude správna hneď ako vaša peňaženka dokončí synchronizáciu so sieťou Dash. Viac detailov nájdete nižšie.</translation>
     </message>
     <message>
-        <source>Attempting to spend Dash that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend Meraki that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Pokúsiť sa minút Dash, ktoré sú ovplyvnené "ešte nezobrazenými" transakciami, nebudú akceptované sieťou.</translation>
     </message>
     <message>
@@ -1306,8 +1306,8 @@
         <translation>Táto suma slúži ako hranica pre vypnutie PrivateSend akonáhle je dosiahnutá.</translation>
     </message>
     <message>
-        <source>Automatically open the Dash Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť na smerovači port pre Dash Core klient. Toto funguje iba ak váš smerovač  podporuje UPnP a je povolené</translation>
+        <source>Automatically open the Meraki core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť na smerovači port pre Meraki core klient. Toto funguje iba ak váš smerovač  podporuje UPnP a je povolené</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1318,7 +1318,7 @@
         <translation>Povoliť prichádzajúce spojenia</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a SOCKS5 proxy.</source>
+        <source>Connect to the Meraki network through a SOCKS5 proxy.</source>
         <translation>Pripojiť sa do siete Dash cez proxy SOCKS5.</translation>
     </message>
     <message>
@@ -1414,7 +1414,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Meraki network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Pripojiť sa do siete Dash cez oddelené SOCKS5 proxy pre skryté služby Tor.</translation>
     </message>
     <message>
@@ -1539,7 +1539,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Meraki network after a connection is established, but this process has not completed yet.</source>
         <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou Dash akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
     </message>
     <message>
@@ -1805,7 +1805,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Chyba pri vyžiadaní platby</translation>
     </message>
     <message>
-        <source>Cannot start dash: click-to-pay handler</source>
+        <source>Cannot start miraki: click-to-pay handler</source>
         <translation>Dash sa nedá spustiť: click-to-pay handler</translation>
     </message>
     <message>
@@ -1821,7 +1821,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Neplatná adresa platby %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Dash address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Meraki address or malformed URI parameters.</source>
         <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou Dash adresou, alebo nesprávnym tvarom URI parametrov.</translation>
     </message>
     <message>
@@ -1919,7 +1919,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Suma</translation>
     </message>
     <message>
-        <source>Enter a Dash address (e.g. %1)</source>
+        <source>Enter a Meraki address (e.g. %1)</source>
         <translation>Zadajte Dash adresu (e.g. %1)</translation>
     </message>
     <message>
@@ -2441,7 +2441,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Z&amp;novu použiť jestvujúcu prijímaciu adresu (neodporúča sa)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Meraki network.</source>
         <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť Dash.</translation>
     </message>
     <message>
@@ -2453,7 +2453,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Voliteľný popis ktorý sa pridá k tejto novej prijímajúcej adrese.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Meraki network.</source>
         <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť Dash.</translation>
     </message>
     <message>
@@ -2910,7 +2910,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation><numerusform>Odhad pre začiatok potvrdzovania je %n blok.</numerusform><numerusform>Odhad pre začiatok potvrdzovania sú %n bloky.</numerusform><numerusform>Odhad pre začiatok potvrdzovania je %n blokov.</numerusform><numerusform>Odhad pre začiatok potvrdzovania je %n blokov.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Dash address</source>
+        <source>Warning: Invalid Meraki address</source>
         <translation>Upozornenie: Neplatná Dash adresa</translation>
     </message>
     <message>
@@ -2941,7 +2941,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Zapla&amp;tiť:</translation>
     </message>
     <message>
-        <source>The Dash address to send the payment to</source>
+        <source>The Meraki address to send the payment to</source>
         <translation>Dash adresa pre poslanie platby</translation>
     </message>
     <message>
@@ -2989,8 +2989,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Správa:</translation>
     </message>
     <message>
-        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
-        <translation>Správa ktorá bola pripojená ku dash: URI ktorá sa uchová spolu s transakciou pre vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť Dash.</translation>
+        <source>A message that was attached to the miraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
+        <translation>Správa ktorá bola pripojená ku miraki: URI ktorá sa uchová spolu s transakciou pre vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť Dash.</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
@@ -3046,7 +3046,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Môžete podpísať správy/dohody svojou adresou aby ste dokázali, že na ňu prijať Dash. Buďte opatrní a nepodpisuje nič vágne alebo náhodné, nakoľko útoky typu "phishing" vás môžu lákať k ich podpísaniu vašej identity. Podpisujte iba vyhlásenia s úplnými detailami s ktorými súhlasíte.</translation>
     </message>
     <message>
-        <source>The Dash address to sign the message with</source>
+        <source>The Meraki address to sign the message with</source>
         <translation>Dash adresa na podpísanie správy</translation>
     </message>
     <message>
@@ -3078,7 +3078,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Kopírovať práve zvolenú adresu do systémovej schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dash address</source>
+        <source>Sign the message to prove you own this Meraki address</source>
         <translation>Podpísať spravu aby ste dokázali, že vlastníte túto Dash adresu</translation>
     </message>
     <message>
@@ -3102,11 +3102,11 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Vložte adresu príjemcu, správu (uistite sa, že presne kopírujete ukončenia riadkov, medzery, odrážky, atď.) a podpis pre potvrdenie správy. Buďte opatrní a nedomýšľajte si viac než je uvedené v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu MITM útokom. Toto len potvrdzuje, že podpisujúca strana môže prijímať na tejto adrese, nepotvrdzuje to vlastníctvo žiadnej transakcie!</translation>
     </message>
     <message>
-        <source>The Dash address the message was signed with</source>
+        <source>The Meraki address the message was signed with</source>
         <translation>Adresa Dash s ktorou bola podpísaná správa</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dash address</source>
+        <source>Verify the message to ensure it was signed with the specified Meraki address</source>
         <translation>Overiť správu pre uistenie, že bola podpísaná zadanou Dash adresou</translation>
     </message>
     <message>
@@ -4895,8 +4895,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Možnosti servra RPC:</translation>
     </message>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Meraki core</source>
+        <translation>Meraki core</translation>
     </message>
     <message>
         <source>The %s developers</source>

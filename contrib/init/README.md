@@ -1,11 +1,11 @@
 Sample configuration files for:
 
-SystemD: dashd.service
-Upstart: dashd.conf
-OpenRC:  dashd.openrc
-         dashd.openrcconf
-CentOS:  dashd.init
-OS X:    org.dash.dashd.plist
+SystemD: merakid.service
+Upstart: merakid.conf
+OpenRC:  merakid.openrc
+         merakid.openrcconf
+CentOS:  merakid.init
+OS X:    org.dash.merakid.plist
 
 have been made available to assist packagers in creating node packages here.
 

@@ -180,7 +180,7 @@ class WalletTest (BitcoinTestFramework):
         #4. check if recipient (node0) can list the zero value tx
         usp = self.nodes[1].listunspent()
         inputs = [{"txid":usp[0]['txid'], "vout":usp[0]['vout']}]
-        outputs = {self.nodes[1].getnewaddress(): 499.998, self.nodes[0].getnewaddress(): 11.11}
+        outputs = {self.nodes[1].getnewaddress(): 499.1998, self.nodes[0].getnewaddress(): 11.11}
 
         rawTx = self.nodes[1].createrawtransaction(inputs, outputs).replace("c0833842", "00000000") #replace 11.11 with 0.0 (int32)
         decRawTx = self.nodes[1].decoderawtransaction(rawTx)

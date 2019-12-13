@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/dash-config.h"
+#include "config/meraki-config.h"
 #endif
 
 #include "optionsdialog.h"
@@ -83,22 +83,16 @@ OptionsDialog::OptionsDialog(QWidget *parent, bool enableWallet) :
     }
 
     /* Display elements init */
-    
+
     /* Number of displayed decimal digits selector */
     QString digits;
     for(int index = 2; index <=8; index++){
         digits.setNum(index);
         ui->digits->addItem(digits, digits);
     }
-    
+
     /* Theme selector */
     ui->theme->addItem(QString("Light"), QVariant("light"));
-    ui->theme->addItem(QString("Light-HiRes"), QVariant("light-hires"));
-    ui->theme->addItem(QString("Light-Retro"), QVariant("light-retro"));
-    ui->theme->addItem(QString("Light-HiRes-Retro"), QVariant("light-hires-retro"));
-    ui->theme->addItem(QString("Blue"), QVariant("drkblue"));
-    ui->theme->addItem(QString("Crownium"), QVariant("crownium"));
-    ui->theme->addItem(QString("Traditional"), QVariant("trad"));
 
     /* Language selector */
     QDir translations(":translations");

@@ -242,12 +242,12 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. Dash Core can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Meraki core can no longer continue safely and will quit.</source>
         <translation>Ocorreu um erro fatal. A Dash não pode mais continuar de forma segura, e irá fechar</translation>
     </message>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Meraki core</source>
+        <translation>Meraki core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -270,7 +270,7 @@
         <translation>&amp;Enviar</translation>
     </message>
     <message>
-        <source>Send coins to a Dash address</source>
+        <source>Send coins to a Meraki address</source>
         <translation>Envie moedas para um endereço Dash</translation>
     </message>
     <message>
@@ -278,8 +278,8 @@
         <translation>&amp;Receber</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dash: URIs)</source>
-        <translation>Solicitações de pagamentos (gera códigos QR e Dash: URIs)</translation>
+        <source>Request payments (generates QR codes and miraki: URIs)</source>
+        <translation>Solicitações de pagamentos (gera códigos QR e miraki: URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -306,8 +306,8 @@
         <translation>Sair da aplicação</translation>
     </message>
     <message>
-        <source>Show information about Dash Core</source>
-        <translation>Exibe informações sobre Dash Core</translation>
+        <source>Show information about Meraki core</source>
+        <translation>Exibe informações sobre Meraki core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -466,8 +466,8 @@
         <translation>Abrir &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a dash: URI or payment request</source>
-        <translation>Abrir um Dash: URI ou cobrança</translation>
+        <source>Open a miraki: URI or payment request</source>
+        <translation>Abrir um miraki: URI ou cobrança</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -510,7 +510,7 @@
         <translation>Barra de ferramentas</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dash network</source>
+        <source>%n active connection(s) to Meraki network</source>
         <translation><numerusform>%n conexões ativas com a rede Dash</numerusform><numerusform>%n conexões ativas com a rede Dash</numerusform></translation>
     </message>
     <message>
@@ -802,8 +802,8 @@
         <translation>Este texto fica vermelho se qualquer destinatário receber uma quantidade menor que que o dust.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Pode variar +/- %1 duff(s) por entrada.</translation>
+        <source>Can vary +/- %1 samadhi(s) per input.</source>
+        <translation>Pode variar +/- %1 samadhi(s) por entrada.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -861,7 +861,7 @@
         <translation>Editar endereço de envio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dash address.</source>
+        <source>The entered address "%1" is not a valid Meraki address.</source>
         <translation>O endereço digitado "%1" não é um endereço válido.</translation>
     </message>
     <message>
@@ -1136,11 +1136,11 @@
         <translation>Forma</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Dash network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Meraki network, as detailed below.</source>
         <translation>Transações recentes podem não estar visíveis ainda, portanto o seu saldo pode estar incorreto. Esta informação será corrigida assim que sua carteira for sincronizada com a rede, como detalhado abaixo.</translation>
     </message>
     <message>
-        <source>Attempting to spend Dash that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend Meraki that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>A tentativa de gastar o Dash que é afetado por transações ainda não exibidas não será aceita pela rede.</translation>
     </message>
     <message>
@@ -1282,8 +1282,8 @@
         <translation>Esse valor atua como um limite para desativar o PrivateSend assim que ele for atingido.</translation>
     </message>
     <message>
-        <source>Automatically open the Dash Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abre automaticamente a porta para o cliente Dash Core no roteador. Essa função apenas funciona se o seu roteador oferece suporte a UPnP e a opção estiver habilitada.</translation>
+        <source>Automatically open the Meraki core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abre automaticamente a porta para o cliente Meraki core no roteador. Essa função apenas funciona se o seu roteador oferece suporte a UPnP e a opção estiver habilitada.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1294,7 +1294,7 @@
         <translation>Permitir conexões de entrada</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a SOCKS5 proxy.</source>
+        <source>Connect to the Meraki network through a SOCKS5 proxy.</source>
         <translation>Conecta à rede Dash através de um proxy SOCKS5.</translation>
     </message>
     <message>
@@ -1390,7 +1390,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Meraki network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Conecte-se à rede Dash através de um proxy SOCKS5 separado para serviços ocultos Tor</translation>
     </message>
     <message>
@@ -1515,7 +1515,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Formulário</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Meraki network after a connection is established, but this process has not completed yet.</source>
         <translation>A informação exibida pode estar desatualizada. Sua wallet é sincronizada automaticamente com a rede Dash tão logo uma conexão se estabeleça, entrtanto esse processo ainda não está completo.</translation>
     </message>
     <message>
@@ -1780,8 +1780,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Erro no pedido de pagamento</translation>
     </message>
     <message>
-        <source>Cannot start dash: click-to-pay handler</source>
-        <translation>Não foi possível iniciar Dash: manipulador click-to-pay</translation>
+        <source>Cannot start miraki: click-to-pay handler</source>
+        <translation>Não foi possível iniciar miraki: manipulador click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1796,7 +1796,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Endereço de pagamento inválido %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Dash address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Meraki address or malformed URI parameters.</source>
         <translation>A URI não pode ser analisada! Isto pode ser causado por um endereço inválido ou um parâmetro URI malformado.</translation>
     </message>
     <message>
@@ -1894,7 +1894,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Quantia</translation>
     </message>
     <message>
-        <source>Enter a Dash address (e.g. %1)</source>
+        <source>Enter a Meraki address (e.g. %1)</source>
         <translation>Informe um endereço Dash (ex: %1)</translation>
     </message>
     <message>
@@ -2412,7 +2412,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>R&amp;eutilize um endereço de recebimento (não recomendado)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Meraki network.</source>
         <translation>Uma mensagem opcional que será anexada na cobrança e será mostrada quando ela for aberta. Nota: A mensagem não será enviada com o pagamento pela rede Dash.</translation>
     </message>
     <message>
@@ -2424,7 +2424,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Um marcador opcional para associar ao novo endereço de recebimento.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Meraki network.</source>
         <translation>Uma mensagem opcional para anexar à solicitação de pagamento, que será exibida quando a solicitação for aberta. &lt;br&gt;Observação: a mensagem não será enviada com o pagamento pela rede do Dash.</translation>
     </message>
     <message>
@@ -2881,7 +2881,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation><numerusform>Estimativa para iniciar a confirmação em %n blocos.</numerusform><numerusform>Estimativa para iniciar a confirmação em %n blocos.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Dash address</source>
+        <source>Warning: Invalid Meraki address</source>
         <translation>Aviso: Endereço Dash inválido</translation>
     </message>
     <message>
@@ -2912,7 +2912,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The Dash address to send the payment to</source>
+        <source>The Meraki address to send the payment to</source>
         <translation>O endereço Dash para enviar o pagamento a</translation>
     </message>
     <message>
@@ -2960,8 +2960,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Mensagem:</translation>
     </message>
     <message>
-        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
-        <translation>A mensagem que foi anexada ao Dash: URI na qual será gravada na transação para sua referência. Nota: Essa mensagem não será gravada publicamente na rede Dash.</translation>
+        <source>A message that was attached to the miraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
+        <translation>A mensagem que foi anexada ao miraki: URI na qual será gravada na transação para sua referência. Nota: Essa mensagem não será gravada publicamente na rede Dash.</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
@@ -3017,7 +3017,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Você pode assinar mensagens/acordos com seus endereços para provar que pode receber o Dash enviado para eles. Tenha cuidado para não assinar nada vago ou aleatório, pois os ataques de phishing podem tentar convencê-lo a assinar sua identidade para eles. Assine apenas declarações totalmente detalhadas com as quais você concorda.</translation>
     </message>
     <message>
-        <source>The Dash address to sign the message with</source>
+        <source>The Meraki address to sign the message with</source>
         <translation>O endereço Dash que assinará a mensagem</translation>
     </message>
     <message>
@@ -3049,7 +3049,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Copiar a assinatura para a área de transferência do sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dash address</source>
+        <source>Sign the message to prove you own this Meraki address</source>
         <translation>Assinar mensagem para provar que você é dono deste endereço Dash</translation>
     </message>
     <message>
@@ -3073,11 +3073,11 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Coloque o endereço do autor, a mensagem (certifique-se de copiar toda a mensagem, incluindo quebras de linha, espaços, tabulações, etc.) e a assinatura embaixo para verificar a mensagem. Cuidado para não ler mais da assinatura do que está assinado na mensagem, para evitar ser enganado pelo ataque man-in-the-middle. Note que isso somente prova a propriedade de um endereço, e não o remetende de qualquer transação.</translation>
     </message>
     <message>
-        <source>The Dash address the message was signed with</source>
+        <source>The Meraki address the message was signed with</source>
         <translation>O endereço Dash que foi usado para assinar a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dash address</source>
+        <source>Verify the message to ensure it was signed with the specified Meraki address</source>
         <translation>Verifique a mensagem para se assegurar de que foi assinada pelo endereço Dash específicado</translation>
     </message>
     <message>
@@ -4830,8 +4830,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Opções do servidor RPC:</translation>
     </message>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Meraki core</source>
+        <translation>Meraki core</translation>
     </message>
     <message>
         <source>The %s developers</source>

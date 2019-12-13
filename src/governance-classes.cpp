@@ -462,6 +462,14 @@ void CSuperblock::GetNearestSuperblocksHeights(int nBlockHeight, int& nLastSuper
 
 CAmount CSuperblock::GetPaymentsLimit(int nBlockHeight)
 {
+    CAmount nPaymentsLimitRegular = GetPaymentsLimit(nBlockHeight, Regular);
+    CAmount nPaymentsLimitCharity = GetPaymentsLimit(nBlockHeight, Charity);
+    return nPaymentsLimitRegular + nPaymentsLimitCharity;
+}
+
+
+CAmount CSuperblock::GetPaymentsLimit(int nBlockHeight, CSuperblockPool pool)
+{
     const Consensus::Params& consensusParams = Params().GetConsensus();
 
     if (!IsValidBlockHeight(nBlockHeight)) {
@@ -473,6 +481,17 @@ CAmount CSuperblock::GetPaymentsLimit(int nBlockHeight)
     // some part of all blocks issued during the cycle goes to superblock, see GetBlockSubsidy
     CAmount nSuperblockPartOfSubsidy = GetBlockSubsidy(nBits, nBlockHeight - 1, consensusParams, true);
     CAmount nPaymentsLimit = nSuperblockPartOfSubsidy * consensusParams.nSuperblockCycle;
+    // 20%/10% split
+    if (pool == Regular) {
+        nPaymentsLimit = nPaymentsLimit * 2 / 3;
+    }
+    else if (pool == Charity) {
+        nPaymentsLimit = nPaymentsLimit * 1 / 3;
+    }
+    else {
+        LogPrint("gobject", "CSuperblock::GetPaymentsLimit -- Invalid pool %d\n", pool);
+        return 0;
+    }
     LogPrint("gobject", "CSuperblock::GetPaymentsLimit -- Valid superblock height %d, payments max %lld\n", nBlockHeight, nPaymentsLimit);
 
     return nPaymentsLimit;
@@ -513,7 +532,7 @@ void CSuperblock::ParsePaymentSchedule(const std::string& strPaymentAddresses, c
         CBitcoinAddress address(vecParsed1[i]);
         if (!address.IsValid()) {
             std::ostringstream ostr;
-            ostr << "CSuperblock::ParsePaymentSchedule -- Invalid Dash Address : " << vecParsed1[i];
+            ostr << "CSuperblock::ParsePaymentSchedule -- Invalid Meraki address : " << vecParsed1[i];
             LogPrintf("%s\n", ostr.str());
             throw std::runtime_error(ostr.str());
         }

@@ -242,11 +242,11 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. Dash Core can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Meraki core can no longer continue safely and will quit.</source>
         <translation>치명적인 오류가 발생하였습니다. 더 이상 대시 코어가 안전하지 않을 가능성이 있으며 대시 코어는 곧 종료될 예정입니다.</translation>
     </message>
     <message>
-        <source>Dash Core</source>
+        <source>Meraki core</source>
         <translation>대시 코어</translation>
     </message>
     <message>
@@ -270,7 +270,7 @@
         <translation>보내기(&amp;S)</translation>
     </message>
     <message>
-        <source>Send coins to a Dash address</source>
+        <source>Send coins to a Meraki address</source>
         <translation>대시 주소로 코인 전송</translation>
     </message>
     <message>
@@ -278,7 +278,7 @@
         <translation>받기(&amp;R)</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dash: URIs)</source>
+        <source>Request payments (generates QR codes and miraki: URIs)</source>
         <translation>지불 요청하기 (QR코드와 대시 URI가 생성됩니다.)</translation>
     </message>
     <message>
@@ -306,7 +306,7 @@
         <translation>어플리케이션 종료</translation>
     </message>
     <message>
-        <source>Show information about Dash Core</source>
+        <source>Show information about Meraki core</source>
         <translation>대시 코어에 관한 정보를 표시합니다.</translation>
     </message>
     <message>
@@ -466,8 +466,8 @@
         <translation>URI 열기(&amp;U)...</translation>
     </message>
     <message>
-        <source>Open a dash: URI or payment request</source>
-        <translation>Dash: URI 또는 지불 요청을 엽니다.</translation>
+        <source>Open a miraki: URI or payment request</source>
+        <translation>miraki: URI 또는 지불 요청을 엽니다.</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -510,7 +510,7 @@
         <translation>도구 모음 탭</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dash network</source>
+        <source>%n active connection(s) to Meraki network</source>
         <translation><numerusform>대시 네트워크의 활성 연결 수는 %n 입니다.</numerusform></translation>
     </message>
     <message>
@@ -802,7 +802,7 @@
         <translation>수령인이 현재 더스트 임계값보다 작은 양을 수신하면 이 라벨이 빨간색으로 변합니다.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
+        <source>Can vary +/- %1 samadhi(s) per input.</source>
         <translation>입력당 +/- %1 더프가 달라질 수 있습니다.</translation>
     </message>
     <message>
@@ -861,7 +861,7 @@
         <translation>보내기 주소 편집</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dash address.</source>
+        <source>The entered address "%1" is not a valid Meraki address.</source>
         <translation>입력한 주소 "%1" 는 올바른 대시 주소가 아닙니다.</translation>
     </message>
     <message>
@@ -1136,11 +1136,11 @@
         <translation>유형</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Dash network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Meraki network, as detailed below.</source>
         <translation>최근 거래는 아직 표시되지 않을 수 있으며, 따라서 당신 지갑의 잔고 역시 실제와 다를 수 있습니다. 이는 당신의 지갑이 대시 네트워크와 동기화를 마치는대로 아래의 세부 내용과 같이 정확히 표시될 예정입니다.</translation>
     </message>
     <message>
-        <source>Attempting to spend Dash that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend Meraki that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>'아직 표시 되지 않은 거래'의 영향을 받는 대시를 사용하시려는 경우, 네트워크에 의해 승인되지 않습니다.</translation>
     </message>
     <message>
@@ -1282,7 +1282,7 @@
         <translation>이 금액에 도달하는 경우 프라이빗샌드를 끄기 위한 한계점으로 작동합니다.</translation>
     </message>
     <message>
-        <source>Automatically open the Dash Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Meraki core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>라우터에서 대시 코어 클라이언트를 자동으로 엽니다. 이 기능은 당신의 라우터가 UPnP를 지원하고 해당 기능이 작동하는 경우에만 가능합니다.</translation>
     </message>
     <message>
@@ -1294,7 +1294,7 @@
         <translation>수신 연결 허용</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a SOCKS5 proxy.</source>
+        <source>Connect to the Meraki network through a SOCKS5 proxy.</source>
         <translation>SOCKS5 프록시를 통해 대시 네트워크 연결</translation>
     </message>
     <message>
@@ -1390,7 +1390,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Meraki network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Tor 숨김 서비스를 위한 별도의 SOCKS5 프록시를 사용하여 대시 네트워크에 연결</translation>
     </message>
     <message>
@@ -1515,7 +1515,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>유형</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Meraki network after a connection is established, but this process has not completed yet.</source>
         <translation>표시된 정보가 오래된 것으로 보입니다. 당신의 지갑은 대시 네트워크에 연결되는 대로 동기화 될 예정입니다. 이 과정은 아직 종료되지 않았습니다.</translation>
     </message>
     <message>
@@ -1780,7 +1780,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>지불 요청 오류</translation>
     </message>
     <message>
-        <source>Cannot start dash: click-to-pay handler</source>
+        <source>Cannot start miraki: click-to-pay handler</source>
         <translation>대시를 시작할 수 없습니다: 원클릭 지불 핸들러</translation>
     </message>
     <message>
@@ -1796,7 +1796,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>유효하지 않은 지불 주소 %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Dash address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Meraki address or malformed URI parameters.</source>
         <translation>URI를 분석할 수 없습니다! 대시 주소가 유효하지 않거나 URI 파라미터 구성에 오류가 존재할 수 있습니다.</translation>
     </message>
     <message>
@@ -1894,7 +1894,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>거래액</translation>
     </message>
     <message>
-        <source>Enter a Dash address (e.g. %1)</source>
+        <source>Enter a Meraki address (e.g. %1)</source>
         <translation>대시 주소 입력 (예: %1)</translation>
     </message>
     <message>
@@ -2412,7 +2412,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>이미 존재하는 받기 주소를 다시 사용하기(권장하지 않음) (&amp;R)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Meraki network.</source>
         <translation>지불 요청에 메시지를 첨부할 지 선택할 수 있습니다. 해당 메세지는 지불 요청이 열릴 때 표시될 것 입니다. 메모: 이 메시지는 대시 네트워크로 전송되지 않습니다.</translation>
     </message>
     <message>
@@ -2424,7 +2424,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>새로운 받기 주소와 결합하는 임의의 라벨</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Meraki network.</source>
         <translation>지불 요청에 메시지를 첨부할 지 선택할 수 있습니다. 해당 메세지는 지불 요청이 열릴 때 표시될 것 입니다. 메모: 이 메시지는 대시 네트워크로 전송되지 않습니다.</translation>
     </message>
     <message>
@@ -2881,7 +2881,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation><numerusform>%n 블록 내 거래 확인을 시작하기 위해 추정 완료</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Dash address</source>
+        <source>Warning: Invalid Meraki address</source>
         <translation>경고: 잘못된 대시 주소입니다</translation>
     </message>
     <message>
@@ -2912,7 +2912,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>송금할 대상(&amp;T):</translation>
     </message>
     <message>
-        <source>The Dash address to send the payment to</source>
+        <source>The Meraki address to send the payment to</source>
         <translation>이 대시 주소로 송금합니다.</translation>
     </message>
     <message>
@@ -2960,7 +2960,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>메시지:</translation>
     </message>
     <message>
-        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
+        <source>A message that was attached to the miraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
         <translation>대시: URI에 첨부된 메시지는 거래와 함께 참고용으로 저장됩니다. 주의: 이 메시지는 대시 네트워크로 전송되지 않습니다.</translation>
     </message>
     <message>
@@ -3017,7 +3017,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>당신의 주소로 대시를 받을 수 있다는 점을 증명하기 위하여 메시지/계약서에 서명할 수 있습니다. 내용이 분명하지 않거나 무작위인 경우 서명하지 않도록 주의하세요. 피싱 공격이 당신의 서명을 얻기 위해 유도하는 것일 수 있습니다. 오직 완전한 세부 내용을 갖추고 당신이 동의하는 내용에만 서명하세요.</translation>
     </message>
     <message>
-        <source>The Dash address to sign the message with</source>
+        <source>The Meraki address to sign the message with</source>
         <translation>메시지에 서명하기 위한 대시 주소</translation>
     </message>
     <message>
@@ -3049,7 +3049,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>현재 서명을 시스템 클립보드에 복사</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dash address</source>
+        <source>Sign the message to prove you own this Meraki address</source>
         <translation>이 대시 주소가 당신의 소유임을 증명하기 위해 메시지에 서명하세요.</translation>
     </message>
     <message>
@@ -3073,11 +3073,11 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>메시지를 검증하기 위하여 아래에 수신인의 주소, 메시지(띄어쓰기, 들여쓰기, 행 나눔 등을 정확히 입력하기 위해 복사하여 입력) 및 서명을 입력하세요. 중간자 공격에 의한 피해를 피하기 위해 서명된 메시지 자체에 필요한 것 보다 많은 정보를 읽어 들이지 않도록 주의하세요. 이 기능은 서명 당사자가 해당 주소로 수신하였다는 점을 증명할 뿐이며, 거래의 발송 정보를 담지 않습니다.</translation>
     </message>
     <message>
-        <source>The Dash address the message was signed with</source>
+        <source>The Meraki address the message was signed with</source>
         <translation>메시지에 서명된 대시 주소</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dash address</source>
+        <source>Verify the message to ensure it was signed with the specified Meraki address</source>
         <translation>특정 대시 주소에 서명된 것인지 확인하기 위하여 메시지를 검증합니다.</translation>
     </message>
     <message>
@@ -4830,7 +4830,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>RPC 서버 설정</translation>
     </message>
     <message>
-        <source>Dash Core</source>
+        <source>Meraki core</source>
         <translation>대시 코어</translation>
     </message>
     <message>

@@ -258,11 +258,11 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. Dash Core can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Meraki core can no longer continue safely and will quit.</source>
         <translation>发生致命错误。达世币核心钱包不再能安全地运行下去，程序将会关闭。</translation>
     </message>
     <message>
-        <source>Dash Core</source>
+        <source>Meraki core</source>
         <translation>达世币核心</translation>
     </message>
     <message>
@@ -286,7 +286,7 @@
         <translation>发送(&amp;S)</translation>
     </message>
     <message>
-        <source>Send coins to a Dash address</source>
+        <source>Send coins to a Meraki address</source>
         <translation>发送币至达世币地址</translation>
     </message>
     <message>
@@ -294,7 +294,7 @@
         <translation>接收(&amp;R)</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dash: URIs)</source>
+        <source>Request payments (generates QR codes and miraki: URIs)</source>
         <translation>请求付款(生成二维码和达世币付款协议的URI)</translation>
     </message>
     <message>
@@ -322,7 +322,7 @@
         <translation>退出程序</translation>
     </message>
     <message>
-        <source>Show information about Dash Core</source>
+        <source>Show information about Meraki core</source>
         <translation>显示关于达世币核心信息</translation>
     </message>
     <message>
@@ -482,7 +482,7 @@
         <translation>打开 &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a dash: URI or payment request</source>
+        <source>Open a miraki: URI or payment request</source>
         <translation>打开一个达世币协议的URI或付款请求</translation>
     </message>
     <message>
@@ -526,7 +526,7 @@
         <translation>分页工具栏</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dash network</source>
+        <source>%n active connection(s) to Meraki network</source>
         <translation><numerusform>%n个有效的达世币网络连接</numerusform></translation>
     </message>
     <message>
@@ -818,7 +818,7 @@
         <translation>当任何一个收款金额小于目前的零散金额上限时，文字会变红色。</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
+        <source>Can vary +/- %1 samadhi(s) per input.</source>
         <translation>每笔输入可能会有 +/- %1个duff(s)的偏差.</translation>
     </message>
     <message>
@@ -877,7 +877,7 @@
         <translation>编辑发送地址</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dash address.</source>
+        <source>The entered address "%1" is not a valid Meraki address.</source>
         <translation>输入的地址“%1”不是有效的达世币地址。</translation>
     </message>
     <message>
@@ -1160,11 +1160,11 @@
         <translation>表单</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Dash network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Meraki network, as detailed below.</source>
         <translation>最近的交易可能尚未显示，因此您的钱包的余额可能不正确。一旦您的钱包完成与达世币网络的同步，这个信息将会修正，如下所述。</translation>
     </message>
     <message>
-        <source>Attempting to spend Dash that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend Meraki that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>假如您正在尝试花费尚未显示出来的达世币，这个交易将不会被网络所接受。</translation>
     </message>
     <message>
@@ -1306,7 +1306,7 @@
         <translation>此金额为关闭匿名发送的阈值。</translation>
     </message>
     <message>
-        <source>Automatically open the Dash Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Meraki core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>自动在路由器打开达世币核心客户端端口。此项只在路由器支持UPnP且开启时有效。</translation>
     </message>
     <message>
@@ -1318,7 +1318,7 @@
         <translation>接受外来连接</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a SOCKS5 proxy.</source>
+        <source>Connect to the Meraki network through a SOCKS5 proxy.</source>
         <translation>通过SOCKS5代理连接达世币网络。</translation>
     </message>
     <message>
@@ -1414,7 +1414,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Meraki network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>通过另一个SOCKS5代理服务器作为Tor隐藏服务来连接到达世币网络。</translation>
     </message>
     <message>
@@ -1539,7 +1539,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>表单</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Meraki network after a connection is established, but this process has not completed yet.</source>
         <translation>显示的信息也许已过期。当与达世币网络连接后钱包程序会自动同步，但现在还未完成。</translation>
     </message>
     <message>
@@ -1804,7 +1804,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>支付请求出错</translation>
     </message>
     <message>
-        <source>Cannot start dash: click-to-pay handler</source>
+        <source>Cannot start miraki: click-to-pay handler</source>
         <translation>无法启动达世币程序：click-to-pay handler</translation>
     </message>
     <message>
@@ -1820,7 +1820,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>无效的付款地址 %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Dash address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Meraki address or malformed URI parameters.</source>
         <translation>URI不能被解析! 原因可能是无效的达世币地址或URI参数格式错误。</translation>
     </message>
     <message>
@@ -1918,7 +1918,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>金额</translation>
     </message>
     <message>
-        <source>Enter a Dash address (e.g. %1)</source>
+        <source>Enter a Meraki address (e.g. %1)</source>
         <translation>输入达世币地址(例如 %1)</translation>
     </message>
     <message>
@@ -2440,7 +2440,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>重用现有的接收地址（不推荐）</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Meraki network.</source>
         <translation>附加在付款要求中的讯息，可以不填，打开要求内容时会显示。注意：这个讯息不会随着付款送到达世币网路上。</translation>
     </message>
     <message>
@@ -2452,7 +2452,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>可为新建的收款地址添加一个可选标签。</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Meraki network.</source>
         <translation>附加在付款要求中的讯息，可以不填，打开要求内容时会显示。&lt;br&gt;注意：这个讯息不会随着付款送到达世币网路上。</translation>
     </message>
     <message>
@@ -2909,7 +2909,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation><numerusform>预计在%n 个区块内开始确认。</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Dash address</source>
+        <source>Warning: Invalid Meraki address</source>
         <translation>警告：无效的达世币地址</translation>
     </message>
     <message>
@@ -2940,7 +2940,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>付给(&amp;T)：</translation>
     </message>
     <message>
-        <source>The Dash address to send the payment to</source>
+        <source>The Meraki address to send the payment to</source>
         <translation>选择发款地址</translation>
     </message>
     <message>
@@ -2988,7 +2988,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>消息：</translation>
     </message>
     <message>
-        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
+        <source>A message that was attached to the miraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
         <translation>附加在达世币付款协议URI中的信息，会和交易内容一并存储，可供您参考。提示：此信息不会发送到达世币网络上。</translation>
     </message>
     <message>
@@ -3045,7 +3045,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>您可以用自己的地址签署信息/协议，来证明您对地址的所有权。但是请小心，不要签署语意含糊不清的内容，因为钓鱼式诈骗可能会用骗您签署的手法来冒充是您。只有在语句中的细节您都同意时才签署。</translation>
     </message>
     <message>
-        <source>The Dash address to sign the message with</source>
+        <source>The Meraki address to sign the message with</source>
         <translation>对此地址进行签名</translation>
     </message>
     <message>
@@ -3077,7 +3077,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>复制当前签名至剪切板</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dash address</source>
+        <source>Sign the message to prove you own this Meraki address</source>
         <translation>签署信息证明您拥有此达世币地址</translation>
     </message>
     <message>
@@ -3101,11 +3101,11 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>请在下面输入接收者地址、消息（确保换行符、空格符、制表符等完全相同）和签名以验证消息。请仔细核对签名信息，以提防中间人攻击。请注意，这只是证明接收方签名的地址，它不能证明任何交易！</translation>
     </message>
     <message>
-        <source>The Dash address the message was signed with</source>
+        <source>The Meraki address the message was signed with</source>
         <translation>已签名的地址</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dash address</source>
+        <source>Verify the message to ensure it was signed with the specified Meraki address</source>
         <translation>验证信息用来确保此被签署信息对应相对的达世币地址</translation>
     </message>
     <message>
@@ -4894,7 +4894,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>RPC服务器选项：</translation>
     </message>
     <message>
-        <source>Dash Core</source>
+        <source>Meraki core</source>
         <translation>达世币核心</translation>
     </message>
     <message>

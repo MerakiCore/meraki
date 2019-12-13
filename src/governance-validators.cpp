@@ -61,6 +61,10 @@ bool CProposalValidator::Validate(bool fCheckExpiration)
         strErrorMessages += "Invalid URL;";
         return false;
     }
+    if (!ValidatePool()) {
+        strErrorMessages += "Invalid Pool;";
+        return false;
+    }
     return true;
 }
 
@@ -86,6 +90,21 @@ bool CProposalValidator::ValidateName()
         return false;
     }
 
+    return true;
+}
+
+bool CProposalValidator::ValidatePool()
+{
+    int64_t pool_nr;
+    if (!GetDataValue("pool", pool_nr)) {
+        strErrorMessages += "pool field not found;";
+        return false;
+    }
+
+    if (!(pool_nr == 0 || pool_nr == 1)) {
+        strErrorMessages += strprintf("Invalid pool nr %d. (0=regular, 1=charity);", pool_nr);
+        return false;
+    }
     return true;
 }
 

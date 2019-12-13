@@ -5,7 +5,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/dash-config.h"
+#include "config/meraki-config.h"
 #endif
 
 #include "net.h"
@@ -1583,7 +1583,7 @@ void ThreadMapPort()
             }
         }
 
-        std::string strDesc = "Dash Core " + FormatFullVersion();
+        std::string strDesc = "Meraki Core " + FormatFullVersion();
 
         try {
             while (true) {
@@ -1867,9 +1867,9 @@ void CConnman::ThreadOpenConnections()
         //  * Increase the number of connectable addresses in the tried table.
         //
         // Method:
-        //  * Choose a random address from new and attempt to connect to it if we can connect 
+        //  * Choose a random address from new and attempt to connect to it if we can connect
         //    successfully it is added to tried.
-        //  * Start attempting feeler connections only after node finishes making outbound 
+        //  * Start attempting feeler connections only after node finishes making outbound
         //    connections.
         //  * Only make a feeler connection once every few minutes.
         //

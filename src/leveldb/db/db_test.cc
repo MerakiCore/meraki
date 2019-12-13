@@ -1316,10 +1316,10 @@ TEST(DBTest, OverlapInLevel0) {
 
     // Fill levels 1 and 2 to disable the pushing of new memtables to levels > 0.
     ASSERT_OK(Put("100", "v100"));
-    ASSERT_OK(Put("999", "v999"));
+    ASSERT_OK(Put("1999", "v999"));
     dbfull()->TEST_CompactMemTable();
     ASSERT_OK(Delete("100"));
-    ASSERT_OK(Delete("999"));
+    ASSERT_OK(Delete("1999"));
     dbfull()->TEST_CompactMemTable();
     ASSERT_EQ("0,1,1", FilesPerLevel());
 
@@ -1459,7 +1459,7 @@ TEST(DBTest, CustomComparator) {
     ASSERT_EQ("twenty", Get("[0x14]"));
     ASSERT_EQ("NOT_FOUND", Get("[15]"));
     ASSERT_EQ("NOT_FOUND", Get("[0xf]"));
-    Compact("[0]", "[9999]");
+    Compact("[0]", "[1999]");
   }
 
   for (int run = 0; run < 2; run++) {

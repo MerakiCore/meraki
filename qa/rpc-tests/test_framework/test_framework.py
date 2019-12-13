@@ -124,7 +124,7 @@ class BitcoinTestFramework(object):
         parser.add_option("--noshutdown", dest="noshutdown", default=False, action="store_true",
                           help="Don't stop dashds after the test execution")
         parser.add_option("--srcdir", dest="srcdir", default=os.path.normpath(os.path.dirname(os.path.realpath(__file__))+"/../../../src"),
-                          help="Source directory containing dashd/dash-cli (default: %default)")
+                          help="Source directory containing merakid/meraki-cli (default: %default)")
         parser.add_option("--cachedir", dest="cachedir", default=os.path.normpath(os.path.dirname(os.path.realpath(__file__))+"/../../cache"),
                           help="Directory for caching pregenerated datadirs")
         parser.add_option("--tmpdir", dest="tmpdir", default=tempfile.mkdtemp(prefix="test"),
@@ -317,7 +317,7 @@ class DashTestFramework(BitcoinTestFramework):
 
     def remove_mastermode(self, idx):
         mn = self.mninfo[idx]
-        rawtx = self.nodes[0].createrawtransaction([{"txid": mn.collateral_txid, "vout": mn.collateral_vout}], {self.nodes[0].getnewaddress(): 999.9999})
+        rawtx = self.nodes[0].createrawtransaction([{"txid": mn.collateral_txid, "vout": mn.collateral_vout}], {self.nodes[0].getnewaddress(): 1999.1999})
         rawtx = self.nodes[0].signrawtransaction(rawtx)
         self.nodes[0].sendrawtransaction(rawtx["hex"])
         self.nodes[0].generate(1)
@@ -760,11 +760,11 @@ class ComparisonTestFramework(BitcoinTestFramework):
 
     def add_options(self, parser):
         parser.add_option("--testbinary", dest="testbinary",
-                          default=os.getenv("BITCOIND", "dashd"),
-                          help="dashd binary to test")
+                          default=os.getenv("BITCOIND", "merakid"),
+                          help="merakid binary to test")
         parser.add_option("--refbinary", dest="refbinary",
-                          default=os.getenv("BITCOIND", "dashd"),
-                          help="dashd binary to use for reference nodes (if any)")
+                          default=os.getenv("BITCOIND", "merakid"),
+                          help="merakid binary to use for reference nodes (if any)")
 
     def setup_network(self):
         self.nodes = start_nodes(

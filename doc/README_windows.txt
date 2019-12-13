@@ -1,4 +1,4 @@
-Dash Core 0.14.0
+Meraki core 0.14.0
 =====================
 
 Intro
@@ -11,9 +11,9 @@ with each other, with the help of a P2P network to check for double-spending.
 
 Setup
 -----
-Unpack the files into a directory and run dash-qt.exe.
+Unpack the files into a directory and run meraki-qt.exe.
 
-Dash Core is the original Dash client and it builds the backbone of the network.
+Meraki core is the original Dash client and it builds the backbone of the network.
 However, it downloads and stores the entire history of Dash transactions;
 depending on the speed of your computer and network connection, the synchronization
 process can take anywhere from a few hours to a day or more.

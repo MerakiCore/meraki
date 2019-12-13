@@ -1,0 +1,22 @@
+[Unit]
+Description=Meraki distributed currency daemon
+After=network.target
+
+[Service]
+User=merakicore
+Group=merakicore
+
+Type=forking
+PIDFile=/var/lib/merakid/merakid.pid
+ExecStart=/usr/bin/merakid -daemon -pid=/var/lib/merakid/merakid.pid \
+-conf=/etc/merakicore/meraki.conf -datadir=/var/lib/merakid -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -4,7 +4,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/dash-config.h"
+#include "config/meraki-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -63,7 +63,7 @@ void OptionsModel::Init(bool resetSettings)
         settings.setValue("fHideTrayIcon", false);
     fHideTrayIcon = settings.value("fHideTrayIcon").toBool();
     Q_EMIT hideTrayIconChanged(fHideTrayIcon);
-    
+
     if (!settings.contains("fMinimizeToTray"))
         settings.setValue("fMinimizeToTray", false);
     fMinimizeToTray = settings.value("fMinimizeToTray").toBool() && !fHideTrayIcon;
@@ -74,7 +74,7 @@ void OptionsModel::Init(bool resetSettings)
 
     // Display
     if (!settings.contains("nDisplayUnit"))
-        settings.setValue("nDisplayUnit", BitcoinUnits::DASH);
+        settings.setValue("nDisplayUnit", BitcoinUnits::Meraki);
     nDisplayUnit = settings.value("nDisplayUnit").toInt();
 
     if (!settings.contains("strThirdPartyTxUrls"))
@@ -469,14 +469,14 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
                 settings.setValue("digits", value);
                 setRestartRequired(true);
             }
-            break;            
+            break;
 #endif // ENABLE_WALLET
         case Theme:
             if (settings.value("theme") != value) {
                 settings.setValue("theme", value);
                 setRestartRequired(true);
             }
-            break;            
+            break;
         case Language:
             if (settings.value("language") != value) {
                 settings.setValue("language", value);

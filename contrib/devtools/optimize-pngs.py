@@ -26,7 +26,7 @@ def content_hash(filename):
 
 pngcrush = 'pngcrush'
 git = 'git'
-folders = ["src/qt/res/movies", "src/qt/res/icons", "src/qt/res/icons/crownium", "src/qt/res/icons/drkblue", "src/qt/res/icons/light", "src/qt/res/icons/light-retro", "src/qt/res/icons/trad", "src/qt/res/images", "src/qt/res/images/crownium", "src/qt/res/images/drkblue", "src/qt/res/images/light", "src/qt/res/images/light-retro", "src/qt/res/images/trad", "share/pixmaps"]
+folders = ["src/qt/res/movies", "src/qt/res/icons", "src/qt/res/icons/light", "src/qt/res/images", "src/qt/res/images/light", "share/pixmaps"]
 basePath = subprocess.check_output([git, 'rev-parse', '--show-toplevel'], universal_newlines=True).rstrip('\n')
 totalSaveBytes = 0
 noHashChange = True
@@ -41,19 +41,19 @@ for folder in folders:
             file_path = os.path.join(absFolder, file)
             fileMetaMap = {'file' : file, 'osize': os.path.getsize(file_path), 'sha256Old' : file_hash(file_path)}
             fileMetaMap['contentHashPre'] = content_hash(file_path)
-        
+
             try:
                 subprocess.call([pngcrush, "-brute", "-ow", "-rem", "gAMA", "-rem", "cHRM", "-rem", "iCCP", "-rem", "sRGB", "-rem", "alla", "-rem", "text", file_path],
                                 stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
             except:
                 print("pngcrush is not installed, aborting...")
                 sys.exit(0)
-        
+
             #verify
             if "Not a PNG file" in subprocess.check_output([pngcrush, "-n", "-v", file_path], stderr=subprocess.STDOUT, universal_newlines=True):
                 print("PNG file "+file+" is corrupted after crushing, check out pngcursh version")
                 sys.exit(1)
-            
+
             fileMetaMap['sha256New'] = file_hash(file_path)
             fileMetaMap['contentHashPost'] = content_hash(file_path)
 
@@ -72,5 +72,5 @@ for fileDict in outputArray:
     totalSaveBytes += fileDict['osize'] - fileDict['psize']
     noHashChange = noHashChange and (oldHash == newHash)
     print(fileDict['file']+"\n  size diff from: "+str(fileDict['osize'])+" to: "+str(fileDict['psize'])+"\n  old sha256: "+oldHash+"\n  new sha256: "+newHash+"\n")
-    
+
 print("completed. Checksum stable: "+str(noHashChange)+". Total reduction: "+str(totalSaveBytes)+" bytes")

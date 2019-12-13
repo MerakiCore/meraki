@@ -242,12 +242,12 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. Dash Core can no longer continue safely and will quit.</source>
-        <translation>Có lỗi nghiêm trọng xảy ra. Dash Core không thể tiếp tục một cách an toàn được nên phải thoát ra.</translation>
+        <source>A fatal error occurred. Meraki core can no longer continue safely and will quit.</source>
+        <translation>Có lỗi nghiêm trọng xảy ra. Meraki core không thể tiếp tục một cách an toàn được nên phải thoát ra.</translation>
     </message>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Meraki core</source>
+        <translation>Meraki core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -270,7 +270,7 @@
         <translation>&amp;Gửi</translation>
     </message>
     <message>
-        <source>Send coins to a Dash address</source>
+        <source>Send coins to a Meraki address</source>
         <translation>Gửi tiền vào địa chỉ Dash</translation>
     </message>
     <message>
@@ -278,8 +278,8 @@
         <translation>&amp;Nhận</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dash: URIs)</source>
-        <translation>Yêu cầu thanh toán (sinh mã QR và dash: URIs)</translation>
+        <source>Request payments (generates QR codes and miraki: URIs)</source>
+        <translation>Yêu cầu thanh toán (sinh mã QR và miraki: URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -306,8 +306,8 @@
         <translation>Thoát ứng dụng</translation>
     </message>
     <message>
-        <source>Show information about Dash Core</source>
-        <translation>Hiển thị thông tin về Dash Core</translation>
+        <source>Show information about Meraki core</source>
+        <translation>Hiển thị thông tin về Meraki core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -466,8 +466,8 @@
         <translation>Mở &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a dash: URI or payment request</source>
-        <translation>Mở một dash: URI hoặc một yêu cầu thanh toán</translation>
+        <source>Open a miraki: URI or payment request</source>
+        <translation>Mở một miraki: URI hoặc một yêu cầu thanh toán</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -510,7 +510,7 @@
         <translation>Bảng Thanh công cụ</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dash network</source>
+        <source>%n active connection(s) to Meraki network</source>
         <translation><numerusform>%n kết nối hiện thời tới mạng lưới của Dash</numerusform></translation>
     </message>
     <message>
@@ -802,8 +802,8 @@
         <translation>Nhãn này sẽ chuyển sang đỏ nếu có địa chỉ nào nhận được một khoản nhỏ hơn ngưỡng nhỏ nhất định được gọi là bụi.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Có thể thay đổi +/- %1 duff(s) cho mỗi đầu vào.</translation>
+        <source>Can vary +/- %1 samadhi(s) per input.</source>
+        <translation>Có thể thay đổi +/- %1 samadhi(s) cho mỗi đầu vào.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -861,7 +861,7 @@
         <translation>Sửa địa chỉ gửi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dash address.</source>
+        <source>The entered address "%1" is not a valid Meraki address.</source>
         <translation>Địa chỉ vừa nhập "%1" không phải địa chỉ Dash hợp lệ.</translation>
     </message>
     <message>
@@ -1144,11 +1144,11 @@
         <translation>Form</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Dash network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Meraki network, as detailed below.</source>
         <translation>Những giao dịch mới có thể chưa hiện ra, và do đó số dư trong ví của bạn có thể chưa chính xác. Những thông tin này sẽ chính xác một khi ví của bạn đã hoàn tất việc đồng bộ với mạng lưới của Dash, như cụ thể bên dưới.</translation>
     </message>
     <message>
-        <source>Attempting to spend Dash that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend Meraki that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Việc chi tiêu Dash khi mà các giao dịch của nó chưa được đồng bộ hết sẽ không được chấp nhận bởi mạng lưới.</translation>
     </message>
     <message>
@@ -1290,8 +1290,8 @@
         <translation>Số lượng này hoạt động như là một ngưỡng để tắt PrivateSend khi nó được chạm tới.</translation>
     </message>
     <message>
-        <source>Automatically open the Dash Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Tự động mở cổng cho phần mềm Dash Core trên rounter. Điều này chỉ hoạt động được khi rounter của bạn hỗ trợ UpnP và tính năng đó được bật lên.</translation>
+        <source>Automatically open the Meraki core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Tự động mở cổng cho phần mềm Meraki core trên rounter. Điều này chỉ hoạt động được khi rounter của bạn hỗ trợ UpnP và tính năng đó được bật lên.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1302,7 +1302,7 @@
         <translation>Cho phép các kết nối tới</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a SOCKS5 proxy.</source>
+        <source>Connect to the Meraki network through a SOCKS5 proxy.</source>
         <translation>Kết nối với mạng lưới Dash thông qua một SOCK5 proxy.</translation>
     </message>
     <message>
@@ -1398,7 +1398,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Meraki network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Kết nối với mạng lưới Dash thông qua các proxy SOCKS5 riêng biệt cho các dịch vụ ẩn danh Tor.</translation>
     </message>
     <message>
@@ -1523,7 +1523,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Biểu mẫu</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Meraki network after a connection is established, but this process has not completed yet.</source>
         <translation>Thông tin được hiển thị có thể đã lỗi thời. Ví của bạn sẽ tự động đồng bộ với mạng lưới Dash sau khi kết nối được thiết lập, tuy nhiên quá trình này chưa hoàn thành.</translation>
     </message>
     <message>
@@ -1788,8 +1788,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Yêu cầu thanh toán bị lỗi</translation>
     </message>
     <message>
-        <source>Cannot start dash: click-to-pay handler</source>
-        <translation>Không thể khởi động dash: trình xử lý click-to-pay</translation>
+        <source>Cannot start miraki: click-to-pay handler</source>
+        <translation>Không thể khởi động miraki: trình xử lý click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1804,7 +1804,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Địa chỉ thanh toán không hợp lệ %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Dash address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Meraki address or malformed URI parameters.</source>
         <translation>URI không thể phân tích. Nó có thể bởi địa chỉ Dash không hợp lệ hoặc thông số URI dị hình.</translation>
     </message>
     <message>
@@ -1902,7 +1902,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Số lượng</translation>
     </message>
     <message>
-        <source>Enter a Dash address (e.g. %1)</source>
+        <source>Enter a Meraki address (e.g. %1)</source>
         <translation>Hãy nhập một địa chỉ Dash (VD: %1)</translation>
     </message>
     <message>
@@ -2420,7 +2420,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Tái &amp;sử dụng lại địa chỉ nhận đã có (không khuyến khích)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Meraki network.</source>
         <translation>Một thông điệp tuỳ chọn để đính vào yêu cầu thanh toán, nó sẽ hiển thị khi yêu cầu được mở. Chú ý: Thông điệp sẽ không được gửi thông qua mạng lưới Dash.</translation>
     </message>
     <message>
@@ -2432,7 +2432,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Một nhãn tuỳ chọn để liên kết với địa chỉ nhận mới.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Meraki network.</source>
         <translation>Một thông điệp tuỳ chọn để đính vào yêu cầu thanh toán, nó sẽ hiển thị khi yêu cầu được mở.&lt;br&gt;Chú ý: Thông điệp sẽ không được gửi thông qua mạng lưới Dash.</translation>
     </message>
     <message>
@@ -2694,11 +2694,11 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Nếu mức phí tuỳ chỉnh được đặt là 1000 duff và giao dịch chỉ có 250 byte, thì "theo kilobyte" chỉ trả 250 duff cho phí,&lt;br /&gt;trong khi "ít nhất" phải trả 1000 duff. Cho các giao dịch lớn hơn 1 kilobyte thì cả hai đều trả theo kilobyte.</translation>
+        <translation>Nếu mức phí tuỳ chỉnh được đặt là 1000 samadhi và giao dịch chỉ có 250 byte, thì "theo kilobyte" chỉ trả 250 samadhi cho phí,&lt;br /&gt;trong khi "ít nhất" phải trả 1000 samadhi. Cho các giao dịch lớn hơn 1 kilobyte thì cả hai đều trả theo kilobyte.</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "total at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Nếu phí giao dịch tuỳ chỉnh được đặt là 1000 duff và giao dịch chỉ có 250 bytes, thì "theo kilobyte" chỉ trả 250 duff phí,&lt;br /&gt;trong khi "tổng ít nhất" trả 1000 duff. Với các giao dịch lớn hơn 1 kilobyte thì cả hai đều trả theo kilobyte.</translation>
+        <translation>Nếu phí giao dịch tuỳ chỉnh được đặt là 1000 samadhi và giao dịch chỉ có 250 bytes, thì "theo kilobyte" chỉ trả 250 samadhi phí,&lt;br /&gt;trong khi "tổng ít nhất" trả 1000 samadhi. Với các giao dịch lớn hơn 1 kilobyte thì cả hai đều trả theo kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for dash transactions than the network can process.</source>
@@ -2889,7 +2889,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation><numerusform>Ước lượng để bắt đầu xác thực trong vòng %n khối.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Dash address</source>
+        <source>Warning: Invalid Meraki address</source>
         <translation>Cảnh báo: Địa chỉ Dash không hợp lệ</translation>
     </message>
     <message>
@@ -2920,7 +2920,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Trả &amp;Cho</translation>
     </message>
     <message>
-        <source>The Dash address to send the payment to</source>
+        <source>The Meraki address to send the payment to</source>
         <translation>Địa chỉ Dash để gửi thanh toán</translation>
     </message>
     <message>
@@ -2968,8 +2968,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Thông điệp:</translation>
     </message>
     <message>
-        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
-        <translation>Một thông điệp được đính với dash: URI đó sẽ được lưu trữ với các giao dịch cho các bạn tham khảo. Lưu ý: Thông điệp này sẽ không được gửi qua mạng Dash. </translation>
+        <source>A message that was attached to the miraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
+        <translation>Một thông điệp được đính với miraki: URI đó sẽ được lưu trữ với các giao dịch cho các bạn tham khảo. Lưu ý: Thông điệp này sẽ không được gửi qua mạng Dash. </translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
@@ -3025,7 +3025,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Bạn có thể ký vào thông điệp/thoả thuận với địa chỉ của bạn để chứng minh bạn có thể nhận Dash đã gửi cho họ. Hãy cẩn thận không ký vào những gì mơ hồ hay ngẫu nhiên, như là thứ lừa đảo để lừa bạn ký xác nhận của bạn vào đó cho họ. Chỉ ký vào những gì mà bạn hoàn thoàn đồng ý.</translation>
     </message>
     <message>
-        <source>The Dash address to sign the message with</source>
+        <source>The Meraki address to sign the message with</source>
         <translation>Địa chỉ Dash để ký cho thông điệp</translation>
     </message>
     <message>
@@ -3057,7 +3057,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Copy chữ ký hiện tại vào bộ đệm của hệ thống</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dash address</source>
+        <source>Sign the message to prove you own this Meraki address</source>
         <translation>Ký vào thông điệp để chứng tỏ bạn sở hữu địa chỉ Dash</translation>
     </message>
     <message>
@@ -3081,11 +3081,11 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Hãy nhập vào địa chỉ của người nhận, thông điệp (hãy đảm bảo rằng bạn copy cả dấu xuống dòng, dấu cách, dấu tab,... một cách chính xác) và chữ ký bên dưới để kiểm tra thông điệp. Hãy cẩn thận để không đọc thêm vào phần chữ ký mà nó dùng để ký, để tránh bị đánh lừa bởi kiểu tấn công người trung gian. Chú ý đây chỉ để chứng minh chữ ký của bên nhận với địa chỉ đó, nó không thể chứng minh người gửi hoặc bất kỳ giao dich nào!</translation>
     </message>
     <message>
-        <source>The Dash address the message was signed with</source>
+        <source>The Meraki address the message was signed with</source>
         <translation>Địa chỉ Dash mà thông điệp được ký bởi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dash address</source>
+        <source>Verify the message to ensure it was signed with the specified Meraki address</source>
         <translation>Kiểm tra lại thông điệp để đảm bảo rằng nó được ký với địa chỉ Dash cụ thể</translation>
     </message>
     <message>
@@ -4858,8 +4858,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Tuỳ chọn cho RPC server</translation>
     </message>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Meraki core</source>
+        <translation>Meraki core</translation>
     </message>
     <message>
         <source>The %s developers</source>

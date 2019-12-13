@@ -258,11 +258,11 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. Dash Core can no longer continue safely and will quit.</source>
-        <translation>Възникна фатална грешка. Dash Core не може да продължи безопасно и ще се изключи.</translation>
+        <source>A fatal error occurred. Meraki core can no longer continue safely and will quit.</source>
+        <translation>Възникна фатална грешка. Meraki core не може да продължи безопасно и ще се изключи.</translation>
     </message>
     <message>
-        <source>Dash Core</source>
+        <source>Meraki core</source>
         <translation>Dash Ядро</translation>
     </message>
     <message>
@@ -286,7 +286,7 @@
         <translation>&amp;Изпращане</translation>
     </message>
     <message>
-        <source>Send coins to a Dash address</source>
+        <source>Send coins to a Meraki address</source>
         <translation>Изпращане на монети към Dash адрес</translation>
     </message>
     <message>
@@ -294,8 +294,8 @@
         <translation>&amp;Получаване</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dash: URIs)</source>
-        <translation>Заявка за плащане (генерира QR кодове и Dash: URI)</translation>
+        <source>Request payments (generates QR codes and miraki: URIs)</source>
+        <translation>Заявка за плащане (генерира QR кодове и miraki: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -322,8 +322,8 @@
         <translation>Изход от приложението</translation>
     </message>
     <message>
-        <source>Show information about Dash Core</source>
-        <translation>Покаци информация за Dash Core</translation>
+        <source>Show information about Meraki core</source>
+        <translation>Покаци информация за Meraki core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -482,8 +482,8 @@
         <translation>Отвори &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a dash: URI or payment request</source>
-        <translation>Отвори Dash: URI или заявка за плащане</translation>
+        <source>Open a miraki: URI or payment request</source>
+        <translation>Отвори miraki: URI или заявка за плащане</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -526,7 +526,7 @@
         <translation>Лента с инструменти</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dash network</source>
+        <source>%n active connection(s) to Meraki network</source>
         <translation><numerusform>%n активни връзки към Dash мрежата</numerusform><numerusform>%n активни връзки към Dash мрежата</numerusform></translation>
     </message>
     <message>
@@ -818,8 +818,8 @@
         <translation>Този етикет става червен, ако получателят получи сума, по-малка от прага за незначителен остатък.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Може да варира +/- %1 duff(s) за вход.</translation>
+        <source>Can vary +/- %1 samadhi(s) per input.</source>
+        <translation>Може да варира +/- %1 samadhi(s) за вход.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -877,7 +877,7 @@
         <translation>Редактиране на адрес за изпращане</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dash address.</source>
+        <source>The entered address "%1" is not a valid Meraki address.</source>
         <translation>Въведеният адрес "%1" не е валиден Dash адрес.</translation>
     </message>
     <message>
@@ -1160,11 +1160,11 @@
         <translation>Форма</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Dash network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Meraki network, as detailed below.</source>
         <translation>Скорошните транзакции може да не са видими, поради което салдото на портфейла Ви може да е неправилно. Тази информация ще бъде правилна, след като портфейлът ви е завършил синхронизиране с Dash мрежата, както е описано по-долу.</translation>
     </message>
     <message>
-        <source>Attempting to spend Dash that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend Meraki that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Опита да похарчите Dash, които са  от не визуализирани транзакции няма да бъде приет от мрежата.</translation>
     </message>
     <message>
@@ -1306,8 +1306,8 @@
         <translation>Тази сума действа като лимит, за да се изключи PrivateSend, когато веднъж бъде достигнат.</translation>
     </message>
     <message>
-        <source>Automatically open the Dash Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отваря порта за Dash Core клиента в маршрутизатора. Това работи само когато вашият маршрутизатор поддържа UPnP и той е разрешен.</translation>
+        <source>Automatically open the Meraki core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отваря порта за Meraki core клиента в маршрутизатора. Това работи само когато вашият маршрутизатор поддържа UPnP и той е разрешен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1318,7 +1318,7 @@
         <translation>Разрешени входящи връзки</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a SOCKS5 proxy.</source>
+        <source>Connect to the Meraki network through a SOCKS5 proxy.</source>
         <translation>Свързване с мрежата на Dash чрез SOCKS5 прокси.</translation>
     </message>
     <message>
@@ -1414,7 +1414,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Meraki network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Свързване с мрежата на Dash чрез SOCKS5 прокси за Tor скрити услуги.</translation>
     </message>
     <message>
@@ -1539,7 +1539,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Формуляр</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Meraki network after a connection is established, but this process has not completed yet.</source>
         <translation>Показаната информация може да е остаряла. Вашият портфейл се синхронизира автоматично след изграждането на връзка с Dash мрежата, но този процес все още не е завършен.</translation>
     </message>
     <message>
@@ -1804,8 +1804,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Грешка в заявката за плащане</translation>
     </message>
     <message>
-        <source>Cannot start dash: click-to-pay handler</source>
-        <translation>Не може да стартира dash: кликни за плащане на притежателя</translation>
+        <source>Cannot start miraki: click-to-pay handler</source>
+        <translation>Не може да стартира miraki: кликни за плащане на притежателя</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1820,7 +1820,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Невалиден адрес за плащане %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Dash address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Meraki address or malformed URI parameters.</source>
         <translation>Грешка при анализ на URI! Това може да е следствие от неправилен Dash адрес или неправилно зададени URI параметри.</translation>
     </message>
     <message>
@@ -1918,7 +1918,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a Dash address (e.g. %1)</source>
+        <source>Enter a Meraki address (e.g. %1)</source>
         <translation>Въведете Dash адрес (напр.%1)</translation>
     </message>
     <message>
@@ -2440,7 +2440,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>П&amp;овторно използване на съществуващ адрес за получаване (не се препоръчва)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Meraki network.</source>
         <translation>Възможност  да се прикрепи съобщение към заявката за плащане, което да бъде показано при отваряне на заявката. Забележка: съобщението няма да бъде изпратено с плащането по мрежата на Dash.</translation>
     </message>
     <message>
@@ -2452,7 +2452,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Възможност да се прикрепи наименование към новия адрес за получаване.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Meraki network.</source>
         <translation>Възможност  да се прикрепи съобщение към заявката за плащане, което да бъде показано при отваряне на заявката. &lt;br&gt;Забележка: съобщението няма да бъде изпратено с плащането по мрежата на Dash.</translation>
     </message>
     <message>
@@ -2909,7 +2909,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation><numerusform>Очаква се да започне потвърждение в %n блока.</numerusform><numerusform>Очаква се да започне потвърждение в %n блока.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Dash address</source>
+        <source>Warning: Invalid Meraki address</source>
         <translation>Внимание: Невалиден Dash адрес</translation>
     </message>
     <message>
@@ -2940,7 +2940,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Плати &amp;На:</translation>
     </message>
     <message>
-        <source>The Dash address to send the payment to</source>
+        <source>The Meraki address to send the payment to</source>
         <translation>Dash адресът да изпрати плащането към </translation>
     </message>
     <message>
@@ -2988,8 +2988,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Съобщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
-        <translation>Съобщението което беше прикрепено към dash: URI ще бъде запазено с транзакцията за ваше сведение. Забележка: Това съобщение няма да бъде изпратено през Dash мрежата.</translation>
+        <source>A message that was attached to the miraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
+        <translation>Съобщението което беше прикрепено към miraki: URI ще бъде запазено с транзакцията за ваше сведение. Забележка: Това съобщение няма да бъде изпратено през Dash мрежата.</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
@@ -3045,7 +3045,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Може да подпишете съобщенията/потвържденията с вашите адреси като доказателство, че сте получили Dash. Бъдете внимателни, не подписвайте съобщения, които биха разкрили лична информация без ваше съгласие.</translation>
     </message>
     <message>
-        <source>The Dash address to sign the message with</source>
+        <source>The Meraki address to sign the message with</source>
         <translation>Dash адресът да подпише съобщението</translation>
     </message>
     <message>
@@ -3077,7 +3077,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Копиране на текущия подпис в системния клипборд</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dash address</source>
+        <source>Sign the message to prove you own this Meraki address</source>
         <translation>Подпиши съобщението за да докажеш че притежаваш този Dash адрес</translation>
     </message>
     <message>
@@ -3101,11 +3101,11 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Въведете адреса на получателя, съобщението (уверете се, че сте копирали редовете, спациите, табовете и другите точно) и подпишете отдолу, за да удостоверите съобщението. Внимавайте да не вмъкнете излишни символи в подписа от това, което е в самото съобщение, за избегнете риска от злонамерена външна намеса. Имайте предвид, че това само доказва, че подписа е получен с адреса, но не доказва изпращането на всяка транзакция!</translation>
     </message>
     <message>
-        <source>The Dash address the message was signed with</source>
+        <source>The Meraki address the message was signed with</source>
         <translation>Dash адресът ,с който е подписано съобщението</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dash address</source>
+        <source>Verify the message to ensure it was signed with the specified Meraki address</source>
         <translation>Проверете съобщението, за да сте сигурни че е подписано с определен Dash адрес</translation>
     </message>
     <message>
@@ -4894,8 +4894,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Опции на RPC сървъра:</translation>
     </message>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Meraki core</source>
+        <translation>Meraki core</translation>
     </message>
     <message>
         <source>The %s developers</source>

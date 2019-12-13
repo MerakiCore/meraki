@@ -128,6 +128,8 @@ public:
 *   }
 */
 
+enum CSuperblockPool {Regular = 0, Charity = 1};
+
 class CSuperblock : public CGovernanceObject
 {
 private:
@@ -146,6 +148,7 @@ public:
     static bool IsValidBlockHeight(int nBlockHeight);
     static void GetNearestSuperblocksHeights(int nBlockHeight, int& nLastSuperblockRet, int& nNextSuperblockRet);
     static CAmount GetPaymentsLimit(int nBlockHeight);
+    static CAmount GetPaymentsLimit(int nBlockHeight, CSuperblockPool pool);
 
     int GetStatus() { return nStatus; }
     void SetStatus(int nStatusIn) { nStatus = nStatusIn; }

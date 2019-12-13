@@ -40,6 +40,7 @@ private:
     bool ValidatePaymentAmount();
     bool ValidatePaymentAddress();
     bool ValidateURL();
+    bool ValidatePool();
 
     bool CheckURL(const std::string& strURLIn);
 };

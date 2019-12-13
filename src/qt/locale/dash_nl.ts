@@ -258,12 +258,12 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. Dash Core can no longer continue safely and will quit.</source>
-        <translation>Er heeft zich een fatale fout voorgedaan. Dash Core kan niet veilig worden voortgezet en zal worden afgesloten.</translation>
+        <source>A fatal error occurred. Meraki core can no longer continue safely and will quit.</source>
+        <translation>Er heeft zich een fatale fout voorgedaan. Meraki core kan niet veilig worden voortgezet en zal worden afgesloten.</translation>
     </message>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Meraki core</source>
+        <translation>Meraki core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -286,7 +286,7 @@
         <translation>&amp;Verzenden</translation>
     </message>
     <message>
-        <source>Send coins to a Dash address</source>
+        <source>Send coins to a Meraki address</source>
         <translation>Verstuur Dash naar een Dashadres</translation>
     </message>
     <message>
@@ -294,8 +294,8 @@
         <translation>&amp;Ontvangen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dash: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR-codes en Dash: URI's)</translation>
+        <source>Request payments (generates QR codes and miraki: URIs)</source>
+        <translation>Vraag betaling aan (genereert QR-codes en miraki: URI's)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -322,8 +322,8 @@
         <translation>Sluit applicatie</translation>
     </message>
     <message>
-        <source>Show information about Dash Core</source>
-        <translation>Toon informatie over Dash Core</translation>
+        <source>Show information about Meraki core</source>
+        <translation>Toon informatie over Meraki core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -482,8 +482,8 @@
         <translation>Open &amp;URI</translation>
     </message>
     <message>
-        <source>Open a dash: URI or payment request</source>
-        <translation>Open een dash: URI of betalingsaanvraag</translation>
+        <source>Open a miraki: URI or payment request</source>
+        <translation>Open een miraki: URI of betalingsaanvraag</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -526,7 +526,7 @@
         <translation>Tab-werkbalk</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dash network</source>
+        <source>%n active connection(s) to Meraki network</source>
         <translation><numerusform>%n actieve verbinding met het Dash netwerk</numerusform><numerusform>%n actieve verbindingen met het Dash netwerk</numerusform></translation>
     </message>
     <message>
@@ -818,8 +818,8 @@
         <translation>Deze label wordt rood als een ontvanger een hoeveelheid kleiner dan de huidige dust-drempel krijgt.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Kan +/- %1 duff(s) per invoer variëren.</translation>
+        <source>Can vary +/- %1 samadhi(s) per input.</source>
+        <translation>Kan +/- %1 samadhi(s) per invoer variëren.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -877,7 +877,7 @@
         <translation>Bewerk verzendadres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dash address.</source>
+        <source>The entered address "%1" is not a valid Meraki address.</source>
         <translation>Het ingevoerde adres "%1" is geen geldig Dash adres.</translation>
     </message>
     <message>
@@ -1160,11 +1160,11 @@
         <translation>Vorm</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Dash network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Meraki network, as detailed below.</source>
         <translation>Recente transacties zijn mogelijk nog niet zichtbaar. De balans van de portemonnee is daarom mogelijk niet correct. Deze informatie is correct van zodra de synchronisatie met het Dash-netwerk werd voltooid, zoals onderaan beschreven.</translation>
     </message>
     <message>
-        <source>Attempting to spend Dash that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend Meraki that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Pogingen om Dash uit te geven die betrokken zijn bij nog-niet-weergegeven transacties zullen niet worden geaccepteerd door het netwerk</translation>
     </message>
     <message>
@@ -1295,7 +1295,7 @@
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
-        <translation>Indien het uitgeven van onbevestigd wisselgeld uitgeschakeld wordt dan kan het wisselgeld van een transactie niet worden gebruikt totdat de transactie ten minste een bevestiging heeft. 
+        <translation>Indien het uitgeven van onbevestigd wisselgeld uitgeschakeld wordt dan kan het wisselgeld van een transactie niet worden gebruikt totdat de transactie ten minste een bevestiging heeft.
 Dit heeft ook invloed op de manier waarop uw saldo wordt berekend.</translation>
     </message>
     <message>
@@ -1307,7 +1307,7 @@ Dit heeft ook invloed op de manier waarop uw saldo wordt berekend.</translation>
         <translation>Dit bedrag fungeert als een drempel om PrivateSend uit te schakelen zodra het werd bereikt.</translation>
     </message>
     <message>
-        <source>Automatically open the Dash Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Meraki core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Open automatisch de Dash client poort op de router. Dit werkt alleen als uw router UPnP ondersteunt en dit is ingeschakeld.</translation>
     </message>
     <message>
@@ -1319,7 +1319,7 @@ Dit heeft ook invloed op de manier waarop uw saldo wordt berekend.</translation>
         <translation>Laat binnenkomende verbindingen toe</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a SOCKS5 proxy.</source>
+        <source>Connect to the Meraki network through a SOCKS5 proxy.</source>
         <translation>Verbind met het Dash netwerk via een SOCKS proxy.</translation>
     </message>
     <message>
@@ -1340,7 +1340,7 @@ Dit heeft ook invloed op de manier waarop uw saldo wordt berekend.</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
-        <translation>Deze instelling bepaalt het aantal individuele masternodes waardoor een input zal worden geanonimiseerd. 
+        <translation>Deze instelling bepaalt het aantal individuele masternodes waardoor een input zal worden geanonimiseerd.
 Meer anonimisatie rondes geeft een hoger niveau van privacy, maar kost ook meer aan vergoedingen.</translation>
     </message>
     <message>
@@ -1416,7 +1416,7 @@ Meer anonimisatie rondes geeft een hoger niveau van privacy, maar kost ook meer 
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Meraki network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Maak verbinding met Dashnetwerk door een aparte SOCKS5-proxy voor verborgen diensten van Tor.</translation>
     </message>
     <message>
@@ -1462,7 +1462,7 @@ Meer anonimisatie rondes geeft een hoger niveau van privacy, maar kost ook meer 
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
 https://www.transifex.com/projects/p/dash/</source>
-        <translation>Is een een taal te kort of een vertaling onvolledig ? Help de vertaling hier: 
+        <translation>Is een een taal te kort of een vertaling onvolledig ? Help de vertaling hier:
 https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
@@ -1541,7 +1541,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Vorm</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Meraki network after a connection is established, but this process has not completed yet.</source>
         <translation>De weergegeven informatie kan achterhaald zijn. De beurs synchroniseert automatisch met het Dash netwerk nadat de verbinding is gelegd, maar dit proces is nog niet beeindigd.</translation>
     </message>
     <message>
@@ -1666,7 +1666,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
-        <translation>De denominaties zijn bij de Masternode ingebracht. 
+        <translation>De denominaties zijn bij de Masternode ingebracht.
 Om te mixen moeten andere gebruikers exact dezelfde denominaties inbrengen.</translation>
     </message>
     <message>
@@ -1807,7 +1807,7 @@ Om te mixen moeten andere gebruikers exact dezelfde denominaties inbrengen.</tra
         <translation>Fout bij betalingsverzoek</translation>
     </message>
     <message>
-        <source>Cannot start dash: click-to-pay handler</source>
+        <source>Cannot start miraki: click-to-pay handler</source>
         <translation>Kan Dash niet starten: click-to-pay handler</translation>
     </message>
     <message>
@@ -1823,7 +1823,7 @@ Om te mixen moeten andere gebruikers exact dezelfde denominaties inbrengen.</tra
         <translation>Ongeldig betalingsadres %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Dash address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Meraki address or malformed URI parameters.</source>
         <translation>URI kan niet verwerkt worden! Dit kan het gevolg zijn van een ongeldig Dash adres of misvormde URI parameters.</translation>
     </message>
     <message>
@@ -1921,7 +1921,7 @@ Om te mixen moeten andere gebruikers exact dezelfde denominaties inbrengen.</tra
         <translation>Bedrag</translation>
     </message>
     <message>
-        <source>Enter a Dash address (e.g. %1)</source>
+        <source>Enter a Meraki address (e.g. %1)</source>
         <translation>Voer een Dashadres in (bijv. %1)</translation>
     </message>
     <message>
@@ -2437,7 +2437,7 @@ Om te mixen moeten andere gebruikers exact dezelfde denominaties inbrengen.</tra
     <message>
         <source>Reuse one of the previously used receiving addresses.&lt;br&gt;Reusing addresses has security and privacy issues.&lt;br&gt;Do not use this unless re-generating a payment request made before.</source>
         <translation>Gebruik een van de eerder gebruikte ontvangstadressen opnieuw.
-Het opnieuw gebruiken van adressen heeft beveiliging- en privacy problemen. 
+Het opnieuw gebruiken van adressen heeft beveiliging- en privacy problemen.
 Gebruik dit niet, behalve als er eerder een betalingsverzoek opnieuw gegenereerd is.</translation>
     </message>
     <message>
@@ -2445,7 +2445,7 @@ Gebruik dit niet, behalve als er eerder een betalingsverzoek opnieuw gegenereerd
         <translation>H&amp;ergebruik en bestaand ontvangstadres (niet aanbevolen)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Meraki network.</source>
         <translation>Een optioneel bericht om aan het betalingsverzoek toe te voegen, die zal worden getoond wanneer het verzoek wordt geopend. Nota: Het bericht zal niet verzonden worden met de betaling over het Dash netwerk.</translation>
     </message>
     <message>
@@ -2457,7 +2457,7 @@ Gebruik dit niet, behalve als er eerder een betalingsverzoek opnieuw gegenereerd
         <translation>Een optioneel label om te associëren met het nieuwe ontvangende adres</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Dash network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Meraki network.</source>
         <translation>Een optioneel bericht om aan het betalingsverzoek toe te voegen, die zal worden getoond wanneer het verzoek wordt geopend. &lt;br&gt;
 Nota: Het bericht zal niet verzonden worden met de betaling over het Dash netwerk.</translation>
     </message>
@@ -2915,7 +2915,7 @@ Nota: Het bericht zal niet verzonden worden met de betaling over het Dash netwer
         <translation><numerusform>Schatting is dat bevestiging begint binnen %n blok.</numerusform><numerusform>Schatting is dat bevestiging begint binnen %n blocks.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Dash address</source>
+        <source>Warning: Invalid Meraki address</source>
         <translation>WAARSCHUWING: Ongeldig Dash adres</translation>
     </message>
     <message>
@@ -2946,7 +2946,7 @@ Nota: Het bericht zal niet verzonden worden met de betaling over het Dash netwer
         <translation>Betaal &amp;Aan:</translation>
     </message>
     <message>
-        <source>The Dash address to send the payment to</source>
+        <source>The Meraki address to send the payment to</source>
         <translation>Het Dashadres om betaling aan te versturen</translation>
     </message>
     <message>
@@ -2994,8 +2994,8 @@ Nota: Het bericht zal niet verzonden worden met de betaling over het Dash netwer
         <translation>Bericht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
-        <translation>Een boodschap die was bijgevoegd aan de dash: URI die met de transactie voor uw referentie wordt opgeslagen. Opmerking: Dit bericht zal niet over het Dash netwerk worden verzonden.</translation>
+        <source>A message that was attached to the miraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
+        <translation>Een boodschap die was bijgevoegd aan de miraki: URI die met de transactie voor uw referentie wordt opgeslagen. Opmerking: Dit bericht zal niet over het Dash netwerk worden verzonden.</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
@@ -3051,7 +3051,7 @@ Nota: Het bericht zal niet verzonden worden met de betaling over het Dash netwer
         <translation>U kunt berichten/overeenkomsten ondertekenen met een van uw adressen om te bewijzen dat u dit adres bezit. Pas op dat u geen onduidelijke of willekeurige dingen ondertekent, want phishingaanvallen zouden u kunnen misleiden om zo uw identiteit te stelen. Onderteken alleen berichten waarmee u het volledig eens bent.</translation>
     </message>
     <message>
-        <source>The Dash address to sign the message with</source>
+        <source>The Meraki address to sign the message with</source>
         <translation>Het Dashadres om bericht mee te ondertekenen</translation>
     </message>
     <message>
@@ -3083,7 +3083,7 @@ Nota: Het bericht zal niet verzonden worden met de betaling over het Dash netwer
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dash address</source>
+        <source>Sign the message to prove you own this Meraki address</source>
         <translation>Teken het bericht om te bewijzen dat u dit Dash adres bezit</translation>
     </message>
     <message>
@@ -3107,11 +3107,11 @@ Nota: Het bericht zal niet verzonden worden met de betaling over het Dash netwer
         <translation>Voer het adres van de ontvanger in, bericht (zorg ervoor dat de regeleinden, spaties, tabs etc. precies kloppen) en onderteken onderaan om het bericht te verifiëren. Wees voorzicht om niet meer in de ondertekening te lezen dan in het getekende bericht zelf, om te voorkomen dat je wordt aangevallen met een man-in-the-middle attack. Houd er mee rekening dat dit alleen de ondertekende partij bewijst met het ontvangen adres, er kan niet bewezen worden dat er een transactie heeft plaatsgevonden!</translation>
     </message>
     <message>
-        <source>The Dash address the message was signed with</source>
+        <source>The Meraki address the message was signed with</source>
         <translation>Het Dashadres waarmee het bericht ondertekend is</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dash address</source>
+        <source>Verify the message to ensure it was signed with the specified Meraki address</source>
         <translation>Verifieer het bericht om zeker te zijn dat het getekend werd met het opgegeven Dash adres</translation>
     </message>
     <message>
@@ -4900,8 +4900,8 @@ Nota: Het bericht zal niet verzonden worden met de betaling over het Dash netwer
         <translation>RPC-serveropties:</translation>
     </message>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Meraki core</source>
+        <translation>Meraki core</translation>
     </message>
     <message>
         <source>The %s developers</source>

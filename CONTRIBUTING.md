@@ -1,7 +1,7 @@
-Contributing to Dash Core
+Contributing to Meraki core
 ============================
 
-The Dash Core project operates an open contributor model where anyone is
+The Meraki core project operates an open contributor model where anyone is
 welcome to contribute towards development in the form of peer review, testing
 and patches. This document explains the practical process and guidelines for
 contributing.
@@ -157,11 +157,11 @@ where possible keep them short, uncomplex and easy to verify.
 "Decision Making" Process
 -------------------------
 
-The following applies to code changes to the Dash Core project (and related
+The following applies to code changes to the Meraki core project (and related
 projects such as libsecp256k1), and is not to be confused with overall Dash
 Network Protocol consensus changes.
 
-Whether a pull request is merged into Dash Core rests with the project merge
+Whether a pull request is merged into Meraki core rests with the project merge
 maintainers and ultimately the project lead.
 
 Maintainers will take into consideration if a patch is in line with the general
@@ -229,12 +229,12 @@ a worthwhile change based on the judgement of the maintainers.
 Release Policy
 --------------
 
-The project leader is the release manager for each Dash Core release.
+The project leader is the release manager for each Meraki core release.
 
 Copyright
 ---------
 
-By contributing to this repository, you agree to license your work under the 
-MIT license unless specified otherwise in `contrib/debian/copyright` or at 
-the top of the file itself. Any work contributed where you are not the original 
+By contributing to this repository, you agree to license your work under the
+MIT license unless specified otherwise in `contrib/debian/copyright` or at
+the top of the file itself. Any work contributed where you are not the original
 author must contain its license header with the original author(s) and source.
