@@ -1139,14 +1139,14 @@ CAmount GetBlockSubsidy(int nPrevBits, int nPrevHeight, const Consensus::Params&
     double dDiff;
     CAmount nSubsidyBase;
 
-    if (nPrevHeight < 180) {
-        nSubsidyBase = 2200;
+    if (nPrevHeight < 650) {
+        nSubsidyBase = 700;
     }
     else {
         // GPU mining era
         nSubsidyBase = (11111.0 / (pow((dDiff+51.0)/6.0,2.0)));
         if(nSubsidyBase > 300) nSubsidyBase = 300;
-        else if(nSubsidyBase < 25) nSubsidyBase = 25;
+        else if(nSubsidyBase < 20) nSubsidyBase = 20;
     }
 
     CAmount nSubsidy = nSubsidyBase * COIN;

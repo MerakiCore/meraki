@@ -214,13 +214,13 @@ public:
         consensus.nGovernanceFilterElements = 20000;
         consensus.nMasternodeMinimumConfirmations = 15;
         consensus.BIP34Height = 1;
-        consensus.BIP34Hash = uint256S("0x1fe272ad50cc40595ee218b8baa78b9dbd3e29e84087330dba54b7c4cfb74b72");
+        consensus.BIP34Hash = uint256S("0x2e16c930fc8528ae97ed3d9e4017d73ded5cde23d3bbb03fdc2c2fbb98375cea");
         consensus.BIP65Height = 1; // 00000000000076d8fcea02ec0963de4abfd01e771fec0863f960c2c64fe6f357
         consensus.BIP66Height = 1; // 00000000000b1fa2dfa312863570e13fae9ca7b5566cb27e55422620b469aefa
         consensus.DIP0001Height = 11;
         consensus.DIP0003Height = 11;
         consensus.DIP0003EnforcementHeight = 1;
-        consensus.DIP0003EnforcementHash = uint256S("0x1fe272ad50cc40595ee218b8baa78b9dbd3e29e84087330dba54b7c4cfb74b72");
+        consensus.DIP0003EnforcementHash = uint256S("0x2e16c930fc8528ae97ed3d9e4017d73ded5cde23d3bbb03fdc2c2fbb98375cea");
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20
         consensus.nPowTargetTimespan = 24 * 60 * 60; // miraki: 1 day
         consensus.nPowTargetSpacing = 2.5 * 60; // miraki: 2.5 minutes
@@ -271,7 +271,7 @@ public:
         consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000000000"); // 10
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x1fe272ad50cc40595ee218b8baa78b9dbd3e29e84087330dba54b7c4cfb74b72"); // 1
+        consensus.defaultAssumeValid = uint256S("0x2e16c930fc8528ae97ed3d9e4017d73ded5cde23d3bbb03fdc2c2fbb98375cea"); // 1
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
