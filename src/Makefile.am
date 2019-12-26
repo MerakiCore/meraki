@@ -400,7 +400,6 @@ crypto_libmeraki_crypto_a_SOURCES += \
   crypto/jh.c \
   crypto/keccak.c \
   crypto/luffa.c \
-  crypto/sha2.c \
   crypto/sph_sha2big.c \
   crypto/shabal.c \
   crypto/shavite.c \
