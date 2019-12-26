@@ -278,8 +278,8 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0x87;
-        pchMessageStart[1] = 0xac;
+        pchMessageStart[0] = 0xac;
+        pchMessageStart[1] = 0x87;
         pchMessageStart[2] = 0xea;
         pchMessageStart[3] = 0xf3;
         vAlertPubKey = ParseHex("04d985184cd90f77110e506249fddf37d7b836781216aecab08cb4d1fc74cb8eed674715bddfe85ffb0ec2a0ab7f7d4fa428df22f24bb9cd6edaad6a5d22e41b4f");
@@ -335,6 +335,8 @@ public:
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
             (  0, uint256S("0x0000003d1edd3bd1d5c485d34c19bd1888d5ff78bc4cf57062975aa043f7c405"))
+            (  260, uint256S("0x0000000000b104f4395b73f89ed2ab0990a93a6010d9b1bcab2161ee75d5cea0"))
+
         };
 
         chainTxData = ChainTxData{
