@@ -56,7 +56,7 @@ LIBBITCOIN_CONSENSUS=libmeraki_consensus.a
 LIBBITCOIN_CLI=libmeraki_cli.a
 LIBBITCOIN_UTIL=libmeraki_util.a
 LIBBITCOIN_CRYPTO=crypto/libmeraki_crypto.a
-LIBBITCOINQT=qt/libdashqt.a
+LIBBITCOINQT=qt/libmerakiqt.a
 LIBSECP256K1=secp256k1/libsecp256k1.la
 
 if ENABLE_ZMQ
