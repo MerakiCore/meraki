@@ -371,13 +371,13 @@ public:
         consensus.nGovernanceFilterElements = 500;
         consensus.nMasternodeMinimumConfirmations = 1;
         consensus.BIP34Height = 1;
-        consensus.BIP34Hash = uint256S("0x0000000000000000000000000000000000000000000000000062cd3e94ad2d62");
+        consensus.BIP34Hash = uint256S("0x521ae987e5c0cbf15011d1e03fc95774f38898f40a5434cb0c6a2f7f67e24a96");
         consensus.BIP65Height = 1; // 0000039cf01242c7f921dcb4806a5994bc003b48c1973ae0c89b67809c2bb2ab
         consensus.BIP66Height = 1; // 0000002acdd29a14583540cb72e1c5cc83783560e38fa7081495d474fe1671f7
         consensus.DIP0001Height = 2;
         consensus.DIP0003Height = 2;
         consensus.DIP0003EnforcementHeight = 1;
-        consensus.DIP0003EnforcementHash = uint256S("0x0000000000000000000000000000000000000000000000000062cd3e94ad2d62");
+        consensus.DIP0003EnforcementHash = uint256S("0x521ae987e5c0cbf15011d1e03fc95774f38898f40a5434cb0c6a2f7f67e24a96");
         consensus.powLimit = uint256S("ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20
         consensus.nPowTargetTimespan = 24 * 60 * 60; // miraki: 1 day
         consensus.nPowTargetSpacing = 2.5 * 60; // miraki: 2.5 minutes
@@ -428,7 +428,7 @@ public:
         consensus.nMinimumChainWork = uint256S("0x00"); // 95930
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x0000000005ae4db9746d6cad8e0ccebdef1e05afec9c40809f31457fdaf7d843"); // 95930
+        consensus.defaultAssumeValid = uint256S("0x521ae987e5c0cbf15011d1e03fc95774f38898f40a5434cb0c6a2f7f67e24a96"); // 95930
 
         pchMessageStart[0] = 0xad;
         pchMessageStart[1] = 0x88;
@@ -448,7 +448,7 @@ public:
 
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        // vSeeds.push_back(CDNSSeedData("dashdot.io",  "testnet-seed.dashdot.io"));
+        vSeeds.push_back(CDNSSeedData("meraki.cash",  "testnet.meraki.cash"));
         // vSeeds.push_back(CDNSSeedData("masternode.io", "test.dnsseed.masternode.io"));
 
         // Testnet Dash addresses start with 'y'
@@ -484,13 +484,13 @@ public:
         nPoolMaxParticipants = 5;
         nFulfilledRequestExpireTime = 5*60; // fulfilled requests expire in 5 minutes
 
-        vSporkAddresses = {"yjPtiKh2uwk3bDutTEA2q9mCtXyiZRWn55"};
+        vSporkAddresses = {"yj3SRzQp3aKL5vQoV1iq31AYbLtvpmRS8C"};
         nMinSporkKeys = 1;
         fBIP9CheckMasternodesUpgraded = true;
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (    0, uint256S("0x000006aa6738f56e02859c97ed1256467c29324c0055dc5355bc02d295b88f46"))
+            (    0, uint256S("0x521ae987e5c0cbf15011d1e03fc95774f38898f40a5434cb0c6a2f7f67e24a96"))
         };
 
         chainTxData = ChainTxData{
