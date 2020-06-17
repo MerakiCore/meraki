@@ -690,7 +690,7 @@ int main(int argc, char *argv[])
         exit(EXIT_SUCCESS);
 
     // Start up the payment server early, too, so impatient users that click on
-    // miraki: links repeatedly have their payment requests routed to this process:
+    // meraki: links repeatedly have their payment requests routed to this process:
     app.createPaymentServer();
 #endif
 

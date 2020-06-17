@@ -294,8 +294,8 @@
         <translation>&amp;Получить</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and miraki: URIs)</source>
-        <translation>Запросить платежи (создать QR-коды и miraki: URI)</translation>
+        <source>Request payments (generates QR codes and meraki: URIs)</source>
+        <translation>Запросить платежи (создать QR-коды и meraki: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -482,8 +482,8 @@
         <translation>Открыть &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a miraki: URI or payment request</source>
-        <translation>Открыть miraki: URI или запрос платежа</translation>
+        <source>Open a meraki: URI or payment request</source>
+        <translation>Открыть meraki: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1804,8 +1804,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Ошибка запроса платежа</translation>
     </message>
     <message>
-        <source>Cannot start miraki: click-to-pay handler</source>
-        <translation>Не удаётся запустить обработчик miraki: click-to-pay</translation>
+        <source>Cannot start meraki: click-to-pay handler</source>
+        <translation>Не удаётся запустить обработчик meraki: click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2988,8 +2988,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Сообщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the miraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
-        <translation>К miraki: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Обратите внимание: сообщение не будет отправлено через сеть Dash.</translation>
+        <source>A message that was attached to the meraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
+        <translation>К meraki: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Обратите внимание: сообщение не будет отправлено через сеть Dash.</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>

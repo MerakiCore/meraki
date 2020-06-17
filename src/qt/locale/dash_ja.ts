@@ -278,7 +278,7 @@
         <translation>受取 (&amp;R)</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and miraki: URIs)</source>
+        <source>Request payments (generates QR codes and meraki: URIs)</source>
         <translation>送金を要求 (QRコードとdash:URIを生成)</translation>
     </message>
     <message>
@@ -466,8 +466,8 @@
         <translation>URIを開く… (&amp;U)</translation>
     </message>
     <message>
-        <source>Open a miraki: URI or payment request</source>
-        <translation>miraki: URIまたは送金リクエストを開く</translation>
+        <source>Open a meraki: URI or payment request</source>
+        <translation>meraki: URIまたは送金リクエストを開く</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1781,7 +1781,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>支払いリクエストのエラー</translation>
     </message>
     <message>
-        <source>Cannot start miraki: click-to-pay handler</source>
+        <source>Cannot start meraki: click-to-pay handler</source>
         <translation>Dash を起動できません: click-to-pay ハンドラー</translation>
     </message>
     <message>
@@ -2961,8 +2961,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>メッセージ：</translation>
     </message>
     <message>
-        <source>A message that was attached to the miraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
-        <translation>miraki: URIに添付されていたメッセージです。これは参照用としてトランザクションとともに保存されます。注意：このメッセージはDashネットワークを経由して送信されるわけではありません。</translation>
+        <source>A message that was attached to the meraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
+        <translation>meraki: URIに添付されていたメッセージです。これは参照用としてトランザクションとともに保存されます。注意：このメッセージはDashネットワークを経由して送信されるわけではありません。</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>

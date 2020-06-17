@@ -4,7 +4,7 @@ Debian
 This directory contains files used to package merakid/meraki-qt
 for Debian-based Linux systems. If you compile merakid/meraki-qt yourself, there are some useful files here.
 
-## miraki: URI support ##
+## meraki: URI support ##
 
 
 meraki-qt.desktop  (Gnome / Open Desktop)

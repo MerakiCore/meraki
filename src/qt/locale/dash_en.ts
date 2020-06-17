@@ -378,8 +378,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Request payments (generates QR codes and miraki: URIs)</source>
-        <translation>Request payments (generates QR codes and miraki: URIs)</translation>
+        <source>Request payments (generates QR codes and meraki: URIs)</source>
+        <translation>Request payments (generates QR codes and meraki: URIs)</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -613,8 +613,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Open a miraki: URI or payment request</source>
-        <translation>Open a miraki: URI or payment request</translation>
+        <source>Open a meraki: URI or payment request</source>
+        <translation>Open a meraki: URI or payment request</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2310,8 +2310,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="-402"/>
-        <source>Cannot start miraki: click-to-pay handler</source>
-        <translation>Cannot start miraki: click-to-pay handler</translation>
+        <source>Cannot start meraki: click-to-pay handler</source>
+        <translation>Cannot start meraki: click-to-pay handler</translation>
     </message>
     <message>
         <location line="+103"/>
@@ -3868,8 +3868,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the miraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
-        <translation>A message that was attached to the miraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</translation>
+        <source>A message that was attached to the meraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
+        <translation>A message that was attached to the meraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</translation>
     </message>
     <message>
         <location line="+433"/>

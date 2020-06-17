@@ -278,7 +278,7 @@
         <translation>&amp;Al</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and miraki: URIs)</source>
+        <source>Request payments (generates QR codes and meraki: URIs)</source>
         <translation>Ödeme talep et (QR kodu ve Dash URI'si oluşturur)</translation>
     </message>
     <message>
@@ -466,8 +466,8 @@
         <translation>&amp;URI Aç...</translation>
     </message>
     <message>
-        <source>Open a miraki: URI or payment request</source>
-        <translation>Bir miraki: bağlantısı ya da ödeme talebi aç</translation>
+        <source>Open a meraki: URI or payment request</source>
+        <translation>Bir meraki: bağlantısı ya da ödeme talebi aç</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1776,7 +1776,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Ödeme talebi hatası</translation>
     </message>
     <message>
-        <source>Cannot start miraki: click-to-pay handler</source>
+        <source>Cannot start meraki: click-to-pay handler</source>
         <translation>Dash başlatılamadı: tıkla-ve-öde yöneticisi</translation>
     </message>
     <message>
@@ -2956,8 +2956,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Mesaj:</translation>
     </message>
     <message>
-        <source>A message that was attached to the miraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
-        <translation>Referans için miraki: URI'siyle iliştirilmiş işlemle birlikte depolanacak bir ileti. Not: Bu mesaj Dash ağı üzerinden gönderilmeyecektir.</translation>
+        <source>A message that was attached to the meraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
+        <translation>Referans için meraki: URI'siyle iliştirilmiş işlemle birlikte depolanacak bir ileti. Not: Bu mesaj Dash ağı üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>

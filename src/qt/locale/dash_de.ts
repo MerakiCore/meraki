@@ -294,8 +294,8 @@
         <translation>&amp;Empfangen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and miraki: URIs)</source>
-        <translation>Zahlungen anfordern (erzeugt QR-Codes und "miraki:"-URIs)</translation>
+        <source>Request payments (generates QR codes and meraki: URIs)</source>
+        <translation>Zahlungen anfordern (erzeugt QR-Codes und "meraki:"-URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -482,8 +482,8 @@
         <translation>&amp;URI öffnen...</translation>
     </message>
     <message>
-        <source>Open a miraki: URI or payment request</source>
-        <translation>Eine "miraki:"-URI oder Zahlungsanforderung öffnen</translation>
+        <source>Open a meraki: URI or payment request</source>
+        <translation>Eine "meraki:"-URI oder Zahlungsanforderung öffnen</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1806,7 +1806,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Fehlerhafte Zahlungsanforderung</translation>
     </message>
     <message>
-        <source>Cannot start miraki: click-to-pay handler</source>
+        <source>Cannot start meraki: click-to-pay handler</source>
         <translation>Dash kann nicht gestartet werden: click-to-pay handler</translation>
     </message>
     <message>
@@ -2990,8 +2990,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Nachricht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the miraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
-        <translation>Eine an die "miraki:"-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das Dash-Netzwerk gesendet.</translation>
+        <source>A message that was attached to the meraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
+        <translation>Eine an die "meraki:"-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das Dash-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>

@@ -278,8 +278,8 @@
         <translation>&amp;รับ</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and miraki: URIs)</source>
-        <translation>เรียกเก็บ การชำระเงิน (สร้าง QR codes และ miraki: URIs)</translation>
+        <source>Request payments (generates QR codes and meraki: URIs)</source>
+        <translation>เรียกเก็บ การชำระเงิน (สร้าง QR codes และ meraki: URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -466,8 +466,8 @@
         <translation>เปิด URI</translation>
     </message>
     <message>
-        <source>Open a miraki: URI or payment request</source>
-        <translation>เปิด miraki: URI หรือคำขอการชำระเงิน</translation>
+        <source>Open a meraki: URI or payment request</source>
+        <translation>เปิด meraki: URI หรือคำขอการชำระเงิน</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1752,8 +1752,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>คำขอการชำระเงินผิดพลาด</translation>
     </message>
     <message>
-        <source>Cannot start miraki: click-to-pay handler</source>
-        <translation>ไม่สามารถเริ่มต้น miraki: คลิกเพื่อจ่ายเงิน</translation>
+        <source>Cannot start meraki: click-to-pay handler</source>
+        <translation>ไม่สามารถเริ่มต้น meraki: คลิกเพื่อจ่ายเงิน</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2932,8 +2932,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>ข้อความ: </translation>
     </message>
     <message>
-        <source>A message that was attached to the miraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
-        <translation>ข้อความที่แนบมาไปยัง miraki: URI ซึ่งจะถูกเก็บไว้กับธุรกรรมเพื่อเป็นข้อมูลอ้างอิงของคุณ  หมายเหตุ: ข้อความนี้จะถูกส่งไปยังเครือข่าย Dash </translation>
+        <source>A message that was attached to the meraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
+        <translation>ข้อความที่แนบมาไปยัง meraki: URI ซึ่งจะถูกเก็บไว้กับธุรกรรมเพื่อเป็นข้อมูลอ้างอิงของคุณ  หมายเหตุ: ข้อความนี้จะถูกส่งไปยังเครือข่าย Dash </translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>

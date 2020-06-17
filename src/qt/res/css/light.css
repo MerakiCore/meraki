@@ -760,7 +760,7 @@ QDialog#HelpMessageDialog QScrollBar:vertical, QDialog#HelpMessageDialog QScroll
 border:0;
 }
 
-/* About Miraki Dialog */
+/* About Meraki Dialog */
 QDialog#AboutDialog {
 background-color:#F8F6F6;
 }

@@ -252,8 +252,8 @@
         <translation>&amp;Motta</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and miraki: URIs)</source>
-        <translation>Begär betalningar (genererar QR-koder och miraki:-URI:s)</translation>
+        <source>Request payments (generates QR codes and meraki: URIs)</source>
+        <translation>Begär betalningar (genererar QR-koder och meraki:-URI:s)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -404,7 +404,7 @@
         <translation>Öppna &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a miraki: URI or payment request</source>
+        <source>Open a meraki: URI or payment request</source>
         <translation>Öppna en Dash-URI eller betalningsbegäran</translation>
     </message>
     <message>
@@ -791,15 +791,15 @@ Adress: %4
     </message>
     <message>
         <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Dash's configuration screen.</source>
-        <translation>Darksend ställdes framgångsrikt om till grundläggande (%1 och 2 omgångar). Du kan ändra detta när som helst genom att öppna miraki:s konfigurationsskärm.</translation>
+        <translation>Darksend ställdes framgångsrikt om till grundläggande (%1 och 2 omgångar). Du kan ändra detta när som helst genom att öppna meraki:s konfigurationsskärm.</translation>
     </message>
     <message>
         <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Dash's configuration screen.</source>
-        <translation>Darksend ställdes framgångsrikt in på hög (%1 och 8 omgångar). Du kan ändra detta när som helst genom att öppna miraki:s konfigurationsskärm.</translation>
+        <translation>Darksend ställdes framgångsrikt in på hög (%1 och 8 omgångar). Du kan ändra detta när som helst genom att öppna meraki:s konfigurationsskärm.</translation>
     </message>
     <message>
         <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Dash's configuration screen.</source>
-        <translation>Darksend ställdes framgångsrikt in på maximal (%1 och 16 omgångar). Du kan ändra detta när som helst genom att öppna miraki:s konfigurationsskärm</translation>
+        <translation>Darksend ställdes framgångsrikt in på maximal (%1 och 16 omgångar). Du kan ändra detta när som helst genom att öppna meraki:s konfigurationsskärm</translation>
     </message>
 </context>
 <context>
@@ -940,7 +940,7 @@ Adress: %4
     </message>
     <message>
         <source>Meraki core will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Meraki core kommer att laddas ned och lagra en kopia av miraki:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
+        <translation>Meraki core kommer att laddas ned och lagra en kopia av meraki:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1050,7 +1050,7 @@ Adress: %4
     </message>
     <message>
         <source>Automatically open the Dash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna miraki:s klientport automatiskt på routern. Detta fungerar bara om din router stöder UPnP och är aktiverad.</translation>
+        <translation>Öppna meraki:s klientport automatiskt på routern. Detta fungerar bara om din router stöder UPnP och är aktiverad.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1335,8 +1335,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Fel vid betalningsbegäran</translation>
     </message>
     <message>
-        <source>Cannot start miraki: click-to-pay handler</source>
-        <translation>Kan inte starta miraki: klicka-för-att-betala hanterare</translation>
+        <source>Cannot start meraki: click-to-pay handler</source>
+        <translation>Kan inte starta meraki: klicka-för-att-betala hanterare</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1958,8 +1958,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Meddelande:</translation>
     </message>
     <message>
-        <source>A message that was attached to the miraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
-        <translation>Ett meddelande som bifogades till miraki: URI vilket kommer att lagras med transaktionen så att du vet. Observera: Meddelandet kommer inte att skickas över Dash-nätverket.</translation>
+        <source>A message that was attached to the meraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
+        <translation>Ett meddelande som bifogades till meraki: URI vilket kommer att lagras med transaktionen så att du vet. Observera: Meddelandet kommer inte att skickas över Dash-nätverket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>

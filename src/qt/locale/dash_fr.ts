@@ -294,7 +294,7 @@
         <translation>&amp;Recevoir</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and miraki: URIs)</source>
+        <source>Request payments (generates QR codes and meraki: URIs)</source>
         <translation>Demande de paiements (génère des QR-codes et des URIs Dash)</translation>
     </message>
     <message>
@@ -482,7 +482,7 @@
         <translation>Ouvrir une &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a miraki: URI or payment request</source>
+        <source>Open a meraki: URI or payment request</source>
         <translation>Ouvrir une URI ou demande de paiement Dash</translation>
     </message>
     <message>
@@ -1804,7 +1804,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Erreur de demande de paiement</translation>
     </message>
     <message>
-        <source>Cannot start miraki: click-to-pay handler</source>
+        <source>Cannot start meraki: click-to-pay handler</source>
         <translation>Impossible de démarrer le gestionnaire Dash click-to-pay</translation>
     </message>
     <message>
@@ -2988,7 +2988,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Message :</translation>
     </message>
     <message>
-        <source>A message that was attached to the miraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
+        <source>A message that was attached to the meraki: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Meraki network.</source>
         <translation>Un message joint à l'URI Dash qui sera sauvegardé avec la transaction pour référence. Note : ce message ne sera pas envoyé à travers le réseau Dash.</translation>
     </message>
     <message>

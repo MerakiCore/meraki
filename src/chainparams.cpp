@@ -222,8 +222,8 @@ public:
         consensus.DIP0003EnforcementHeight = 1;
         consensus.DIP0003EnforcementHash = uint256S("0x2e16c930fc8528ae97ed3d9e4017d73ded5cde23d3bbb03fdc2c2fbb98375cea");
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20
-        consensus.nPowTargetTimespan = 24 * 60 * 60; // miraki: 1 day
-        consensus.nPowTargetSpacing = 2.5 * 60; // miraki: 2.5 minutes
+        consensus.nPowTargetTimespan = 24 * 60 * 60; // meraki: 1 day
+        consensus.nPowTargetSpacing = 2.5 * 60; // meraki: 2.5 minutes
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nPowKGWHeight = 1;
@@ -379,8 +379,8 @@ public:
         consensus.DIP0003EnforcementHeight = 1;
         consensus.DIP0003EnforcementHash = uint256S("0x521ae987e5c0cbf15011d1e03fc95774f38898f40a5434cb0c6a2f7f67e24a96");
         consensus.powLimit = uint256S("ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20
-        consensus.nPowTargetTimespan = 24 * 60 * 60; // miraki: 1 day
-        consensus.nPowTargetSpacing = 2.5 * 60; // miraki: 2.5 minutes
+        consensus.nPowTargetTimespan = 24 * 60 * 60; // meraki: 1 day
+        consensus.nPowTargetSpacing = 2.5 * 60; // meraki: 2.5 minutes
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
         consensus.nPowKGWHeight = 1; // nPowKGWHeight >= nPowDGWHeight means "no KGW"
@@ -533,8 +533,8 @@ public:
         consensus.DIP0003EnforcementHeight = 2; // DIP0003 activated immediately on devnet
         consensus.DIP0003EnforcementHash = uint256();
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 1
-        consensus.nPowTargetTimespan = 24 * 60 * 60; // miraki: 1 day
-        consensus.nPowTargetSpacing = 2.5 * 60; // miraki: 2.5 minutes
+        consensus.nPowTargetTimespan = 24 * 60 * 60; // meraki: 1 day
+        consensus.nPowTargetSpacing = 2.5 * 60; // meraki: 2.5 minutes
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
         consensus.nPowKGWHeight = 4001; // nPowKGWHeight >= nPowDGWHeight means "no KGW"
@@ -698,8 +698,8 @@ public:
         consensus.DIP0003EnforcementHeight = 500;
         consensus.DIP0003EnforcementHash = uint256();
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 1
-        consensus.nPowTargetTimespan = 24 * 60 * 60; // miraki: 1 day
-        consensus.nPowTargetSpacing = 2.5 * 60; // miraki: 2.5 minutes
+        consensus.nPowTargetTimespan = 24 * 60 * 60; // meraki: 1 day
+        consensus.nPowTargetSpacing = 2.5 * 60; // meraki: 2.5 minutes
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = true;
         consensus.nPowKGWHeight = 15200; // same as mainnet
