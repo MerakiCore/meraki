@@ -130,8 +130,8 @@ static Consensus::LLMQParams llmq50_60 = {
         .type = Consensus::LLMQ_50_60,
         .name = "llmq_50_60",
         .size = 50,
-        .minSize = 40,
-        .threshold = 30,
+        .minSize = 25,
+        .threshold = 15,
 
         .dkgInterval = 24, // one DKG per hour
         .dkgPhaseBlocks = 2,
@@ -148,8 +148,8 @@ static Consensus::LLMQParams llmq400_60 = {
         .type = Consensus::LLMQ_400_60,
         .name = "llmq_400_60",
         .size = 400,
-        .minSize = 300,
-        .threshold = 240,
+        .minSize = 210,
+        .threshold = 190,
 
         .dkgInterval = 24 * 12, // one DKG every 12 hours
         .dkgPhaseBlocks = 4,
@@ -268,10 +268,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0008].nThreshold = 3226; // 80% of 4032
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000000000"); // 10
+        consensus.nMinimumChainWork = uint256S("0x000000000000000000000000000000000000000000000000008fa52005292ad8");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x2e16c930fc8528ae97ed3d9e4017d73ded5cde23d3bbb03fdc2c2fbb98375cea"); // 1
+        consensus.defaultAssumeValid = uint256S("0x0000000001ca41ec70614195c2212d2843f68666af9783474140290ed71fd18f"); // 94388
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -336,6 +336,7 @@ public:
             boost::assign::map_list_of
             (  0, uint256S("0x0000003d1edd3bd1d5c485d34c19bd1888d5ff78bc4cf57062975aa043f7c405"))
             (  260, uint256S("0x0000000000b104f4395b73f89ed2ab0990a93a6010d9b1bcab2161ee75d5cea0"))
+            (  94388, uint256S("0x0000000001ca41ec70614195c2212d2843f68666af9783474140290ed71fd18f"))
 
         };
 
